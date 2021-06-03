@@ -17,6 +17,12 @@ gem 'figaro'
 gem 'bootstrap'
 gem 'autoprefixer-rails', '10.2.5.0'
 
+#oauth
+gem 'omniauth'
+gem 'dotenv-rails'
+gem 'omniauth-google-oauth2'
+gem "omniauth-rails_csrf_protection"
+
 group :development, :test do
   gem 'pry'
   gem 'travis'
