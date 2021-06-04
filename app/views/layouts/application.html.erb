@@ -11,10 +11,8 @@
 
   <body>
     <%= yield %>
-    
-    <% if current_user.present? %>
-      <%= link_to 'Logout', session_path(session), method: :delete %>
-    <% end %>
-    
+    <div id="footer">
+      <%= image_tag('logo.png')%>
+    </div>
   </body>
 </html>
