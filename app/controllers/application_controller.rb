@@ -8,6 +8,12 @@ class ApplicationController < ActionController::Base
   end
 
   def authorized
-    redirect_to root_path, notice: 'You need to be logged in to access that page' unless current_user
+    not_found unless current_user
+  end
+
+  private
+
+  def not_found
+    render file: "#{Rails.root}/public/404.html" , status: 404
   end
 end
