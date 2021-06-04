@@ -8,7 +8,7 @@ RSpec.describe "Welcome Page" do
     it "Has a title and a brief description of the application" do 
       expect(page).to have_content("Welcome to DownDraft")
       expect(page).to have_content("Meet the perfect beer for your next adventure. DownDraft recommends beer based on your destination's forecast and elevation.")
-      expect(page).to have_button("Login with Google")
+      expect(page).to have_link("Sign in with Google")
     end
   end
 end
