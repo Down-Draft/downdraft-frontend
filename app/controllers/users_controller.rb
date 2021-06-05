@@ -4,8 +4,7 @@ class UsersController < ApplicationController
   end
 
   def update
-    @user = User.find(params[:id])
-    if @user.update(user_params)
+    if current_user.update(user_params)
       redirect_to dashboard_index_path
     else
       render :new
