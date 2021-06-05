@@ -1,0 +1,5 @@
+<h3>Welcome to down draft <%= @user.full_name %>! To get started, please enter your zip code below.</h3>
+<%= form_with model: @user do |f| %>
+  <%= f.text_field :zip_code, minlength: 5, maxlength: 5 %>
+  <%= f.submit "Submit"%>
+<% end %>
