@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   resources :dashboard, only: [:index]
   resources :users, only: [:edit, :update]
   resources :sessions, only: [:create, :destroy]
+
+  get '/*something', to: 'application#authorized'
 end
