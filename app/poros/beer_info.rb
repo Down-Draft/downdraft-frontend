@@ -1,4 +1,4 @@
-class Beer
+class BeerInfo
   attr_reader :name,
               :description,
               :abv,
