@@ -18,7 +18,7 @@ RSpec.describe "Dashboard Page" do
         expect(page).to have_content("Three Day Forecast for Denver, Colorado")
         within(".weather-forecast") do
           expect(page).to have_content("Low:", count: 3)
-        end 
+        end
         within("#forecast-0") do
           expect(page).to have_content("Patchy rain possible")
           expect(page).to have_content("High: 87.4")
@@ -54,13 +54,12 @@ RSpec.describe "Dashboard Page" do
       #   end
       # end
     end
+  end
 
-    # describe "SAD Path" do
-    #   it "renders 404 if no current_user", :vcr do
-    #     allow_any_instance_of(WeatherFacade).to receive(:get_forecast).and_return("spec/fixtures/vcr_cassettes/Dashboard_Page/User_Dashboard/displays_welcome_profile_image_and_logout_link_for_signed_in_user.yml")
-    #     visit dashboard_index_path
-    #     expect(page).to have_link("Click here to login")
-    #   end
-    # end
+  describe "SAD Path" do
+    it "renders 404 if no current_user" do
+      visit dashboard_index_path
+      expect(page).to have_link("Click here to login")
+    end
   end
 end
