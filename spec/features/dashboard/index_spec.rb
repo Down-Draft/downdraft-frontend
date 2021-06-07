@@ -18,16 +18,16 @@ RSpec.describe "Dashboard Page" do
         expect(page).to have_content("Three Day Forecast for Denver, Colorado")
         within(".weather-forecast") do
           expect(page).to have_content("Low:", count: 3)
-          within("#forecast-2021-06-06") do
-            expect(page).to have_content("Patchy rain possible")
-            expect(page).to have_content("High: 87.4")
-            expect(page).to have_content("Low: 63.1")
-          end
-          within("#forecast-2021-06-08") do
-            expect(page).to have_content("Patchy rain possible")
-            expect(page).to have_content("High: 90.7")
-            expect(page).to have_content("Low: 62.8")
-          end
+        end 
+        within("#forecast-0") do
+          expect(page).to have_content("Patchy rain possible")
+          expect(page).to have_content("High: 87.4")
+          expect(page).to have_content("Low: 63.1")
+        end
+        within("#forecast-2") do
+          expect(page).to have_content("Patchy rain possible")
+          expect(page).to have_content("High: 90.7")
+          expect(page).to have_content("Low: 62.8")
         end
       end
 
