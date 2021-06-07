@@ -41,10 +41,44 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 h3 {
   text-align: center;
 }
 
-.google{
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.google {
   margin-left: 43%;
+}
+
+.page-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.weather-forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.oneforecast {
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+#current-user-image {
+  display: flex;
 }

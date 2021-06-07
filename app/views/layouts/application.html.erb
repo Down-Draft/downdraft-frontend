@@ -11,13 +11,13 @@
 </head>
 
 <body>
+  <% if current_user.present? %>
+  <%= link_to 'Logout', session_path(session), method: :delete %>
+  <% end %>
   <% flash.each do |name, msg| %>
   <%= content_tag :div, msg, class: name %>
   <% end %>
   <%= yield %>
-  <% if current_user.present? %>
-  <%= link_to 'Logout', session_path(session), method: :delete %>
-  <% end %>
   <div id="footer">
     <%= image_tag('logo.png')%>
   </div>
