@@ -1,8 +1,8 @@
 class WeatherService
   class << self
     def get_forecast(location)
-      resp = conn.get("api/v1/3-day-forecast") do |faraday|
-        faraday.params["location"] = location
+      resp = conn.get('api/v1/3-day-forecast') do |faraday|
+        faraday.params['location'] = location
       end
       parse_json(resp)
     end

@@ -1,19 +1,13 @@
 class TripsController < ApplicationController
-  def new
+  def new; end
 
-  end
+  def create; end
 
-  def create
-
-  end
-
-  def destroy
-
-  end
+  def destroy; end
 
   private
 
   def trip_params
-    params.permit()
+    params.permit
   end
 end

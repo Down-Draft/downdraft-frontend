@@ -19,7 +19,7 @@ class Weather
 
   def nice_date(string)
     stringified = DateTime.strptime(string, '%Y-%m-%e')
-    stringified.strftime("%a%e")
+    stringified.strftime('%a%e')
   end
 
   # def hyphen_date(string)
