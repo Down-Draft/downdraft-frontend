@@ -1,3 +1,15 @@
+<%= image_tag current_user.avatar_url %>
+<br>
 <h1>Welcome <%= current_user.full_name %>!</h1>
 <br>
-<%= image_tag current_user.avatar_url %>
+<h2>Three Day Forecast for <%= @weather.first.location_name %>, <%= @weather.first.location_state %> </h2>
+<section class="weather-forecast">
+  <% @weather.each do |day| %>
+    <section id="forecast-<%=day.date%>">
+    <p><%= day.date %></p>
+    <%= image_tag day.icon %>
+    <p><span class ="lo"> Low: <%= day.min_temp%>˚F </span>  |  <span class ="hi"> High: <%= day.max_temp %>˚F </span></p>
+    <p><%= day.description %></p>
+    </section>
+  <% end %>
+</section>
