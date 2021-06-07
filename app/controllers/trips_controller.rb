@@ -4,7 +4,9 @@ class TripsController < ApplicationController
   def index
 
   end
-  def create; end
+  def create
+    binding.pry
+  end
 
   def destroy; end
 
