@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/3-day-forecast?location=80303
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 07 Jun 2021 04:01:23 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"f7acb42816fa81c9197cd2faa5fabf59"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - '085ec0b9-d6ec-44aa-bab4-a1055b18a5c1'
+      X-Runtime:
+      - '0.298399'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"47168172753060","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-06","max_temp":80.6,"min_temp":60.3,"description":"Moderate
+        rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png"}},{"id":"47168172753040","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-07","max_temp":77.4,"min_temp":46.0,"description":"Moderate
+        rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png"}},{"id":"47168172752960","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-08","max_temp":83.8,"min_temp":57.9,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}}]}'
+  recorded_at: Mon, 07 Jun 2021 04:01:24 GMT
+recorded_with: VCR 6.0.0
