@@ -11,8 +11,6 @@ class ApplicationController < ActionController::Base
     not_found unless current_user
   end
 
-  private
-
   def not_found
     render file: "#{Rails.root}/public/404.html", status: :not_found
   end
