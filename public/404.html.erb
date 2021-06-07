@@ -65,6 +65,10 @@
       C70.4,250.2,69.5,249.8,69,249z"/>
     </svg>
 </div>
-  <a href="/">Click here to login</a>
+  <% if current_user.present? %>
+    <%= link_to 'Click here to return to dashboard', dashboard_index_path %>
+  <% else %>
+    <a href="/">Click here to login</a>
+  <% end %>
 </body>
 </html>
