@@ -16,6 +16,7 @@ gem 'bootsnap'
 gem 'figaro'
 gem 'bootstrap'
 gem 'autoprefixer-rails', '10.2.5.0'
+gem 'jquery-rails'
 
 #oauth
 gem 'omniauth'
