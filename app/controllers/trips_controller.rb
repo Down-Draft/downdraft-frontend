@@ -1,11 +1,8 @@
 class TripsController < ApplicationController
   def new
   end
-  def index
 
-  end
-  def create
-    binding.pry
+  def index
   end
 
   def destroy; end
