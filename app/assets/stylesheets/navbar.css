@@ -142,3 +142,6 @@ input[type="checkbox"]{
     filter: hue-rotate(360deg);
   }
 }
+li .user-img {
+  border-radius: 50%;
+}
