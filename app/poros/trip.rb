@@ -7,13 +7,13 @@ class Trip
               :id
   
   def initialize(data)
-    @name = data[:name]
-    @location = data[:location]
-    @date = data[:date]
-    @user_id = data[:user_id]
-    @elevation = data[:elevation]
-    @id = data[:id]
-    @relationships = data[:relationships]
+    @name = data[:data][:attributes][:name]
+    @location = data[:data][:attributes][:location]
+    @date = data[:data][:attributes][:date]
+    @user_id = data[:data][:attributes][:user_id]
+    @elevation = data[:data][:attributes][:elevation]
+    @id = data[:data][:id]
+    @relationships = data[:data][:attributes][:relationships]
   end
 
   def beers

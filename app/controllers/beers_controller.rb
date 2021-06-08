@@ -1,7 +1,6 @@
 class BeersController < ApplicationController
   def index
     binding.pry
-    TripsFacade.new_trip(trip_params)
   end
 
   def show; end
