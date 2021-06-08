@@ -7,7 +7,7 @@ describe 'BeerInfo' do
       "abv": 5.5,
       "style": "lager"
       }
-    beer =  BeerInfo.new(beer_data)
+    beer =  Beer.new(beer_data)
     expect(beer.name).to eq("Denver Lager")
     expect(beer.description).to eq("tastes like Denver")
     expect(beer.abv).to eq(5.5)
