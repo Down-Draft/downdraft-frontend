@@ -1,10 +1,11 @@
-![Title](lib/images/downdraft_ascii_title.jpeg)
+![Title](lib/images/downdraft_title_helvetica_neue_condensedblack.jpg)
 
 [![Build Status](https://travis-ci.com/github/Down-Draft/downdraft-frontend)](https://travis-ci.com/github/Down-Draft/downdraft-frontend)
 ## Table of contents
 [**General Info**](#general-info) |
 [**Link**](#link) |
 [**Screenshot**](#screenshot) |
+[**Project Design**](#project-design) |
 [**Database Schema**](#database-schema) |
 [**Areas of Focus**](#areas-of-focus) |
 [**Technologies**](#technologies) |
@@ -18,9 +19,12 @@
 DownDraft is an application in which users can get beer recommendations based on the forecast (temperature) and elevation of a planned outing.
 
 ### Features:
-  * User authentication and log in with Google OAuth
+  * Third-party user authentication with Google OAuth
   * Service-oriented architecture - Frontend consumes Backend API endpoints for weather forecast, elevation, and beer information
-  
+  * Consumes two public APIs through calls to the Backend
+  * Feature testing with use of VCR gem
+  * Caching of responses retrieved from the Backend application
+  * Styling with Bootstrap and CSS
 
  
 ## Link
@@ -38,7 +42,9 @@ DownDraft is an application in which users can get beer recommendations based on
 ![Database](lib/images/downdraft_db_schema.jpeg "Database Schema")
 
 ## Areas of Focus
-* ???
+* Practice good project management through project boards, wireframes, daily stand-ups and rotating pairs
+* Make small commits, descriptive pull requests with template, team code reviews
+* Writing clean, maintainable code
 
 ## Technologies
 Project is created with:
@@ -62,8 +68,9 @@ To run this program:
    4. Add beer data to the database: `rails csv_load:all`
 
 ## To-do list:
-* ???
-* Front-End styling
+* Complete views
+* Connect to additional Backend application endpoints
+* Additional Frontend styling
 * Additional extensions
 
 
@@ -80,4 +87,4 @@ Created by
 
 ~ feel free to contact us ~
 
-![Screenshot](lib/images/ADD-A-SCREENSHOT)
+<!-- ![Screenshot](lib/images/ADD-A-SCREENSHOT) -->
