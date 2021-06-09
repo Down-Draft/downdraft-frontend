@@ -1,0 +1,13 @@
+<div class="new-trip">
+  <h1> New Trip</h1>
+
+  <div class="trip-form">
+    <%=form_with url: beers_path, method: :get do |f|%>
+      <%=f.hidden_field :user_id, value: current_user.id%>
+      <span class="form_tag"><%=f.text_field :name, placeholder: "Enter a name for your trip", required: true, size: 30%></span>
+      <span class="form_tag"><%=f.text_field :location, placeholder: "Five digit zipcode", required: true, minlength: 5, maxlength: 5, size: 30%></span>
+      <span class="form_tag"><%=f.date_field :date, required: true, min: Time.now, max: 10.days.from_now %></span>
+      <span class="form_tag"><%= f.submit "Lets Go!" %></span>
+    <%end%>
+  </div>
+</div>

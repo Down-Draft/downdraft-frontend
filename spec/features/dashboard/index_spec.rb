@@ -40,19 +40,35 @@ RSpec.describe "Dashboard Page" do
       # it "displays a Beer of the Day with name, abv, image, and link to Beer Show page" do
       # end
       #
-      # describe "Nav Bar" do
-      #   it "has a link to the Dashboard" do
-      #   end
-      #
-      #   it "displays link to create a trip" do
-      #   end
-      #
-      #   it "has a search bar to search for a beer by name" do
-      #   end
-      #
-      #   it "has a link to log out" do
-      #   end
-      # end
+      describe "Nav Bar" do
+        # before(:each) do
+        #   check '#active'
+        # end
+        it "has a link to the Dashboard", :vcr do
+          click_link 'Home'
+          expect(current_path).to eq(dashboard_index_path)
+
+        end
+      
+        it "displays link to create a trip", :vcr do
+          click_link "New Trip"
+          expect(current_path).to eq(new_trip_path)
+        end
+        it "displays link to trip index", :vcr do
+          click_link "Scheduled Trips"
+          expect(current_path).to eq(trips_path)
+        end
+      
+        # it "has a search bar to search for a beer by name" do
+        # end
+      
+        it "has a link to log out", :vcr do
+          click_link "Logout"
+          
+          expect(current_path).to eq(root_path)
+          expect(page).to have_content("You have successfully logged out")
+        end
+      end
     end
   end
 

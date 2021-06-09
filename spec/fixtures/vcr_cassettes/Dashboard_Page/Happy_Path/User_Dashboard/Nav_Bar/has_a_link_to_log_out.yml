@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/3-day-forecast?location=80201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 07 Jun 2021 21:18:23 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4d0562ee5b7e1b05bb8e48d678f4895e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 38ca40b7-9fa9-4892-b137-a7a2a6ef2ea5
+      X-Runtime:
+      - '0.330113'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"47333626744100","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-07","max_temp":87.1,"min_temp":60.8,"description":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"id":"47333626744060","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-08","max_temp":90.9,"min_temp":64.0,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47333626744040","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-09","max_temp":88.7,"min_temp":62.8,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}}]}'
+  recorded_at: Mon, 07 Jun 2021 21:18:23 GMT
+recorded_with: VCR 6.0.0

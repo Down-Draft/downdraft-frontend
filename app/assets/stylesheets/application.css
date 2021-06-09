@@ -84,3 +84,16 @@ h3 {
 #current-user-image {
  display: flex;
 }
+
+.new-trip {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  zoom: 160%;
+}
+
+.form_tag {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
