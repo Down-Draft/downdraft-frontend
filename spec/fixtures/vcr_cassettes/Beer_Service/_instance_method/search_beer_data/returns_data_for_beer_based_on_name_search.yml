@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers/search?name=Cow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 20:46:08 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7881fb6be8c81cddef0a4871e6772ae2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d8e85d63-3597-45fc-b34b-37cb29bd003a
+      X-Runtime:
+      - '0.363035'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"4100","type":"beer","attributes":{"name":"Apocalypse
+        Cow","description":"","abv":10.0,"style":"Imperial or Double India Pale Ale"}},{"id":"280","type":"beer","attributes":{"name":"Cow
+        Palace Scotch Ale","description":"","abv":6.800000190734863,"style":"Scotch
+        Ale"}},{"id":"8","type":"beer","attributes":{"name":"Cow Palace Scotch Ale
+        1998","description":"","abv":8.699999809265137,"style":"Scotch Ale"}},{"id":"1383","type":"beer","attributes":{"name":"Cow
+        Palace Scotch Ale 2001","description":"","abv":11.100000381469727,"style":"Scotch
+        Ale"}},{"id":"3303","type":"beer","attributes":{"name":"Holy Cow IPA","description":"For
+        hops lovers - this bitter ale is pale colored and made with a blend of 6 different
+        malts and 5 different hops. This ale is dry-hopped for extra flavor and aroma.","abv":5.159999847412109,"style":"American-Style
+        India Pale Ale"}},{"id":"2473","type":"beer","attributes":{"name":"Spotted
+        Cow","description":"Cask conditioned ale has been the popular choice among
+        brews since long before prohibition. We continue this pioneer spirit with
+        our Wisconsin farmhouse ale. Brewed with flaked barley and the finest Wisconsin
+        malts. We even give a nod to our farmers with a little hint of corn. \n\nNaturally
+        cloudy we allow the yeast to remain in the bottle to enhance fullness of flavors,
+        which cannot be duplicated otherwise. \n\nExpect this ale to be fun, fruity
+        and satisfying. You know you''re in Wisconsin when you see the Spotted Cow.","abv":4.800000190734863,"style":"American-Style
+        Amber/Red Ale"}}]}'
+  recorded_at: Wed, 09 Jun 2021 20:46:08 GMT
+recorded_with: VCR 6.0.0

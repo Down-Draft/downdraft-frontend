@@ -1,16 +1,23 @@
 class BeerService
   class << self
-    def get_beers_data(_data)
+    def get_beers_data(data)
       # resp = conn.get("api/v1/beers") do |faraday|
       #   faraday.params["location"] = location
       # end
       parse_json(resp)
     end
 
-    def get_beer_data(_data)
+    def get_beer_data(data)
       # resp = conn.get("api/v1/beers") do |faraday|
       #   faraday.params["location"] = location
       # end
+      parse_json(resp)
+    end
+    
+    def search_beer_data(data)
+      resp = conn.get("api/v1/beers/search") do |faraday|
+        faraday.params["name"] = data
+      end
       parse_json(resp)
     end
 
