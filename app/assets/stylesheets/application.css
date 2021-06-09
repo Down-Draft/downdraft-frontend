@@ -15,9 +15,13 @@
  */
 /* @import "bootstrap"; */
 
- body{
+body{
   background-color: #5a5560;
   color: white;
+  height: 89%;
+}
+html {
+  height: 100%;
 }
 
 #footer {
@@ -31,6 +35,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     display: flex;
+    margin-top: 2px;
+    border-top: 5px solid rgb(189, 189, 189);
       /* background-image:url(img/global/footer.gif) scroll 50% 50%; */
     /* background-repeat: repeat-x; */
     /* background-position:bottom; */
@@ -57,10 +63,6 @@ h3 {
    padding-left: 15px;
    margin-right: auto;
    margin-left: auto;
-}
-
-.google {
- margin-left: 43%;
 }
 
 .page-box {
@@ -99,6 +101,10 @@ h3 {
   padding: 10px;
 }
 
+.form-submit{
+  cursor: pointer;
+}
+
 .searchbar-container {
   display: flex;
   flex-direction: row;
@@ -128,4 +134,16 @@ h3 {
   border-radius: 10px;
   background-color: white;
   color: black;
+  cursor: pointer;
+}
+
+.lo {
+  color: rgb(0, 162, 255);
+}
+.hi {
+  color: rgb(255, 166, 0);
+}
+
+#name {
+  color: #FAED26;
 }
