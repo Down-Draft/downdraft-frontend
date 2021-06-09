@@ -1,6 +1,5 @@
 ![Title](lib/images/downdraft_ascii_title.jpeg)
-
-[![Build Status](https://travis-ci.com/github/Down-Draft/downdraft-frontend)](https://travis-ci.com/github/Down-Draft/downdraft-frontend)
+[![Build Status](https://travis-ci.com/Down-Draft/downdraft-frontend.svg?branch=main)](https://travis-ci.com/Down-Draft/downdraft-frontend)
 ## Table of contents
 [**General Info**](#general-info) |
 [**Link**](#link) |
