@@ -21,7 +21,7 @@ RSpec.describe 'New Trip Form' do
         fill_in :location, with: '80206'
         click_on 'Lets Go!'
 
-        expect(current_path).to eq(trips_path)
+        expect(current_path).to eq(beers_path)
       end
     end
     describe 'Sad Path' do
@@ -34,8 +34,10 @@ RSpec.describe 'New Trip Form' do
         fill_in :name, with: 'Going to Joeys house'
         fill_in :date, with: Time.now
         click_on 'Lets Go!'
-
-        expect(current_path).to eq(new_trip_path)
+        expect(page).to have_field(:name)
+        expect(page).to have_field(:date)
+        expect(page).to have_field(:location)
+        expect(page).to have_button('Lets Go!')
         expect(page).to have_content("Could not find location. Please ensure zip code is valid or try again later.")
       end
     end

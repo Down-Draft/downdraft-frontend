@@ -11,7 +11,7 @@ describe 'Trip' do
               "date": "2021-10-06",
               "elevation": 5390.42012,
               "user_id": 1,
-              "max_temp": 50.00
+              "max_temperature": 50.00
           },
           "relationships": {}
       }

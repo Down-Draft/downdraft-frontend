@@ -9,10 +9,9 @@ describe 'TripFacade' do
       user_id: 1,
     }
     facade = TripFacade.new_trip(trip_details)
-    binding.pry
     expect(facade.date).to eq("2021-06-08")
-    expect(facade.elevation).to eq(5390.42012)
-    expect(facade.id).to eq("23")
+    expect(facade.elevation).to eq(5390.42)
+    expect(facade.id).to eq("25")
     expect(facade.location).to eq("80206")
     expect(facade.name).to eq("Going to Cabo")
     expect(facade.user_id).to eq(1)

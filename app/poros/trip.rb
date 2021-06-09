@@ -14,7 +14,7 @@ class Trip
     @user_id = data[:data][:attributes][:user_id]
     @elevation = data[:data][:attributes][:elevation].round(2)
     @id = data[:data][:id]
-    @max_temp = data[:data][:attributes][:max_temp]
+    @max_temp = data[:data][:attributes][:max_temperature]
     @relationships = data[:data][:attributes][:relationships]
   end
 
