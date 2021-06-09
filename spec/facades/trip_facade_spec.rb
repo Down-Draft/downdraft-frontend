@@ -1,10 +1,11 @@
-require "rails_helper"
+require 'rails_helper'
 
-describe "MovieFacade" do
-  it "returns an array popular movies", :vcr do
-    facade = MovieFacade.popular_movies
+describe 'TripFacade' do
+  it 'returns an array of trip information' do
+    location = "80303"
+    facade = TripFacade.get_forecast(location)
     expect(facade).to be_an Array
-    expect(facade.first).to be_a MovieInfo
+    expect(facade.first).to be_a Trip
+    expect(facade.count).to eq 1
   end
-
 end
