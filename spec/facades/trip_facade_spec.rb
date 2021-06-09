@@ -1,11 +1,22 @@
 require 'rails_helper'
 
 describe 'TripFacade' do
-  it 'returns an array of trip information' do
-    location = "80303"
-    facade = TripFacade.get_forecast(location)
-    expect(facade).to be_an Array
-    expect(facade.first).to be_a Trip
-    expect(facade.count).to eq 1
+  it 'can create a trip', :vcr do
+    trip_details= {
+      name: "Going to Cabo",
+      location: "80206",
+      date: "2021-06-08",
+      user_id: 1,
+    }
+    facade = TripFacade.new_trip(trip_details)
+    binding.pry
+    expect(facade.date).to eq("2021-06-08")
+    expect(facade.elevation).to eq(5390.42012)
+    expect(facade.id).to eq("23")
+    expect(facade.location).to eq("80206")
+    expect(facade.name).to eq("Going to Cabo")
+    expect(facade.user_id).to eq(1)
+    expect(facade.max_temp).to eq(1)
+    expect(facade.count).to be_a Trip
   end
 end
