@@ -1,6 +1,7 @@
 ![Title](lib/images/downdraft_ascii_title.jpeg)
-
-[![Build Status](https://travis-ci.com/github/Down-Draft/downdraft-frontend)](https://travis-ci.com/github/Down-Draft/downdraft-frontend)
+[![Build Status](https://travis-ci.com/Down-Draft/downdraft-frontend.svg?branch=main)](https://travis-ci.com/Down-Draft/downdraft-frontend)
+[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 ## Table of contents
 [**General Info**](#general-info) |
 [**Link**](#link) |
