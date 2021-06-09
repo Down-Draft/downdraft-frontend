@@ -3,6 +3,7 @@ class BeersController < ApplicationController
     if params[:search].present?
       # to backend endpoint
     end 
+
   end
 
   def show; end

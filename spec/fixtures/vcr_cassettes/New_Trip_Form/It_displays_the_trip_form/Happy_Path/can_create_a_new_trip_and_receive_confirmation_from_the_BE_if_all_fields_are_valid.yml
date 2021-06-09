@@ -1,0 +1,858 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2014:44:06%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=106
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 20:44:19 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d5521283d7267ef56d78114a388ba526"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4397c91c-9898-4fc2-8fe8-6993e8fac77a
+      X-Runtime:
+      - '0.863485'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"9","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":106},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 20:44:19 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2014:45:06%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=108
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 20:45:17 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b68406d84395fbfcff932b61bbfcfacc"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - bd652da2-79e0-4c52-860d-2605920d7702
+      X-Runtime:
+      - '0.462262'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"10","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":108},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 20:45:18 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2014:46:26%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=110
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 20:46:33 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"a722a676df76d3796f4fdfa1e1003789"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ed5e5fc5-25e6-461b-94e8-1a42ea6b63b7
+      X-Runtime:
+      - '0.452953'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"11","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":110},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 20:46:33 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2014:47:05%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=112
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 20:47:09 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"a8131c139d0ad83ea4e33ca73efdfc39"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c18dfedf-4cf0-4c5c-bc4f-8c7fdc70698d
+      X-Runtime:
+      - '0.483455'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"12","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":112},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 20:47:09 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2014:48:10%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=114
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 20:48:16 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d49ffbfe1001b4613dfd684dbce4a0b2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f6334cdf-2858-4744-88ee-fb18013aa765
+      X-Runtime:
+      - '0.436435'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"13","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":114},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 20:48:16 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2015:53:41%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=119
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 21:53:57 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"6438acb276b53514c1c1298a773d0c9a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8695cf06-eb48-42f3-a0a1-fe87ced2b69b
+      X-Runtime:
+      - '0.774223'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"14","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":119},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 21:53:58 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2015:56:38%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=121
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 21:56:39 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"cf1dd6b4d04e9354e8c5135e40f0a9ac"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - fedfb36c-13ba-4a54-a0f6-b013ba7e7ba7
+      X-Runtime:
+      - '0.442360'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"15","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":121},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 21:56:39 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2015:58:54%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=123
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 21:58:55 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"22ed452ee12506e738433ae0f20602cc"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ae7a4a00-a718-4c5a-926a-a864f8fe09ce
+      X-Runtime:
+      - '0.455865'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"16","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":123},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 21:58:55 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2016:00:13%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=126
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 22:00:14 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ad2b9bc646bc97493d8e4340f866ea33"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 363cd500-d927-4003-ab16-fb32f97911af
+      X-Runtime:
+      - '0.524776'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"17","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":126},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 22:00:14 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2016:01:04%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=132
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 22:01:05 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5087a13206cfe176121c6a9d0fed1050"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6d004a8a-b510-4afc-8aa6-00d5523020a7
+      X-Runtime:
+      - '0.451952'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"18","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":132},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 22:01:05 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2016:01:47%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=134
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Tue, 08 Jun 2021 22:01:47 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"e8c1862ee506bc67ecd717487ec26cd4"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9d49d5ab-cd89-4fd5-9b01-441b8dd0e6d8
+      X-Runtime:
+      - '0.412369'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"19","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":134},"relationships":{}}}'
+  recorded_at: Tue, 08 Jun 2021 22:01:47 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2019:25:22%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=143
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 01:25:41 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d8fd6d1a9e8d50b64f715309b0d611a5"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5769deb3-a8a8-45b9-a7b2-7309fb56ef8e
+      X-Runtime:
+      - '0.797214'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"21","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":143},"relationships":{}}}'
+  recorded_at: Wed, 09 Jun 2021 01:25:41 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2019:52:20%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=152
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 01:52:20 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c34b10b0bb481e896d6776d5cc4c662f"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 992ffb4a-fa4b-4587-bec9-dfe46674c33b
+      X-Runtime:
+      - '0.570621'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"26","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":152},"relationships":{}}}'
+  recorded_at: Wed, 09 Jun 2021 01:52:21 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2019:55:43%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=161
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 01:55:43 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ac85db01acb9ad852bc760e27d6a77b2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e653d7cf-6262-4e35-bfe6-648cd4dc5873
+      X-Runtime:
+      - '0.469641'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"28","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":161},"relationships":{}}}'
+  recorded_at: Wed, 09 Jun 2021 01:55:43 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2019:56:44%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=170
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 01:56:44 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7acf877bf04b0acec9f6d2b5c9ac47e9"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 82db9100-094c-43f5-97a2-7a49d431558b
+      X-Runtime:
+      - '0.591554'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"30","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":170},"relationships":{}}}'
+  recorded_at: Wed, 09 Jun 2021 01:56:45 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2019:57:54%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=179
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 01:57:55 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b40460c512345122e062afd8b8247b19"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c9a38e46-a763-41f7-b9fd-98154a1c2d62
+      X-Runtime:
+      - '0.550094'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"32","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":179},"relationships":{}}}'
+  recorded_at: Wed, 09 Jun 2021 01:57:55 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2019:58:18%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=188
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 01:58:19 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"777826fb45da9b2c71d969ac584cbb7d"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - bc57c5e8-dd8f-49c7-a642-645c3b459d37
+      X-Runtime:
+      - '0.827752'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"34","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":188},"relationships":{}}}'
+  recorded_at: Wed, 09 Jun 2021 01:58:19 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2019:58:57%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=197
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 01:58:57 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1f403714652289564fd1634a9ff4efca"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a5cb7aeb-eade-4083-b614-95f1a907f413
+      X-Runtime:
+      - '0.496055'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"36","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":197},"relationships":{}}}'
+  recorded_at: Wed, 09 Jun 2021 01:58:58 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2020:01:31%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=208
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 02:01:31 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"a0e35f10787aa5883174573317c5a3df"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 26e4d666-c1b7-4992-9f31-03727c9846e6
+      X-Runtime:
+      - '0.487023'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"38","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-08","elevation":5390.42012,"user_id":208},"relationships":{}}}'
+  recorded_at: Wed, 09 Jun 2021 02:01:31 GMT
+recorded_with: VCR 6.0.0
