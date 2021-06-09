@@ -1,7 +1,10 @@
 class BeersController < ApplicationController
   def index
+    @trip_id = params[:trip_id]
     if params[:search].present?
-      # to backend endpoint
+      @beers = BeerFacade.search_beer(params[:search])
+    elsif @trip_id.present?
+      @beers = BeerFacade.get_beers_data(@trip_id)
     end 
 
   end
@@ -10,7 +13,6 @@ class BeersController < ApplicationController
 
 
   
-
 
 
 

@@ -43,19 +43,4 @@ RSpec.describe 'Beer Service' do
       end 
     end
   end 
-
-  describe ".class methods" do
-    describe 'conn' do 
-     xit 'creates a new Faraday for the backend url/endpoint' do 
-        
-      end
-    end
-
-    describe 'parse_json' do
-      it 'converts returned response body into JSON' do 
-        # needed stuff 
-
-      end 
-    end
-  end 
 end
