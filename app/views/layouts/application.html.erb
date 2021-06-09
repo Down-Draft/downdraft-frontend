@@ -12,24 +12,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-</div>
+  </div>
 </head>
 
 <body>
   <% if current_user.present? && action_name != 'not_found' %>
   <input type="checkbox" id="active">
   <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+  <div class="searchbar-container">
+    <div class="searchbar"> <%= form_with url: beers_path, method: :get do |f| %> <%= f.text_field :search, class:"searchbar-input", placeholder: "Search for beer by name", size: 30 %></div>
+    <%= f.submit "Search", class:"searchbar-button" %> <% end %>
+  </div>
+  </div>
   <div class="wrapper">
     <ul>
-    <li><%= image_tag current_user.avatar_url, class: 'user-img' %></li>
-    <li><%=link_to "Home", dashboard_index_path%></li>
-    <li><%=link_to "New Trip", new_trip_path%></li>
-    <li><%=link_to "Scheduled Trips", trips_path%></li>
-    <li><%= link_to 'Logout', session_path(session), method: :delete %></li>
+      <li><%= image_tag current_user.avatar_url, class: 'user-img' %></li>
+      <li><%=link_to "Home", dashboard_index_path%></li>
+      <li><%=link_to "New Trip", new_trip_path%></li>
+      <li><%=link_to "Scheduled Trips", trips_path%></li>
+      <li><%= link_to 'Logout', session_path(session), method: :delete %></li>
     </ul>
   </div>
   <% end %>
-  
+
   <% flash.each do |name, msg| %>
   <%= content_tag :div, msg, class: name %>
   <% end %>
