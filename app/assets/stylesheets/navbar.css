@@ -33,7 +33,8 @@
   /* background: #9d8d8f; bkgd color of drop-down menu */
   background-image: url('beer-bubbles.gif');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  border-radius: 5%;
   background-position: center;
   clip-path: circle(25px at calc(100% - 45px) 45px);
   transition: all 0.3s ease-in-out;
