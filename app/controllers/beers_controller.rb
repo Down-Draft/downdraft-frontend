@@ -1,13 +1,19 @@
 class BeersController < ApplicationController
   def index
+    if params[:search].present?
+      # to backend endpoint
+    end 
 
   end
 
   def show; end
 
-  private
+
   
-  def trip_params
-    params.permit(:user_id, :name, :location, :date)
-  end
+
+
+
+
+
+
 end

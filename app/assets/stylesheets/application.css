@@ -19,6 +19,7 @@
   background-color: #5a5560;
   color: white;
 }
+
 #footer {
     position:absolute;
     bottom:0;
@@ -96,4 +97,35 @@ h3 {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+}
+
+.searchbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 33px;
+  padding-right: 100px;
+}
+
+.searchbar {
+  display: flex;
+  border-radius: 50%;
+}
+.searchbar-input {
+  display: flex;
+  size: 100px;
+  padding-left: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.searchbar-button {
+  display: flex;
+  margin-left: 5px;
+  padding-left: 5px;  
+  padding-right: 5px;  
+  border-radius: 10px;
+  background-color: white;
+  color: black;
 }
