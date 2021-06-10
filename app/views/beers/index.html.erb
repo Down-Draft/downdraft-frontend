@@ -1,6 +1,9 @@
 <div id="beers-index">
   <h1> Beers </h1>
 
+  <% if @beers.is_a? String %>
+  <h2><%= @beers %></h2>
+  <% else %>
   <table>
     <tr>
       <th>Beer</th>
@@ -13,13 +16,14 @@
       <td><%= beer.style %></td>
       <td><%= beer.abv %>%</td>
       <% if @trip_id.present? %>
-        <td><%= button_to 'Add beer to trip!', trip_path(@trip_id) %></td>
+      <td><%= button_to 'Add beer to trip!', trip_path(@trip_id) %></td>
       <% end %>
     </tr>
     <tr>
       <td id='tdesc' colspan="3"><%= beer.description if beer.description.present? %>
-      <%= 'No description Available' if beer.description.empty? %></td>
+        <%= 'No description Available' if beer.description.empty? %></td>
     </tr>
     <% end %>
   </table>
+  <% end %>
 </div>

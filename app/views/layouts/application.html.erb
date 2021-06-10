@@ -22,10 +22,10 @@
   <div class="searchbar-container">
     <div class="searchbar">
       <%= form_with url: beers_path, method: :get do |f| %>
-        <%= f.text_field :search, class:"searchbar-input", placeholder: "Search for beer by name", size: 30 %>
-        <%= f.submit "Search", class:"searchbar-button" %>
+      <%= f.text_field :search, class:"searchbar-input", placeholder: "Search for beer by name", size: 30 %>
+      <%= f.submit "Search", class:"searchbar-button" %>
       <% end %>
-  </div>
+    </div>
   </div>
   <div class="wrapper">
     <ul>
