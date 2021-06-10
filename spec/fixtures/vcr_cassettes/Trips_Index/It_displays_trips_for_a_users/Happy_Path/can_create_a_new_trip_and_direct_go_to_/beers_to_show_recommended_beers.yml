@@ -1,0 +1,223 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Advenutures&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 16:41:27 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"54f2ca6018f20bf356402d7cd9c461b9"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b66205be-0c91-4fdb-9fdb-53f720a86af5
+      X-Runtime:
+      - '0.779161'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"2","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 16:41:28 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=New%20Orleans&name=Swamp&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 16:41:29 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"af57b6c8126178f6b08922e26b289933"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 90c0f52c-d961-4636-8ec4-33433f846155
+      X-Runtime:
+      - '0.817056'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"3","type":"trip","attributes":{"location":"New Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 16:41:29 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Hollywood&name=McDonalds&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 16:41:29 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"74f941dafd1ae52fb7bdd5b664e66445"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5f7d1587-a6e7-4038-a740-4e05b962647d
+      X-Runtime:
+      - '0.741936'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"4","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 16:41:30 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 16:41:30 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"700044ca9847c90d02b212f07cdef808"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2ea952f8-9fa2-431c-afa0-57fd38a9e04c
+      X-Runtime:
+      - '0.036230'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"1","type":"trip","attributes":{"location":"80206","name":"cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"2","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"3","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"4","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}}]}'
+  recorded_at: Thu, 10 Jun 2021 16:41:30 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2010:41:31%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 16:41:33 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"df3e393c379882dd4adc3176212837c0"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e1c66ec3-2801-4435-89ee-c93e54ccfb86
+      X-Runtime:
+      - '1.791360'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"5","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 16:41:33 GMT
+recorded_with: VCR 6.0.0
