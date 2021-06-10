@@ -14,7 +14,8 @@ class BeerFacade
 
     def search_beer(name)
       beers = BeerService.search_beer_data(name)
-      return beers[:errors] if beers[:errors].present? 
+      return beers[:errors] if beers[:errors].present?
+
       beers[:data].map do |beer|
         Beer.new(beer)
       end

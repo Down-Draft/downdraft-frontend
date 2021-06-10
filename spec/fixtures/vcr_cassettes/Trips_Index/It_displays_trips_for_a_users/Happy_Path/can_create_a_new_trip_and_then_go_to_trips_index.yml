@@ -1233,4 +1233,92 @@ http_interactions:
       string: !binary |-
         eyJkYXRhIjpbeyJpZCI6IjI3MTgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik8hIEdvbGQgTGlnaHQgQmVlciIsImRlc2NyaXB0aW9uIjoiT3VyIGxpZ2h0ZXN0IGJlZXIgaGFzIGFsbCBvZiB0aGUgZ3JlYXQgYXR0cmlidXRlcyBvZiBhIGxpZ2h0IEFtZXJpY2FuIGxhZ2VyIHdpdGggdGhlIHVubWF0Y2hlZCBmcmVzaG5lc3MgYW5kIHRhc3RlIG9ubHkgYSBsb2NhbCBicmV3IHB1YiBsaWtlIFVwc3RyZWFtIGNhbiBvZmZlci4gSWYgeW91IGxpa2UgZ3JlYXQgdGFzdGluZyBiZWVyLCBPISBHb2xkIGlzIHRoZSBiZWVyIGZvciB5b3UuIiwiYWJ2IjozLjc5OTk5OTk1MjMxNjI4NCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMaWdodCBMYWdlciJ9fSx7ImlkIjoiMzQyNiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiSGFtdHJhbWNrIiwiZGVzY3JpcHRpb24iOiJCcmlnaHRseSBmaWx0ZXJlZCwgaGlnaGx5IGNhcmJvbmF0ZWQsIGdvbGRlbiBwcmVtaXVtLXN0eWxlIGxhZ2VyLiBJdCBpcyBsaWdodGx5IGhvcHBlZCB3aXRoIFBvbGlzaCBMdWJsaW4gaG9wcy4gVGhlIGJlZXIgd2lsbCBhcHBlYWwgdG8gdGhvc2Ugd2hvIHByZWZlciB0aGUgbGlnaHRlciBBbWVyaWNhbiBzdHlsZSBiZWVycy4iLCJhYnYiOjQuMCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMTEzOCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiUGlsc25lciIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM1NyIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQ3lwcmVzcyBIb25leSBMYWdlciIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjY5OTk5OTgwOTI2NTEzNywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiSG9jdXMgUG9jdXMiLCJkZXNjcmlwdGlvbiI6Ik91ciB0YWtlIG9uIGEgY2xhc3NpYyBzdW1tZXIgYWxlLiAgQSB0b2FzdCB0byB3ZWVkcywgcmF5cywgYW5kIHN1bW1lciBoYXplLiAgQSBsaWdodCwgY3Jpc3AgYWxlIGZvciBtb3dpbmcgbGF3bnMsIGhpdHRpbmcgbGF6eSBmbHkgYmFsbHMsIGFuZCBjb21tdW5pbmcgd2l0aCBuYXR1cmUsIEhvY3VzIFBvY3VzIGlzIG9mZmVyZWQgdXAgYXMgYSBzdW1tZXIgc2FjcmlmaWNlIHRvIGNsb2RsZXNzIGRheXMuXG5cbkl0cyBtYWx0eSBzd2VldG5lc3MgZmluaXNoZXMgdGFydCBhbmQgY3Jpc3AgYW5kIGlzIGJlc3QgYXBwcmVkaWF0ZWQgd2l0aCBhIHdlZGdlIG9mIG9yYW5nZS4iLCJhYnYiOjQuNSwic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjQwNjkiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlBlcm9uaSBOYXN0cm8gQXp6dXJybyIsImRlc2NyaXB0aW9uIjoiUGVyb25pIGl0cyB1bmlxdWUgdGFzdGUgd2hpY2ggaXMgcmVmcmVzaGluZyBhbmQgZHJ5LCB3aXRoIGEgY2xlYXItY3V0LCBjbGVhbiBjaGFyYWN0ZXIgYW5kIGNsYXJpdHksIGFjaGlldmVkIHRocm91Z2ggdGhlIGV4Y2x1c2l2ZSBicmV3aW5nIHByb2Nlc3MuIFRoaXMgZW5zdXJlcyB0aGF0IHRoZSBiZWVyIGhhcyBib3RoIGEgZnJlc2ggYW5kIG5hdHVyYWwgcXVhbGl0eS4gXG5cblBvc2l0aW9uZWQgYXMgw6LigqzLnEl0YWxpYW4gc3R5bGUgaW4gYSBib3R0bGXDouKCrOKEoiwgZnJvbSBwcmVzZW50YXRpb24gdG8gcG91cmluZyB0aGUgYnJhbmQsIFBlcm9uaSBoYXMgc3RydWNrIGEgY2hvcmQgd2l0aCBtb2Rlcm4gdXJiYW5pdGVzIGxvb2tpbmcgZm9yIGNvc21vcG9saXRhbiBjbGFzcy4gXG5cbmh0dHA6Ly93d3cuc2FibWlsbGVyLmluL2JyYW5kc19wZXJvbmkuaHRtbCIsImFidiI6NS4wOTk5OTk5MDQ2MzI1NjgsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI3ODkiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkFwcmljb3QgQWxlIiwiZGVzY3JpcHRpb24iOiJVbmZpbHRlcmVkIHdoZWF0IGJlZXIgYnJld2VkIHdpdGggYXByaWNvdHMgY3JlYXRpbmcgYSBzbW9vdGggYW5kIHRoaXJzdCBxdWVuY2hpbmcgZnVsbCBmbGF2b3JlZCBmcnVpdCBiZWVyLiIsImFidiI6NS40MDAwMDAwOTUzNjc0MzIsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiI0MDkzIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJXYXNhdGNoIDFzdCBBbWVuZG1lbnQgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IkEgdHVybiBvZiB0aGUgY2VudHVyeSBwdXJlIG1hbHQsIGNyaXNwIGxhZ2VyLiAxc3QgQW1lbmRtZW50IExhZ2VyIGlzIG1hZGUgd2l0aCBFdXJvcGVhbiBzdHlsZSBob3BzIGFuZCBNdW5pY2ggbWFsdHMuIFRoaXMgYmVlciBoYXMgYSB3b25kZXJmdWwsIGNsZWFuLCBjcmlzcCBmbGF2b3IgY2VydGFpbiB0byBwbGVhc2UgYWxsLiIsImFidiI6NC4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI0MjMyIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJHcmFpbiBCZWx0IiwiZGVzY3JpcHRpb24iOiJUaGlzIGJlZXIgaGFzIGNoYW5nZWQgaGFuZHMgYSBiaXQgb3ZlciBpdHMgNjArIHllYXIgaGlzdG9yeSAtIGZpcnN0IGJyZXdlZCBieSB0aGUgR3JhaW4gQmVsdCBCcmV3ZXJ5IGluIE1pbm5lYXBvbGlzLCB0aGVuIGJ5IHRoZSBub3ctZGVmdW5jdCBNaW5uZXNvdGEgQnJld2luZyBhbmQgY3VycmVudGx5IGJ5IEF1Z3VzdCBTY2hlbGwgQnJld2luZyBDby4gaW4gTmV3IFVsbS4iLCJhYnYiOjQuNTk5OTk5OTA0NjMyNTY4LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19XX0=
   recorded_at: Thu, 10 Jun 2021 23:06:11 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2018:11:51%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:11:51 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"9655dd22db95bb4130703c3d9bea7df1"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 18da18bf-dbfa-4bb0-a76f-9548afe860a1
+      X-Runtime:
+      - '0.822305'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"135","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 23:11:52 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=135
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:11:52 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"da3ccbf7c66d7082a19d4755b5709b2f"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 00511e85-447f-4575-b2ff-f61b7ae25959
+      X-Runtime:
+      - '0.040416'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjQwMzciLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJhbHRpa2EgIzgiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NS4wLCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMjkyMyIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQ29yb25hIEV4dHJhIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjQuNTk5OTk5OTA0NjMyNTY4LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIzMDQ1IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJUb2FzdGVkIExhZ2VyIiwiZGVzY3JpcHRpb24iOiJUT0FTVEVEIExBR0VSXG5cbkJsdWUgUG9pbnQgQnJld2luZydzIGF3YXJkLXdpbm5pbmcgVG9hc3RlZCBMYWdlciBpcyBvdXIgZmxhZ3NoaXAgcHJvZHVjdC4gQ29wcGVyIGluIGNvbG9yIHRoaXMgYnJldyBpcyBtYWRlIGZyb20gc2l4IGRpZmZlcmVudCBtYWx0cyBpbmNsdWRpbmc6IEVuZ2xpc2ggUGFsZSwgQ3J5c3RhbCwgTXVuaWNoLCBDYXJhcGlscywgV2hlYXQgYW5kIEJlbGdpYW4gQ2FyYXZpZW5uYS4gVG9hc3RlZCBMYWdlciBkaXNwbGF5cyBhIGJhbGFuY2VkIGZsYXZvciBvZiBtYWx0IGFuZCBob3Agd2hpY2ggbWFrZXMgZm9yIGVhc3kgZHJpbmtpbmcuIFNwZWNpYWwgbGFnZXIgeWVhc3QgaXMgdXNlZCB0byBwcm9kdWNlIHRoYXQgbG9uZyBsYXN0aW5nLCBzbW9vdGggZmluaXNoLiBUaGUgXCJ0b2FzdGVkXCIgcGFydCBvZiB0aGUgbmFtZSByZWZlcnMgdG8gb3VyIGRpcmVjdC1maXJlIGJyZXcga2V0dGxlw6LigqzihKJzIGhvdCBmbGFtZXMgdGhhdCBpbXBhcnQgYSB0b2FzdGVkIGZsYXZvciB0byBvdXIgbW9zdCBwb3B1bGFyIG1pY3JvYnJldy4iLCJhYnYiOjUuMzAwMDAwMTkwNzM0ODYzLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI3OTgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlNpcml1cyIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo3LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgQ3JlYW0gQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIzNDg5IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJXZWl6ZW4gQmFtIEJpw4PCqHJlIiwiZGVzY3JpcHRpb24iOiJSdWRkeSBnb2xkZW4sIHdpdGggeWVhc3QgZHJpdmVuIGVzdGVycyBvZiBiYW5hbmEsIHNwaWN5IGNsb3ZlLCBhbmQgbnV0bWVnIGFsbCB3cmFwcGVkIHVwIHdpdGggYSBnZW5lcm91cyBkb3NlIG9mIHJhcHNjaWxsaW9uIGRlbGlnaHQuIiwiYWJ2Ijo0LjUsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiI2MTIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IldleGZvcmQgSXJpc2ggQ3JlYW0gQWxlIiwiZGVzY3JpcHRpb24iOiJCYXNlZCBvbiBhIHRyYWRpdGlvbmFsIElyaXNoIHJlY2lwZSBmcm9tIGNvdW50eSBXZXhmb3JkIHRoYXQgZGF0ZXMgYmFjayB0byAxODEwLCB3ZSB1c2Ugb25seSB0aGUgYmVzdCBpbmdyZWRpZW50cyB0byBlbnN1cmUgdGhhdCBvdXIgV2V4Zm9yZCBBbGUgaGFzIGEgc21vb3RoIG1lbGxvdyBjcmVhbWluZXNzIHdlIGJlbGlldmUgeW91IHdpbGwgZW5qb3kuIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgQ3JlYW0gQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIyODUxIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJKdW5pcGVyIFBhbGUgQWxlIiwiZGVzY3JpcHRpb24iOiJKdW5pcGVyIFBhbGUgQWxlOiB0aGUgbmV3IHBhY2thZ2UgZm9yIFllbGxvdyBTbm93IEFsZSAod2ludGVyIDIwMDQvMjAwNSkuIFdoaWxlIHRoZSByZWNpcGUgKGEgcGFsZSBhbGUgaW5mdXNlZCB3aXRoIHdob2xlIGp1bmlwZXIgYmVycmllcykgb24gdGhlIGxhYmVsIHJlbWFpbiB0aGUgc2FtZSwgdGhlIG5hbWUgYW5kIGxhYmVsIGFyZSBuZXcgZm9yIDIwMDUuIEp1bmlwZXIgUGFsZSBBbGUgaXMgYXZhaWxhYmxlIGluIHRoZSBjbGFzc2ljIDIyLW91bmNlIGJvdHRsZSBhbmQgb24gZHJhZnQuIiwiYWJ2Ijo1LjMwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJIZXJiIGFuZCBTcGljZSBCZWVyIn19LHsiaWQiOiI0MjM4IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJIb3AgUm9ja2VyIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjUuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzc4OCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQ2xpbWF4IFdoZWF0IEFsZSIsImRlc2NyaXB0aW9uIjoiSG9mZm1hbm4gSGVmZXdlaXplbiBpcyBvdXIgbmV3ZXN0IG9mZmVyaW5nIGFuZCBpcyBhIHRyYWRpdGlvbmFsIEdlcm1hbiB3aGVhdCBiZWVyIG1hZGUgZnJvbSA2MCUgd2hlYXQgbWFsdCBhbmQgNDAlIGJhcmxleSBtYWx0LiBXaGVhdCBBbGVzIHN1Y2ggYXMgdGhpcyB0eXBpY2FsbHkgaGF2ZSBiYW5hbmEgYW5kIGNsb3ZlIGZsYXZvcnMgYnV0IGFzIERhdmUgZGlzbGlrZXMgY2xvdmUsIGhlIHVzZWQgYSBzcGVjaWFsIHllYXN0IHRvIHN0cmVuZ3RoZW4gdGhlIGJhbmFuYSBmbGF2b3JzLiBIZWZld2VpemVuIGlzIGEgbmljZSwgbGlnaHQsIGNyaXNwIHN1bW1lciBiZWVyIHRoYXQgY2FuIGJlIHNlcnZlZCB3aXRoIGxlbW9uIG9yIGZsYXZvcmVkIHN5cnVwcy4iLCJhYnYiOjUuMCwic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 23:11:52 GMT
 recorded_with: VCR 6.0.0
