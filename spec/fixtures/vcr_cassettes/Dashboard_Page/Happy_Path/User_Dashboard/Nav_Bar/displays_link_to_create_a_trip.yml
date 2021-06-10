@@ -21,28 +21,27 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Mon, 07 Jun 2021 21:08:12 GMT
+      - Thu, 10 Jun 2021 17:12:28 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"be4da24c7234dbfc74ac679ab4017ab9"
+      - W/"8e769ab2daffc8909fdd077b09ee9a92"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 31ecf3f4-3f56-4869-815f-c442ad20df3c
+      - c4ecdee3-3f93-4b0e-98d3-d39b4301ac6f
       X-Runtime:
-      - '0.540870'
+      - '0.075083'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"47333627673180","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-07","max_temp":87.1,"min_temp":60.8,"description":"Patchy
-        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"id":"47333627673160","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-08","max_temp":90.9,"min_temp":64.0,"description":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47333627673140","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-09","max_temp":88.7,"min_temp":62.8,"description":"Partly
+      string: '{"data":[{"id":"70098367690380","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-10","max_temp":93.4,"min_temp":65.8,"description":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png"}},{"id":"70098367690360","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-11","max_temp":83.5,"min_temp":63.1,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"70098367690340","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-12","max_temp":88.9,"min_temp":67.5,"description":"Partly
         cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}}]}'
-  recorded_at: Mon, 07 Jun 2021 21:08:13 GMT
+  recorded_at: Thu, 10 Jun 2021 17:12:29 GMT
 recorded_with: VCR 6.0.0
