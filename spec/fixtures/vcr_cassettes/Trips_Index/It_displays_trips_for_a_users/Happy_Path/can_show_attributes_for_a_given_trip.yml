@@ -1,53 +1,52 @@
 ---
 http_interactions:
 - request:
-    method: get
-    uri: https://downdraft-backend.herokuapp.com/api/v1/3-day-forecast?location=80201
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Advenutures&user_id=1
     body:
-      encoding: US-ASCII
+      encoding: UTF-8
       string: ''
     headers:
       User-Agent:
       - Faraday v1.4.2
+      Content-Length:
+      - '0'
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
   response:
     status:
-      code: 200
-      message: OK
+      code: 201
+      message: Created
     headers:
       Server:
       - Cowboy
       Date:
-      - Mon, 07 Jun 2021 21:17:01 GMT
+      - Thu, 10 Jun 2021 17:37:52 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"b9b3ce4324756454087b79cf24fdbf10"
+      - W/"759e936ba4eae2ee79fab1565dd02e5a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cf345ba5-39b8-42c6-941c-3b73bf5b5add
+      - '01381389-24ed-401a-a4e0-d31b6b3140d1'
       X-Runtime:
-      - '0.345200'
+      - '0.521938'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"47333627108700","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-07","max_temp":87.1,"min_temp":60.8,"description":"Patchy
-        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"id":"47333627108660","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-08","max_temp":90.9,"min_temp":64.0,"description":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47333627108640","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-09","max_temp":88.7,"min_temp":62.8,"description":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}}]}'
-  recorded_at: Mon, 07 Jun 2021 21:17:01 GMT
+      string: '{"data":{"id":"63","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 17:37:52 GMT
 - request:
     method: get
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=55
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips/63
     body:
       encoding: US-ASCII
       string: ''
@@ -66,30 +65,30 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 01:34:18 GMT
+      - Thu, 10 Jun 2021 17:37:52 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"8fe32e407a1038ee38753b70e5374b3a"
+      - W/"759e936ba4eae2ee79fab1565dd02e5a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cd876758-75e0-48bd-9d27-b506a4d89387
+      - eb25065c-c3e0-43f5-ae7f-bae8c448fd43
       X-Runtime:
-      - '0.007357'
+      - '0.006032'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[]}'
-  recorded_at: Thu, 10 Jun 2021 01:34:18 GMT
+      string: '{"data":{"id":"63","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 17:37:52 GMT
 - request:
     method: get
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=79
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips/63
     body:
       encoding: US-ASCII
       string: ''
@@ -108,25 +107,25 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:18:20 GMT
+      - Thu, 10 Jun 2021 17:37:52 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"8fe32e407a1038ee38753b70e5374b3a"
+      - W/"759e936ba4eae2ee79fab1565dd02e5a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8b0ce81d-91a7-49d5-8f62-a84536ada28e
+      - 8071b259-7930-4047-9170-cc45ec4d91a3
       X-Runtime:
-      - '0.023610'
+      - '0.006306'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[]}'
-  recorded_at: Thu, 10 Jun 2021 17:18:21 GMT
+      string: '{"data":{"id":"63","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 17:37:53 GMT
 recorded_with: VCR 6.0.0
