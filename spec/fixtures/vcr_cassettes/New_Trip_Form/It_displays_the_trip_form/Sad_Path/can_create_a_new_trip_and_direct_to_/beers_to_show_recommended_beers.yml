@@ -270,4 +270,139 @@ http_interactions:
       string: '{"data":{"id":"61","type":"trip","attributes":{"location":"80206","name":"Going
         to Joeys house","date":"2021-06-09","elevation":5390.42012,"user_id":34},"relationships":{}}}'
   recorded_at: Thu, 10 Jun 2021 00:58:32 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09%2019:34:46%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=61
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 01:34:46 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"96a00987a387c4ac72c5a81448cfd5c1"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - dcedab9e-a5cc-4d26-96f6-42cff32945a9
+      X-Runtime:
+      - '0.465198'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"63","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-09","elevation":5390.42012,"user_id":61},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 01:34:47 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09%2019:54:09%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=70
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 01:54:10 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"28cb18d711ee9a161e10462b04053275"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9282ba57-93dc-47ef-83cd-3b4df358521d
+      X-Runtime:
+      - '0.467675'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"70","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-09","elevation":5390.42012,"user_id":70},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 01:54:10 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09%2019:54:52%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=74
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 01:54:53 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"26600a0900c118320bfc0dc0ae6c2de0"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9f381320-9222-4d78-b1e2-b1304be1397b
+      X-Runtime:
+      - '0.422946'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"72","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-09","elevation":5390.42012,"user_id":74},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 01:54:52 GMT
 recorded_with: VCR 6.0.0
