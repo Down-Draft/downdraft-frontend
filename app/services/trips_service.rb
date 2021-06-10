@@ -1,14 +1,24 @@
 class TripsService
   class << self
+    def get_trip_show(trip_id)
+      resp = conn.get("/api/v1/trips/#{trip_id}")
+      parse_json(resp)[:data]
+    end
+
+    def get_trips(user_id)
+      resp = conn.get("/api/v1/trips?user_id=#{user_id}")
+      parse_json(resp)[:data]
+    end
+
     def create_trip(info)
       resp = conn.post('api/v1/trips') do |faraday|
         info.each do |k, v|
           faraday.params[k] = v
         end
       end
-      parse_json(resp)
+      parse_json(resp)[:data]
     end
-    
+
     private
 
     def conn
