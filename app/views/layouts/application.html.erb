@@ -20,8 +20,11 @@
   <input type="checkbox" id="active">
   <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
   <div class="searchbar-container">
-    <div class="searchbar"> <%= form_with url: beers_path, method: :get do |f| %> <%= f.text_field :search, class:"searchbar-input", placeholder: "Search for beer by name", size: 30 %></div>
-    <%= f.submit "Search", class:"searchbar-button" %> <% end %>
+    <div class="searchbar">
+      <%= form_with url: beers_path, method: :get do |f| %>
+        <%= f.text_field :search, class:"searchbar-input", placeholder: "Search for beer by name", size: 30 %>
+        <%= f.submit "Search", class:"searchbar-button" %>
+      <% end %>
   </div>
   </div>
   <div class="wrapper">

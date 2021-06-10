@@ -56,12 +56,11 @@ RSpec.describe "Dashboard Page" do
         end
       
         it "has a search bar to search for a beer by name", :vcr do
-          # fill_in :search, with: 'cow'
-          # find(".search").click_on
-          # click_on(class: 'searchbar')
-          # click_link 'Search'
-          save_and_open_page
+          fill_in :search, with: 'cow'
+          click_button :commit
+          
           expect(current_path).to eq(beers_path)
+          expect(page).to have_content('Apocalypse Cow')
         end
       
         it "has a link to log out", :vcr do
