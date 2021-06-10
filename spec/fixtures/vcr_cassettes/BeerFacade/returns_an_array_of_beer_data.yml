@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 17:12:24 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1ba8fde2a95065547235a9a067d29559"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2bf4c1cf-2d89-4004-9f7c-a880d0485d78
+      X-Runtime:
+      - '0.025911'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"3507","type":"beer","attributes":{"name":"Nagelweiss","description":"This
+        German style wheat beer contains about 50% malted wheat and is balanced with
+        Hallertau hops. This beer finishes low in gravity so the final taste is light
+        on the palette and extremely drinkable. This is sure to be a favorite with
+        first time and long time wheat beer drinkers.","abv":5.099999904632568,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"4118","type":"beer","attributes":{"name":"Buffalo
+        Lager","description":"Light bodied golden beer, very balanced flavor with
+        soft, clean finish. Available bottles at your favorite store and at an increasing
+        # of bars.","abv":4.800000190734863,"style":"American-Style Lager"}},{"id":"2716","type":"beer","attributes":{"name":"American
+        Wheat","description":"A Silver Medal Winner in the American Hefenweizen category
+        at the 2004 Great American Beer Festival, our American Wheat has a crisp and
+        refreshing flavor.","abv":4.699999809265137,"style":"Light American Wheat
+        Ale or Lager"}},{"id":"2486","type":"beer","attributes":{"name":"Budweiser","description":"","abv":5.0,"style":"American-Style
+        Light Lager"}},{"id":"4391","type":"beer","attributes":{"name":"Kingfisher
+        Premium","description":"","abv":4.800000190734863,"style":"American-Style
+        Light Lager"}},{"id":"2582","type":"beer","attributes":{"name":"IC Light","description":"IC
+        Light is an original, not a watered down copy, and brewed to be light from
+        start to finish.","abv":4.150000095367432,"style":"American-Style Light Lager"}},{"id":"1646","type":"beer","attributes":{"name":"Hefe
+        Weiss","description":"","abv":5.099999904632568,"style":"American-Style Lager"}},{"id":"3030","type":"beer","attributes":{"name":"Michelob
+        Beer","description":"\"Michelob is a malty and full-bodied lager with an elegant
+        European hop profile.\"","abv":5.0,"style":"American-Style Lager"}},{"id":"3735","type":"beer","attributes":{"name":"Estrella
+        Damm","description":"Estrella means star in Spanish and as its name suggests
+        the brand has become a star to the people of Barcelona. It has evolved with
+        the city reflecting its character - sophisticated and passionate yet at the
+        same time relaxed and welcoming.","abv":4.599999904632568,"style":"American-Style
+        Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 17:12:25 GMT
+recorded_with: VCR 6.0.0

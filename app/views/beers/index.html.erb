@@ -1,1 +1,25 @@
-<h1> Beers </h1>
+<div id="beers-index">
+  <h1> Beers </h1>
+
+  <table>
+    <tr>
+      <th>Beer</th>
+      <th>Style</th>
+      <th>ABV</th>
+    </tr>
+    <% @beers.each do |beer| %>
+    <tr id='tdata'>
+      <td><%= beer.name %></td>
+      <td><%= beer.style %></td>
+      <td><%= beer.abv %>%</td>
+      <% if @trip_id.present? %>
+        <td><%= button_to 'Add beer to trip!', trip_path(@trip_id) %></td>
+      <% end %>
+    </tr>
+    <tr>
+      <td id='tdesc' colspan="3"><%= beer.description if beer.description.present? %>
+      <%= 'No description Available' if beer.description.empty? %></td>
+    </tr>
+    <% end %>
+  </table>
+</div>

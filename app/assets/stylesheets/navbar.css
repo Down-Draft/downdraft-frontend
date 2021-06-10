@@ -43,7 +43,8 @@
   clip-path: circle(75%);
 }
 .menu-btn{
-  position: absolute;
+  background-attachment: scroll;
+  position: fixed;
   z-index: 2;
   right: 20px;
   /* left: 20px; */

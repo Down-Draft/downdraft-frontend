@@ -20,14 +20,14 @@ RSpec.describe "Dashboard Page" do
           expect(page).to have_content("Low:", count: 3)
         end
         within("#forecast-0") do
-          expect(page).to have_content("Patchy rain possible")
-          expect(page).to have_content("High: 87.4")
-          expect(page).to have_content("Low: 63.1")
+          expect(page).to have_content("Overcast")
+          expect(page).to have_content("High: 93.4")
+          expect(page).to have_content("Low: 65.8")
         end
         within("#forecast-2") do
-          expect(page).to have_content("Patchy rain possible")
-          expect(page).to have_content("High: 90.7")
-          expect(page).to have_content("Low: 62.8")
+          expect(page).to have_content("Partly cloudy")
+          expect(page).to have_content("High: 88.9")
+          expect(page).to have_content("Low: 67.5")
         end
       end
 
@@ -41,26 +41,27 @@ RSpec.describe "Dashboard Page" do
       # end
       #
       describe "Nav Bar" do
-        # before(:each) do
-        #   check '#active'
-        # end
         it "has a link to the Dashboard", :vcr do
           click_link 'Home'
           expect(current_path).to eq(dashboard_index_path)
-
         end
       
         it "displays link to create a trip", :vcr do
           click_link "New Trip"
           expect(current_path).to eq(new_trip_path)
         end
-        it "displays link to trip index", :vcr do
+        xit "displays link to trip index", :vcr do
           click_link "Scheduled Trips"
           expect(current_path).to eq(trips_path)
         end
       
-        # it "has a search bar to search for a beer by name" do
-        # end
+        it "has a search bar to search for a beer by name", :vcr do
+          fill_in :search, with: 'cow'
+          click_button :commit
+          
+          expect(current_path).to eq(beers_path)
+          expect(page).to have_content('Apocalypse Cow')
+        end
       
         it "has a link to log out", :vcr do
           click_link "Logout"

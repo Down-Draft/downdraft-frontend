@@ -21,28 +21,28 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Mon, 07 Jun 2021 04:05:12 GMT
+      - Thu, 10 Jun 2021 17:12:26 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"b423588a44fb80e4342c8132c508b275"
+      - W/"3537ad45b82c361d24c901a98128c28a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0d0e4da7-468c-47ce-8ec8-53185d1540b1
+      - 930f8d38-af6b-49af-bf04-ebb60cd130ca
       X-Runtime:
-      - '0.204625'
+      - '0.330769'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"47168171326740","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-06","max_temp":80.6,"min_temp":60.3,"description":"Moderate
-        rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png"}},{"id":"47168171326720","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-07","max_temp":77.4,"min_temp":46.0,"description":"Moderate
-        rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png"}},{"id":"47168171326700","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-08","max_temp":83.8,"min_temp":57.9,"description":"Partly
+      string: '{"data":[{"id":"47319206692100","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-10","max_temp":87.1,"min_temp":61.7,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47319206692060","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-11","max_temp":77.2,"min_temp":53.1,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47319206692020","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-12","max_temp":83.8,"min_temp":57.9,"description":"Partly
         cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}}]}'
-  recorded_at: Mon, 07 Jun 2021 04:05:13 GMT
+  recorded_at: Thu, 10 Jun 2021 17:12:26 GMT
 recorded_with: VCR 6.0.0
