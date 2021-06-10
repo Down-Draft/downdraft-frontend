@@ -21,28 +21,86 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 02:02:20 GMT
+      - Thu, 10 Jun 2021 17:12:29 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"9d08c9d7d825794237685b923a07727d"
+      - W/"07dbec4931a57377c3b0321df9ed1b36"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7b494a30-a372-4cc6-a2fe-9debffee1e70
+      - 28943d61-afca-4fee-b8d4-034fa35c3eec
       X-Runtime:
-      - '0.224285'
+      - '0.114668'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"47106129115420","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-09","max_temp":88.3,"min_temp":67.8,"description":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47106129115400","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-10","max_temp":94.3,"min_temp":65.8,"description":"Partly
-        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47106129115380","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-11","max_temp":83.1,"min_temp":64.4,"description":"Partly
+      string: '{"data":[{"id":"47319231262300","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-10","max_temp":93.4,"min_temp":65.8,"description":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png"}},{"id":"47319231262280","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-11","max_temp":83.5,"min_temp":63.1,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47319231262260","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-12","max_temp":88.9,"min_temp":67.5,"description":"Partly
         cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}}]}'
-  recorded_at: Thu, 10 Jun 2021 02:02:20 GMT
+  recorded_at: Thu, 10 Jun 2021 17:12:29 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers/search?name=cow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 17:12:29 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7881fb6be8c81cddef0a4871e6772ae2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1a06dd4f-4486-4a92-a4ec-c131a5956175
+      X-Runtime:
+      - '0.020199'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"4100","type":"beer","attributes":{"name":"Apocalypse
+        Cow","description":"","abv":10.0,"style":"Imperial or Double India Pale Ale"}},{"id":"280","type":"beer","attributes":{"name":"Cow
+        Palace Scotch Ale","description":"","abv":6.800000190734863,"style":"Scotch
+        Ale"}},{"id":"8","type":"beer","attributes":{"name":"Cow Palace Scotch Ale
+        1998","description":"","abv":8.699999809265137,"style":"Scotch Ale"}},{"id":"1383","type":"beer","attributes":{"name":"Cow
+        Palace Scotch Ale 2001","description":"","abv":11.100000381469727,"style":"Scotch
+        Ale"}},{"id":"3303","type":"beer","attributes":{"name":"Holy Cow IPA","description":"For
+        hops lovers - this bitter ale is pale colored and made with a blend of 6 different
+        malts and 5 different hops. This ale is dry-hopped for extra flavor and aroma.","abv":5.159999847412109,"style":"American-Style
+        India Pale Ale"}},{"id":"2473","type":"beer","attributes":{"name":"Spotted
+        Cow","description":"Cask conditioned ale has been the popular choice among
+        brews since long before prohibition. We continue this pioneer spirit with
+        our Wisconsin farmhouse ale. Brewed with flaked barley and the finest Wisconsin
+        malts. We even give a nod to our farmers with a little hint of corn. \n\nNaturally
+        cloudy we allow the yeast to remain in the bottle to enhance fullness of flavors,
+        which cannot be duplicated otherwise. \n\nExpect this ale to be fun, fruity
+        and satisfying. You know you''re in Wisconsin when you see the Spotted Cow.","abv":4.800000190734863,"style":"American-Style
+        Amber/Red Ale"}}]}'
+  recorded_at: Thu, 10 Jun 2021 17:12:29 GMT
 recorded_with: VCR 6.0.0

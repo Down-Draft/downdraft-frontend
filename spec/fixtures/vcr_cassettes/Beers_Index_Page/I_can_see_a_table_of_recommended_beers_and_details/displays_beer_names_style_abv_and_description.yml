@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://downdraft-backend.herokuapp.com/api/v1/beers/search?name=Cow
+    uri: https://downdraft-backend.herokuapp.com/api/v1/3-day-forecast?location=80301
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,52 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:12:31 GMT
+      - Thu, 10 Jun 2021 17:32:35 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"f71a8f427713fccdc48336cca7dc2a9a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 946f9c18-f60d-40a3-a8d4-1806b3d66d35
+      X-Runtime:
+      - '0.606678'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"47319197974600","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-10","max_temp":87.1,"min_temp":61.7,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47319197949800","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-11","max_temp":77.2,"min_temp":53.1,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47319197949700","type":"forecast","attributes":{"location_name":"Boulder","location_state":"Colorado","date":"2021-06-12","max_temp":83.8,"min_temp":57.9,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}}]}'
+  recorded_at: Thu, 10 Jun 2021 17:32:36 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers/search?name=cow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 17:32:36 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -31,9 +76,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - eda2544a-ef0f-479e-8d8c-70bb90c67b99
+      - 1e4a9d16-0c12-4a14-9f7c-5c13268ae2ca
       X-Runtime:
-      - '0.019838'
+      - '0.031040'
       Transfer-Encoding:
       - chunked
       Via:
@@ -58,5 +103,5 @@ http_interactions:
         which cannot be duplicated otherwise. \n\nExpect this ale to be fun, fruity
         and satisfying. You know you''re in Wisconsin when you see the Spotted Cow.","abv":4.800000190734863,"style":"American-Style
         Amber/Red Ale"}}]}'
-  recorded_at: Thu, 10 Jun 2021 17:12:31 GMT
+  recorded_at: Thu, 10 Jun 2021 17:32:37 GMT
 recorded_with: VCR 6.0.0

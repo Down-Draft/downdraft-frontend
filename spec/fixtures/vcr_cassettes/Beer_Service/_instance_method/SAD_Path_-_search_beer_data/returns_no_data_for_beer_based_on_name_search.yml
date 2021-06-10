@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Jun 2021 20:53:28 GMT
+      - Thu, 10 Jun 2021 17:12:31 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -29,9 +29,9 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 8e132b46-0335-4d7b-a5ac-184673fc5168
+      - 525a0e2d-eb05-47bb-af5b-31ce65ef2284
       X-Runtime:
-      - '0.029103'
+      - '0.011547'
       Transfer-Encoding:
       - chunked
       Via:
@@ -39,5 +39,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"errors":"No beers found"}'
-  recorded_at: Wed, 09 Jun 2021 20:53:29 GMT
+  recorded_at: Thu, 10 Jun 2021 17:12:32 GMT
 recorded_with: VCR 6.0.0

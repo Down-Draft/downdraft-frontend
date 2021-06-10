@@ -2,7 +2,7 @@ class BeerFacade
   class << self
     def get_beers_data(trip_id)
       beers = BeerService.get_beers_data(trip_id)
-      beers.map do |beer|
+      beers[:data].map do |beer|
         Beer.new(beer)
       end
     end
