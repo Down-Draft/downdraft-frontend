@@ -23,30 +23,30 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:00:14 GMT
+      - Thu, 10 Jun 2021 17:37:52 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"4e4412783ae6ec13a2b97bf772310b97"
+      - W/"759e936ba4eae2ee79fab1565dd02e5a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1e7455a5-dffd-4fba-abc6-542dbb6dd80c
+      - '01381389-24ed-401a-a4e0-d31b6b3140d1'
       X-Runtime:
-      - '0.983759'
+      - '0.521938'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"20","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
-  recorded_at: Thu, 10 Jun 2021 17:00:14 GMT
+      string: '{"data":{"id":"63","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 17:37:52 GMT
 - request:
     method: get
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips/20
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips/63
     body:
       encoding: US-ASCII
       string: ''
@@ -65,30 +65,30 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:00:44 GMT
+      - Thu, 10 Jun 2021 17:37:52 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"4e4412783ae6ec13a2b97bf772310b97"
+      - W/"759e936ba4eae2ee79fab1565dd02e5a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 28f0a184-df6d-4f3d-ada7-4e001558d46c
+      - eb25065c-c3e0-43f5-ae7f-bae8c448fd43
       X-Runtime:
-      - '0.037863'
+      - '0.006032'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"20","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
-  recorded_at: Thu, 10 Jun 2021 17:00:45 GMT
+      string: '{"data":{"id":"63","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 17:37:52 GMT
 - request:
     method: get
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips/20
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips/63
     body:
       encoding: US-ASCII
       string: ''
@@ -107,25 +107,25 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:06:17 GMT
+      - Thu, 10 Jun 2021 17:37:52 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"4e4412783ae6ec13a2b97bf772310b97"
+      - W/"759e936ba4eae2ee79fab1565dd02e5a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - def74ffc-856a-4b89-9089-f59795b3d74d
+      - 8071b259-7930-4047-9170-cc45ec4d91a3
       X-Runtime:
-      - '0.028919'
+      - '0.006306'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"20","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
-  recorded_at: Thu, 10 Jun 2021 17:06:18 GMT
+      string: '{"data":{"id":"63","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 17:37:53 GMT
 recorded_with: VCR 6.0.0

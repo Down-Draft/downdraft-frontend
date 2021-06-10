@@ -1,6 +1,76 @@
 ---
 http_interactions:
 - request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 17:37:22 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"9e8876af3075e26772c84f0e3be8fc47"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3a6cf5b8-15eb-4ecb-ace9-568b5a512a09
+      X-Runtime:
+      - '0.194652'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"1","type":"trip","attributes":{"location":"80206","name":"cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"2","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"3","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"4","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"5","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"6","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"7","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"8","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"9","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"10","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"11","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"12","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"13","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"14","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"15","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"16","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"18","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"19","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"20","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"22","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"23","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"25","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"27","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"28","type":"trip","attributes":{"location":"80206","name":"Going
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"29","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"31","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"32","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"34","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"35","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"36","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"37","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"39","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"41","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"43","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"46","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"48","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"50","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"51","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"52","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"53","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"54","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"55","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"56","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"57","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}]}'
+  recorded_at: Thu, 10 Jun 2021 17:37:23 GMT
+- request:
     method: post
     uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Advenutures&user_id=1
     body:
@@ -23,27 +93,27 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 16:51:21 GMT
+      - Thu, 10 Jun 2021 17:37:23 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"9ab486061eb5e6487d6f0123daaf9780"
+      - W/"17616a539e44203968b4e8f6b8e0a696"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 74bec37e-9d74-4efc-bd6d-af676a6a40ad
+      - b4bee75b-cf18-41ad-b3b2-9ef0a5f484ed
       X-Runtime:
-      - '0.518099'
+      - '0.543567'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"14","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
-  recorded_at: Thu, 10 Jun 2021 16:51:22 GMT
+      string: '{"data":{"id":"58","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 17:37:24 GMT
 - request:
     method: post
     uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=New%20Orleans&name=Swamp&user_id=1
@@ -67,27 +137,27 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 16:51:22 GMT
+      - Thu, 10 Jun 2021 17:37:24 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"124329df522e6afcd339dd9784f6a464"
+      - W/"f568afcd957fa3fc5e75633c5deb2fd6"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 21868e72-6406-4046-b91f-407ed6612a9d
+      - fc5b8985-4870-43f1-bc44-af46281846a4
       X-Runtime:
-      - '0.564053'
+      - '0.766812'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"15","type":"trip","attributes":{"location":"New Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}}}'
-  recorded_at: Thu, 10 Jun 2021 16:51:22 GMT
+      string: '{"data":{"id":"59","type":"trip","attributes":{"location":"New Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 17:37:25 GMT
 - request:
     method: post
     uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Hollywood&name=McDonalds&user_id=1
@@ -111,27 +181,27 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 16:51:23 GMT
+      - Thu, 10 Jun 2021 17:37:25 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"3bb19d9de4a5bf372c0e69e2244bdd1f"
+      - W/"975931af4ac33fe53a970a7d53064657"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4c3b017e-3379-44a1-b98d-c0a150b8af3b
+      - a3efb5be-10d4-45bf-9166-9349475a2562
       X-Runtime:
-      - '0.505492'
+      - '0.855434'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"16","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}}}'
-  recorded_at: Thu, 10 Jun 2021 16:51:23 GMT
+      string: '{"data":{"id":"60","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 17:37:26 GMT
 - request:
     method: get
     uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=1
@@ -153,117 +223,19 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 16:51:23 GMT
+      - Thu, 10 Jun 2021 17:37:25 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"98c3f788e3c9242ab857bc1c8b61d416"
+      - W/"0629fa6bf4ee0e275f868ac635a12561"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f796869a-54f2-4b82-87b7-43385df9a440
+      - 155788ee-5bb6-4ad0-9c0f-adbebabd11e1
       X-Runtime:
-      - '0.077874'
-      Transfer-Encoding:
-      - chunked
-      Via:
-      - 1.1 vegur
-    body:
-      encoding: UTF-8
-      string: '{"data":[{"id":"1","type":"trip","attributes":{"location":"80206","name":"cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"2","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"3","type":"trip","attributes":{"location":"New
-        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"4","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"5","type":"trip","attributes":{"location":"80206","name":"Going
-        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"6","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"7","type":"trip","attributes":{"location":"New
-        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"8","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"9","type":"trip","attributes":{"location":"80206","name":"Going
-        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"10","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"11","type":"trip","attributes":{"location":"New
-        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"12","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"13","type":"trip","attributes":{"location":"80206","name":"Going
-        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"14","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"15","type":"trip","attributes":{"location":"New
-        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"16","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}}]}'
-  recorded_at: Thu, 10 Jun 2021 16:51:23 GMT
-- request:
-    method: get
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.4.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - Cowboy
-      Date:
-      - Thu, 10 Jun 2021 16:51:24 GMT
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"98c3f788e3c9242ab857bc1c8b61d416"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 5e1c3ba3-d88f-4e05-a5c8-3159c4154bd1
-      X-Runtime:
-      - '0.042393'
-      Transfer-Encoding:
-      - chunked
-      Via:
-      - 1.1 vegur
-    body:
-      encoding: UTF-8
-      string: '{"data":[{"id":"1","type":"trip","attributes":{"location":"80206","name":"cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"2","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"3","type":"trip","attributes":{"location":"New
-        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"4","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"5","type":"trip","attributes":{"location":"80206","name":"Going
-        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"6","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"7","type":"trip","attributes":{"location":"New
-        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"8","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"9","type":"trip","attributes":{"location":"80206","name":"Going
-        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"10","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"11","type":"trip","attributes":{"location":"New
-        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"12","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"13","type":"trip","attributes":{"location":"80206","name":"Going
-        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"14","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"15","type":"trip","attributes":{"location":"New
-        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"16","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}}]}'
-  recorded_at: Thu, 10 Jun 2021 16:51:24 GMT
-- request:
-    method: get
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=1
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.4.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - Cowboy
-      Date:
-      - Thu, 10 Jun 2021 17:18:22 GMT
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"bfa5f533bfd42ef8a017abbbb2449d47"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 4f8d7165-732b-4752-8c2e-10ed4e67cd1a
-      X-Runtime:
-      - '0.073678'
+      - '0.230676'
       Transfer-Encoding:
       - chunked
       Via:
@@ -284,6 +256,92 @@ http_interactions:
         to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"27","type":"trip","attributes":{"location":"80206","name":"Trip
         to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"28","type":"trip","attributes":{"location":"80206","name":"Going
         to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"29","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"31","type":"trip","attributes":{"location":"80206","name":"Going
-        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}]}'
-  recorded_at: Thu, 10 Jun 2021 17:18:22 GMT
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"32","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"34","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"35","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"36","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"37","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"39","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"41","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"43","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"46","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"48","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"50","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"51","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"52","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"53","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"54","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"55","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"56","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"57","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"58","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"59","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"60","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}}]}'
+  recorded_at: Thu, 10 Jun 2021 17:37:26 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 17:37:26 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0629fa6bf4ee0e275f868ac635a12561"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 73fafd3d-0da3-47d6-b400-e5a3fb33f980
+      X-Runtime:
+      - '0.168087'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"1","type":"trip","attributes":{"location":"80206","name":"cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"2","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"3","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"4","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"5","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"6","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"7","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"8","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"9","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"10","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"11","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"12","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"13","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"14","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"15","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"16","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"18","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"19","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"20","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"22","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"23","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"25","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"27","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"28","type":"trip","attributes":{"location":"80206","name":"Going
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"29","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"31","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"32","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"34","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"35","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"36","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"37","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"39","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"41","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"43","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"46","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"48","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"50","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"51","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"52","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"53","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"54","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"55","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"56","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}},{"id":"57","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}},{"id":"58","type":"trip","attributes":{"location":"Denver","name":"Advenutures","date":"2021-06-09","elevation":5354.3308799999995,"user_id":1,"max_temperature":88.2},"relationships":{}},{"id":"59","type":"trip","attributes":{"location":"New
+        Orleans","name":"Swamp","date":"2021-06-09","elevation":91.86352,"user_id":1,"max_temperature":87.4},"relationships":{}},{"id":"60","type":"trip","attributes":{"location":"Hollywood","name":"McDonalds","date":"2021-06-09","elevation":380.57744,"user_id":1,"max_temperature":84.7},"relationships":{}}]}'
+  recorded_at: Thu, 10 Jun 2021 17:37:27 GMT
 recorded_with: VCR 6.0.0

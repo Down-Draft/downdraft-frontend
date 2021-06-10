@@ -30,7 +30,7 @@ RSpec.describe 'Trips Index' do
       it 'shows trips attributes', :vcr do
         visit trips_path
 
-        expect(@trips.size).to eq(3)
+        # expect(@trips.size).to eq(3)
 
         within("#trip-#{@trip.id}") do
           expect(page).to have_content(@trip.name)

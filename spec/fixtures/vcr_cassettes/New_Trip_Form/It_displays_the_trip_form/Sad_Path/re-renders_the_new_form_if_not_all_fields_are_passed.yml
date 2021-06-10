@@ -1247,4 +1247,133 @@ http_interactions:
       string: '{"errors":"Could not find location. Please ensure zip code is valid
         or try again later."}'
   recorded_at: Thu, 10 Jun 2021 17:29:03 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2011:31:00%20-0600&location=&name=Going%20to%20Joeys%20house&user_id=96
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 17:31:00 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - f2e3ae97-52e1-4183-bd78-52a22659613b
+      X-Runtime:
+      - '0.001928'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"errors":"Could not find location. Please ensure zip code is valid
+        or try again later."}'
+  recorded_at: Thu, 10 Jun 2021 17:31:00 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2011:37:51%20-0600&location=&name=Going%20to%20Joeys%20house&user_id=100
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 17:37:51 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 671df859-40c5-4311-b3bd-903fa2b77031
+      X-Runtime:
+      - '0.001821'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"errors":"Could not find location. Please ensure zip code is valid
+        or try again later."}'
+  recorded_at: Thu, 10 Jun 2021 17:37:51 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2011:41:37%20-0600&location=&name=Going%20to%20Joeys%20house&user_id=104
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 17:41:36 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 1df29309-a3d9-4cd6-bcf2-71b1b02bd2b2
+      X-Runtime:
+      - '0.001969'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"errors":"Could not find location. Please ensure zip code is valid
+        or try again later."}'
+  recorded_at: Thu, 10 Jun 2021 17:41:37 GMT
 recorded_with: VCR 6.0.0
