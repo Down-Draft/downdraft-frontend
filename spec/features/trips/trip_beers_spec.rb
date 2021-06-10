@@ -14,15 +14,11 @@ RSpec.describe 'Beers Controller' do
       expect(page).to have_button("Add beer to trip!")
     end
     
-    xit 'can add a beer and redirect to the trip show page', :vcr do
-      # VCR.use_cassette("can_add_a_beer_and_redirect_to_the_trip_show_page")
+    it 'can add a beer and redirect to the trip show page', :vcr do
       expect(page).to have_content("Beers")
-      within "#beer-4062" do 
-        expect(page).to have_button("Add beer to trip!")
-        click_button "Add beer to trip!"
-      end
-      expect(current_path).to eq(trip_path)
-      # expect(page).to have_content("Tailgate Light")
+      first(:button, "Add beer to trip!").click 
+
+      expect(current_path).to eq(trip_path(@trip1.id))
     end
   end
 end

@@ -1050,4 +1050,88 @@ http_interactions:
       encoding: UTF-8
       string: '{"errors":["Name can''t be blank"]}'
   recorded_at: Thu, 10 Jun 2021 22:58:04 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2018:03:42%20-0500&location=80206&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:03:42 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 5c46314b-c916-43c3-91a9-8c425ad1e958
+      X-Runtime:
+      - '0.659011'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"errors":["Name can''t be blank"]}'
+  recorded_at: Thu, 10 Jun 2021 23:03:43 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2018:06:18%20-0500&location=80206&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:06:18 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 8185733e-05d3-4257-913b-0399170c6a52
+      X-Runtime:
+      - '0.752550'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"errors":["Name can''t be blank"]}'
+  recorded_at: Thu, 10 Jun 2021 23:06:18 GMT
 recorded_with: VCR 6.0.0

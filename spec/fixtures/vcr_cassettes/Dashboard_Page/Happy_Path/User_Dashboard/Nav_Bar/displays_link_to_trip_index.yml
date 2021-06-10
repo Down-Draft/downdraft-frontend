@@ -43,7 +43,6 @@ http_interactions:
       string: '{"data":[{"id":"47319231495680","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-10","max_temp":93.4,"min_temp":65.8,"description":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png"}},{"id":"47319231495660","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-11","max_temp":83.5,"min_temp":63.1,"description":"Partly
         cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47319231495640","type":"forecast","attributes":{"location_name":"Denver","location_state":"Colorado","date":"2021-06-12","max_temp":88.9,"min_temp":67.5,"description":"Partly
         cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}}]}'
-
   recorded_at: Thu, 10 Jun 2021 17:12:29 GMT
 - request:
     method: get
@@ -129,4 +128,88 @@ http_interactions:
       encoding: UTF-8
       string: '{"data":[]}'
   recorded_at: Thu, 10 Jun 2021 17:18:21 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=559
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:03:34 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"8fe32e407a1038ee38753b70e5374b3a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d01e137d-12ad-4058-b317-605a942abafd
+      X-Runtime:
+      - '0.013883'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[]}'
+  recorded_at: Thu, 10 Jun 2021 23:03:34 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?user_id=576
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:06:09 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"8fe32e407a1038ee38753b70e5374b3a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e16e0c36-77f8-498e-975b-c2eeaaacae6d
+      X-Runtime:
+      - '0.035238'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[]}'
+  recorded_at: Thu, 10 Jun 2021 23:06:09 GMT
 recorded_with: VCR 6.0.0
