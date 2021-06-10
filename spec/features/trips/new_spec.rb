@@ -24,12 +24,14 @@ RSpec.describe 'New Trip Form' do
         expect(current_path).to eq(beers_path)
       end
     end
+
     describe 'Sad Path' do
       before :each do
         @user = create(:user, zip_code: '80201')
         allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
         visit new_trip_path
       end
+      
       it 're-renders the new form if not all fields are passed', :vcr do
         fill_in :name, with: 'Going to Joeys house'
         fill_in :date, with: Time.now
