@@ -16,11 +16,16 @@ class TripsService
           faraday.params[k] = v
         end
       end
-      if resp.body.include?("errors")
+      if resp.body.include?('errors')
         parse_json(resp)
       else
         parse_json(resp)[:data]
       end
+    end
+
+    def create_trip_beer(trip_id, beer_id)
+      resp = conn.post("api/v1/trips/#{trip_id}/beers?beer_id=#{beer_id}")
+      parse_json(resp)[:data]
     end
 
     private

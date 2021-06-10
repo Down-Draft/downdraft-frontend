@@ -4,7 +4,7 @@ class Beer
               :description,
               :abv,
               :style
-  
+
   def initialize(data)
     @id = data[:id]
     @name = data[:attributes][:name]

@@ -1,0 +1,1508 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=466
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:34:09 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"09d282621baac0b3d04b498210d84f47"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 97d7a824-b55f-49b4-8c8c-96f7f0c0002f
+      X-Runtime:
+      - '0.885773'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"74","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":466,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:34:10 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=74
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:34:09 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"f759678576e6d12f6b486cbd871250dc"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4f30dc8e-f04e-4fb8-a5ac-07802788cd27
+      X-Runtime:
+      - '0.028358'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"442","type":"beer","attributes":{"name":"Blind Pig
+        Dunkelweizen","description":"","abv":4.699999809265137,"style":"American-Style
+        Lager"}},{"id":"2888","type":"beer","attributes":{"name":"Labrador Lager","description":"A
+        Traditional German Lager brewed with all German grain \u0026 yeast. Very drinkable.","abv":6.0,"style":"American-Style
+        Lager"}},{"id":"2485","type":"beer","attributes":{"name":"Milwaukees Best","description":"","abv":4.5,"style":"American-Style
+        Light Lager"}},{"id":"3544","type":"beer","attributes":{"name":"Mamma Mia!
+        Pizza Beer","description":"An ale flavored with fresh tomatoes, oregano, basil
+        and garlic.","abv":4.599999904632568,"style":"Herb and Spice Beer"}},{"id":"2518","type":"beer","attributes":{"name":"Yuengling
+        Premium Light","description":"Yuengling Light Beer is skillfully crafted to
+        deliver a consistently refreshing brew with only 98 calories. Drawing from
+        traditional brewing techniques, our Light Beer is brewed longer to reduce
+        the sugar content and produce fewer calories in each thirst-quenching drink.
+        Its pale golden color is complemented by a light-bodied flavor. Yuengling
+        Light maintains a well balanced character of malt and hops, with slight carbonation
+        for a crisp satisfying finish. We sacrifice nothing to produce a premium light
+        beer that is low in calories and full of flavor. This combination delivers
+        the ultimate refreshment in Yuengling Light Beer.","abv":3.5,"style":"American-Style
+        Light Lager"}},{"id":"3652","type":"beer","attributes":{"name":"Shiner Bohemian
+        Black Lager","description":"","abv":4.900000095367432,"style":"American-Style
+        Lager"}},{"id":"3006","type":"beer","attributes":{"name":"Steamwhistle Lager","description":"Good
+        clean lager.","abv":5.0,"style":"American-Style Lager"}},{"id":"2585","type":"beer","attributes":{"name":"Spring
+        Bock","description":"A traditional German style lager. Characterized by a
+        deep copper color and rich malt flavor. Balanced with German hops.\n\nAvailable
+        at the Brewery and in bottles \u0026 cases from March - May.","abv":6.5,"style":"American-Style
+        Lager"}},{"id":"356","type":"beer","attributes":{"name":"Kitsilano Maple Cream
+        Ale","description":"","abv":5.0,"style":"American-Style Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 20:34:10 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=468
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:41:04 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"6f72cde7c748141b58f568e9daa7517d"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 77039cd6-3500-4f66-8eda-49aa78398b87
+      X-Runtime:
+      - '0.992037'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"76","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":468,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:41:04 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=76
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:41:04 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"a8437fb7971f0b5119aec004fe32ceaa"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - bd8cac4a-2e08-4600-a7c5-a8f96bd01204
+      X-Runtime:
+      - '0.037401'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjM3MjciLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik1vbnRlaXRoJ3MgU3VtbWVyIEFsZSIsImRlc2NyaXB0aW9uIjoiTW9udGVpdGjDouKCrOKEonMgU3VtbWVyIEFsZSBpcyBhIHJlZnJlc2hpbmdseSBkaWZmZXJlbnQgYmVlci4gVGhlIG9wcG9ydHVuaXR5IHRvIHJlZGlzY292ZXIgc29tZSBmbGF2b3VyIGhpZ2hsaWdodHMgb2YgYmVlciBzdHlsZXMgZW5qb3llZCBvbiBzdW1tZXIgZGF5cyBwYXN0LCBhbmQgYnJpbmcgdGhlbSBiYWNrIHRvIGxpZmUuXG5cbkF0IHRoZSBlbmQgb2YgbGFzdCBjZW50dXJ5LCBpbiBFbmdsYW5kLCBFdXJvcGUgYW5kIHRoZSBBbWVyaWNhcyBhbmQgaW4gTmV3IFplYWxhbmQsIHRoZXJlIHdhcyBzdGlsbCBhbiBhZGhlcmVuY2UgdG8gYnJldyB3aXRoIGJhcmxleSwgd2hvbGVzb21lIGdyYWlucywgaG9wcyBhbmQgb3RoZXIgdHJhZGl0aW9uYWwgYnJld2luZyBzcGljZXMuXG5cbk1vbnRlaXRow6LigqzihKJzIFN1bW1lciBBbGUgaXMgYSBicmlnaHQgZ29sZCBiZWVyIHdpdGggZ3JlYXQgYm9keSBmcm9tIGZvdXIgZGlmZmVyZW50IG1hbHRzLiBTcGljZWQgd2l0aCBhIHNpbmdsZSBob3AgdmFyaWV0eSBhbmQgYSB0b3VjaCBvZiBoaXN0b3J5IC0gYSBsaXR0bGUgUmF0YSBob25leS4gU3VidGxlLCBidXQgZW5vdWdoIHRvIG1ha2UgYWxsIHRoZSBkaWZmZXJlbmNlLiBUaGUgcmVzdWx0IGlzIGEgdHJ1bHkgcmVmcmVzaGluZyBoZXJiYWwgc3BpY2VkIGJlZXIgYnJld2VkIGZvciB0aGUgU3VtbWVyIFNlYXNvbiDDouKCrOKAnSBhIHNwbGVuZGlkIHRoaXJzdCBxdWVuY2hlci5cblxuTW9udGVpdGjDouKCrOKEonMgU3VtbWVyIEFsZSBlbmpveWVkIGljZS1jb2xkIHdpdGggYSBzaW1wbGUgcmFuZ2Ugb2YgZnJ1aXRzLCBwZXJoYXBzIHJlZnJlc2hpbmcgd2VkZ2Ugb2Ygb3JhbmdlIG9yIGxpbWUuIEFsdGVybmF0aXZlbHksIG1hdGNoIHdpdGggc3VtbWVyIHNhbGFkcyBhbmQgc3Rpci1mcnlzIHRvIGNvbXBsZW1lbnQgdGhlIGxpZ2h0IGZsYXZvdXJzLiIsImFidiI6NS4wLCJzdHlsZSI6IkhlcmIgYW5kIFNwaWNlIEJlZXIifX0seyJpZCI6IjMzNDciLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IldpbnRlciBXaGVhdCIsImRlc2NyaXB0aW9uIjoiU3VidGxlIFNlYXNvbmFsIHNwaWNlcywgaW4gdGhpcyBkYXJrLCByaWNoIHdoZWF0IGJlZXIgYXJlIHNtb290aCBhbmQgZWFzeSBmb3IgdGhlIGRpc2Nlcm5pbmcgcGFsYXRlLiIsImFidiI6Ni4zMDAwMDAxOTA3MzQ4NjMsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIzMjExIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJTYXJhbmFjIEFkaXJvbmRhY2sgTGFnZXIiLCJkZXNjcmlwdGlvbiI6Ik91ciBjbGFzc2ljIEdlcm1hbiBsYWdlciBoYXMgYSBwZXJmZWN0IGJhbGFuY2Ugb2YgY2FyYW1lbCBtYWx0IHN3ZWV0bmVzcy4gTG9vayBmb3IgYSByaWNoLCBhbWJlciBjb2xvciBhbmQgbWVkaXVtIGJvZHkuIiwiYWJ2Ijo1LjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM3MCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiT2xkIFNlYXR0bGUgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NC4zMDAwMDAxOTA3MzQ4NjMsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI0OTkiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlpvaWdsIFN0YXIgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IlpvaWdsIGlzIGEgZ29sZGVuLCB1bmZpbHRlcmVkIGxhZ2VyIGJlZXIgd2hpY2ggd2FzIG9yaWdpbmFsbHkgYnJld2VkIG9ubHkgaW4gdGhlIHJlZ2lvbiBvZiBFYXN0ZXJuIEJhdmFyaWEsIGJldHdlZW4gRnJhbmNvbmlhIGFuZCB0aGUgQ3plY2ggUmVwdWJsaWMuIEZvciBjZW50dXJpZXMsIFpvaWdsIHdhcyBicmV3ZWQgaW4gYnJld2hvdXNlcyBvd25lZCBieSB0aGUgdG93biBvciBhbiBhc3NvY2lhdGlvbiBvZiBzbWFsbCBicmV3ZXJzLiBcblxuVGhlIFpvaWdsLVN0YXIsIGEgc2l4LWFuZ3VsYXIgc3RhciBzaW1pbGFyIHRvIHRoZSBTdGFyIG9mIERhdmlkLCB3YXMgdGhlIHNpZ24gb2YgYnJld2VycyBpbiB0aGUgbWlkZGxlIGFnZXMuIFRoZSBzdGFyIHN5bWJvbGl6ZXMgdGhlIHRocmVlIGVsZW1lbnRzICh3YXRlciwgZWFydGgsIGFuZCBmaXJlKSBhbmQgdGhlIHRocmVlIGluZ3JlZGllbnRzICh3YXRlciwgbWFsdCwgYW5kIGhvcHMpIHVzZWQgZm9yIGJyZXdpbmcuIFRoZSBpbXBvcnRhbmNlIG9mIHRoZSB5ZWFzdCB3YXMgbm90IHlldCBrbm93biBpbiB0aGUgMTQwMMOi4oKs4oSicy4iLCJhYnYiOjUuOTAwMDAwMDk1MzY3NDMyLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI0MDg5IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJTdGllZ2wgTGVpY2h0IiwiZGVzY3JpcHRpb24iOiJUaGlzIGlzIGEgbGlnaHQgYmVlciB3aXRoIGEgZnVsbCB0YXN0ZSBhbmQgYSB0aGlyZCBsZXNzIGFsY29ob2wgc28gdGhlcmVmb3JlIDMwJSBsZXNzIGNhbG9yaWVzLiBJdCBpcyBpZGVhbCBmb3IgYmVlciBsb3ZlcnMgd2hvIHByZWZlciBsaWdodCBiZWVycyBidXQgZG8gbm90IHdhbnQgdG8gcmVub3VuY2UgdGhlIHRhc3RlLiIsImFidiI6My4yOTk5OTk5NTIzMTYyODQsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGlnaHQgTGFnZXIifX0seyJpZCI6IjQxMzYiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlN1blJheSBXaGVhdCBCZWVyIiwiZGVzY3JpcHRpb24iOiJUaGUgU3VucmF5IFdoZWF0IGlzIGEgR2VybWFuLXN0eWxlIHVuZmlsdGVyZWQgd2hlYXQgYmVlciBicmV3ZWQgd2l0aCBhIHRvdWNoIG9mIGxvY2FsIEdlb3JnaWEgQ29hc3QgVHVwZWxvIGhvbmV5IGZyb20gdGhlIFNhdmFubmFoIEJlZSBDb21wYW55LlxuXG5JdHMgaW52aXRpbmcgYmFuYW5hIGFuZCBzd2VldCBjbG92ZSBsaWtlIGFyb21hIGdpdmVzIHdheSB0byBhIHBsZWFzYW50LCBjbGVhbiBmaW5pc2ggd2l0aCBhIGhpbnQgb2YgdGFydG5lc3MuXG5cblRoaXMgYmVlciBpcyBhdmFpbGFibGUgaW4gdGhlIFRlcnJhcGluIMOi4oKsxZNBbGwgVGhlIEhpdHPDouKCrMKdIFZhcmlldHkgMTItcGFjayBhcyB3ZWxsIGFzIGluIGluZGl2aWR1YWwgNi1wYWNrcy4iLCJhYnYiOjQuNjk5OTk5ODA5MjY1MTM3LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMTk3OCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQXRsYXMgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6My43NSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMTY3OCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiTGFnZXIgQmVlciIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjgwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fV19
+  recorded_at: Thu, 10 Jun 2021 20:41:04 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=470
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:42:13 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7506573714e8da24bf8d4637ec84e894"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 28d21cc8-0fd2-4a17-8609-5b7e7209525d
+      X-Runtime:
+      - '0.651830'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"78","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":470,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:42:13 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=78
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:42:13 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"31a3dfe30c3e89fafd77b5b075998521"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - '0518e0ab-a071-4600-891f-4c3c654a81be'
+      X-Runtime:
+      - '0.035068'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjI0ODQiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkljZWhvdXNlIiwiZGVzY3JpcHRpb24iOiJBbWVyaWNhJ3MgZmlyc3QgZG9tZXN0aWMgaWNlIGJlZXIsIEljZWhvdXNlIGlzIHRyYWRpdGlvbmFsbHkgYnJld2VkLCBmZXJtZW50ZWQgYW5kLCBqdXN0IGJlZm9yZSBhZ2luZywgaXRzIHRlbXBlcmF0dXJlIGlzIGxvd2VyZWQgdG8gYmVsb3cgZnJlZXppbmcuIFRoaXMgcHJvY2VzcyBpbXBhcnRzIHRoZSBiZWVyJ3Mgc21vb3RobmVzcyBhbmQgYW4gYWxjb2hvbCBjb250ZW50IHRoYXQncyBzbGlnaHRseSBoaWdoZXIgKDUuNSUgYnkgdm9sdW1lKSB0aGFuIG90aGVyIHJlZ3VsYXIgcHJlbWl1bSBiZWVyIGJyYW5kcy4gSWNlaG91c2Ugd2FzIGludHJvZHVjZWQgaW4gMTk5MyBhbmQgaGFzIHJlaW5mb3JjZWQgaXRzIHBvc2l0aW9uIGFzIHRoZSB1bHRpbWF0ZSBiZWVyIGZvciB3aW5kLXVwIGFuZCBwcmUtZ2FtZSBvY2Nhc2lvbnMuIEJsZW5kaW5nIGh1bW9yIGFuZCBoaWdoLWVuZXJneSBleGNpdGVtZW50LCBJY2Vob3VzZSBtYXJrZXRpbmcgZW5jb3VyYWdlcyBpdHMgdGFyZ2V0IGNvbnN1bWVycyB0byB0YWtlIG9jY2FzaW9ucyB0byB0aGUgbmV4dCBsZXZlbCB3aXRoIGEgZ3JlYXQtdGFzdGluZyBiZWVyLiIsImFidiI6NS41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIyNDg3IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJCdWQgTGlnaHQiLCJkZXNjcmlwdGlvbiI6IkludHJvZHVjZWQgbmF0aW9uYWxseSBpbiAxOTgyLCBCdWQgTGlnaHQgaXMgYnJld2VkIHVzaW5nIGEgYmxlbmQgb2YgZG9tZXN0aWMgYW5kIGltcG9ydGVkIGhvcHMgYXMgd2VsbCBhcyBhIGNvbWJpbmF0aW9uIG9mIGJhcmxleSBtYWx0cyBhbmQgcmljZS4gSXQgY29udGFpbnMgbW9yZSBtYWx0IGFuZCBob3BzIGJ5IHJhdGlvIG9mIGluZ3JlZGllbnRzIHRoYW4gQnVkd2Vpc2VyLCB3aGljaCBnaXZlcyB0aGUgYnJldyBhIGRpc3RpbmN0aXZlbHkgY2xlYW4gYW5kIGNyaXNwIHRhc3RlLiIsImFidiI6NC4xOTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGlnaHQgTGFnZXIifX0seyJpZCI6IjMyNjkiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlNjcmF0Y2ggIzYgMjAwNyIsImRlc2NyaXB0aW9uIjoiT2xkIHdvcmxkIGJyZXdpbmcgdGVjaG5pcXVlcyBjb21iaW5lIHdpdGggTm9ibGUgaG9wcyBmb3IgU2NyYXRjaCAjNi0yMDA3LlxuVGhpcyBFeHBvcnQgTGFnZXIgZmVhdHVyZXMgYSBzaW5nbGUgc3RhZ2UgZGVjb2N0aW9uw6LigqzigJ1hIGZpcnN0IGZvciBUcsODwrZlZ3MgQnJld2VyeS4gQWZ0ZXIgY29tYmluaW5nIGJhcmxleSBhbmQgd2F0ZXIgd2UgdHJhbnNmZXIgYSBwb3J0aW9uIG9mIHRoZSBtYXNoIHRvIHRoZSBicmV3IGtldHRsZSBmb3IgYSBxdWljayBib2lsLiBUaGUgaGVhdGVkIG1hc2ggaXMgdGhlbiByZXR1cm5lZCB0byB0aGUgbWFzaCBrZXR0bGUgYW5kIHRoZSBicmV3aW5nIHByb2Nlc3MgY29udGludWVzLiBUaGlzIHByb2Nlc3MgZGVlcGVucyB0aGUgbWFsdCBjaGFyYWN0ZXIgYW5kIGFkZHMgYSBzdWJ0bGUgdG9mZmVlIGJhY2tib25lIHRvIHRoaXMgZGVsaWNpb3VzIGxhZ2VyLlxuXG5XZcOi4oKs4oSidmUgYWRkZWQgTWFnbnVtIGhvcHMgZm9yIGJpdHRlcmluZyBhbmQgQ3plY2ggU2FheiBob3BzIGZvciBhcm9tYSB0byBjcmVhdGUgYSBjbGFzc2ljIEV1cm9wZWFuIE5vYmxlIGhvcCBmbGF2b3IuIFxuXG5TY3JhdGNoICM2LTIwMDcgaXMgdW5maWx0ZXJlZCwgc28gdGhlcmUgd2lsbCBiZSBhIHNsaWdodCBoYXplIHRvIHRoZSBiZWVyLiIsImFidiI6NS4wOTk5OTk5MDQ2MzI1NjgsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI1NTkiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkdlbnVpbmUgTGFnZXIiLCJkZXNjcmlwdGlvbiI6Ik9yaWdpbmFsbHkgaW50cm9kdWNlZCBpbiAxOTkyLCBHZW51aW5lIExhZ2VyIGhhcyBldm9sdmVkIGludG8gYSB0cnVseSBkZWZpbml0aXZlIENhbmFkaWFuIExhZ2VyLiBCYWxhbmNpbmcgYSBibGVuZCBvZiBxdWFsaXR5IGFyb21hdGljIGFuZCBiaXR0ZXJpbmcgaG9wcyB3aXRoIGl0cyBtZWRpdW0gYm9keSwgR2VudWluZSBMYWdlciBpcyBhIHNtb290aCwgcmVmcmVzaGluZyBhbmQgZWFzeS1kcmlua2luZyBiZWVyIHdpdGggYSBzdWJ0bGUgaG9wIGFyb21hIGFuZCBhIGhpbnQgb2YgbWFsdHkgc3dlZXRuZXNzLiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIzNTMxIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJDb29wZXJzIFByZW1pdW0gTGlnaHQiLCJkZXNjcmlwdGlvbiI6IkNvb3BlcnMgUHJlbWl1bSBMaWdodCBpcyBicmV3ZWQgdXNpbmcgbWFsdGVkIGJhcmxleSBhbmQgbm8gc3VnYXIuICBDb29wZXJzIGhhcyB1c2VkIHRyYWRpdGlvbmFsIGxhZ2VyIGJyZXdpbmcgdGVjaG5pcXVlcyB0byBwcm9kdWNlIGEgZnVsbC1mbGF2b3VyZWQgbGlnaHQgYmVlci4gIFRoZSBsaWdodCBoYXMgYSBmcmVzaCBhcm9tYSB3aXRoIGNsZWFuIGZsb3JhbCBob3Agbm90ZXMsIGV4Y2VsbGVudCBoZWFkIGFuZCBjb2xvdXIgcHJlc2VudGF0aW9uLiIsImFidiI6Mi45MDAwMDAwOTUzNjc0MzE2LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIyNTM0IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJDb29ycyBMaWdodCIsImRlc2NyaXB0aW9uIjoiQ29vcnMgTGlnaHQgaXMgQ29vcnMgQnJld2luZyBDb21wYW55J3MgbGFyZ2VzdC1zZWxsaW5nIGJyYW5kIGFuZCB0aGUgZm91cnRoIGJlc3Qtc2VsbGluZyBiZWVyIGluIHRoZSBVLlMuIEludHJvZHVjZWQgaW4gMTk3OCwgQ29vcnMgTGlnaHQgaGFzIGJlZW4gYSBmYXZvcml0ZSBpbiBkZWxpdmVyaW5nIHRoZSB1bHRpbWF0ZSBpbiBjb2xkIHJlZnJlc2htZW50IGZvciBtb3JlIHRoYW4gMjUgeWVhcnMuIFRoZSBzaW1wbGUsIHNpbHZlci10b25lZCBjYW4gY2F1Z2h0IHBlb3BsZSdzIGF0dGVudGlvbiBhbmQgdGhlIGJyZXcgYmVjYW1lIG5pY2tuYW1lZCB0aGUgXCJTaWx2ZXIgQnVsbGV0XCIgYXMgc2FsZXMgY2xpbWJlZC4iLCJhYnYiOjQuMTk5OTk5ODA5MjY1MTM3LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIyOTQ2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJEYXJrIExhZ2VyIiwiZGVzY3JpcHRpb24iOiJBIEdlcm1hbi1zdHlsZSBNdW5pY2ggRHVlbmtsZS4gIERhcmsgYW5kIHNtb290aC4gIFJlbGVhc2UgZGF0ZTogIEZlYnJ1YXJ5IDEuIiwiYWJ2Ijo2LjA5OTk5OTkwNDYzMjU2OCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzkyNiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiVGhlIExpdmVyeSBEdW5rZWwgV2VpemVuIiwiZGVzY3JpcHRpb24iOiJUaGlzIGRhcmsgdmVyc2lvbiBvZiBvdXIgSGVmZSBXZWl6ZW4gcmV0YWlucyB0aGUgYmFuYW5hIGFuZCBjbG92ZSBmbGF2b3JzIGZyb20gdGhlIHllYXN0IGFuZCBhbHNvIGhhcyBhIHJpY2hlciBtYWx0IGZsYXZvci4gQXZhaWxhYmxlIE5vdmVtYmVyIHRocm91Z2ggQXByaWwiLCJhYnYiOjUuMjUsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIyOTA2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJHcm9sc2NoIER1bmtlbCBXZWl6ZW4iLCJkZXNjcmlwdGlvbiI6Ikdyb2xzY2ggRHVua2VsIFdlaXplbiBpcyB0aGUgZGFya2VyIHZlcnNpb24gb2YgR3JvbHNjaCBQcmVtaXVtIFdlaXplbi4iLCJhYnYiOjUuNSwic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 20:42:13 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=472
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:42:48 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0e02210a40205f2b35194742dd71ad90"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0644436d-a1f2-4701-ba32-4de914d2c168
+      X-Runtime:
+      - '0.583903'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"80","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":472,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:42:48 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=80
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:42:49 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"db5b0625f30d5b3116de024cc0679802"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 55285a17-5a8e-4208-b7a8-e8a37f3e8351
+      X-Runtime:
+      - '0.026648'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjM1MDAiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkRpcnR5IEJsb25kIiwiZGVzY3JpcHRpb24iOiJNYWRlIHdpdGggdW5tYWx0ZWQgd2hlYXQsIGNvcmlhbmRlciBhbmQgb3JhbmdlIHBlZWwgdG8gaGVscCB5b3UgbGl2ZSBzbWFydCBhbmQgZW5qb3kgZXZlcnlkYXkhIiwiYWJ2Ijo0LjUsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIzMDMxIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJQYWPDg8KtZmljbyBDbGFyYSIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjQwNzIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlJveWFsIENoYWxsZW5nZSIsImRlc2NyaXB0aW9uIjoiUm95YWwgQ2hhbGxlbmdlIFByZW1pdW0gTGFnZXIgaXMgdGhlIHNlY29uZCBsYXJnZXN0IHNlbGxpbmcgbWlsZCBiZWVyIGluIEluZGlhLiBSb3lhbCBDaGFsbGVuZ2UgaXMgYnJld2VkIHdpdGggdGhlIGNob2ljZXN0IDYgbWFsdCBiYXJsZXkuIEl0cyBsb25nIGJyZXcgZHVyYXRpb24gcHJvdmlkZXMgaXQgd2l0aCBhIGRpc3RpbmN0LCBzbW9vdGggdGFzdGUgYW5kIHJpY2ggZmxhdm91ci4gSXQgaGFzIGFsbCB0aGUgaGFsbCBtYXJrcyBvZiBhIGdyZWF0IGJlZXIgLSBDb2xvciB0aGF0IGlzIGdvbGRlbiBob25leSwgdGFzdGUgdGhhdCBpcyBzbW9vdGggYW5kIGNyaXNwLCBsYWNlIHRoYXQgc3RpY2tzIHRvIHRoZSB3YWxsIG9mIHRoZSBnbGFzcy4gUm95YWwgQ2hhbGxlbmdlIFByZW1pdW0gTGFnZXIgaXMgdGhlIGJlZXIgZm9yIHRoZSBkaXNjZXJuaW5nIHdobyBoYXZlIHRoZSBjb25maWRlbmNlIHRvIG1ha2UgdGhlaXIgY2hvaWNlcyBiYXNlZCBvbiB0aGVpciBzdXBlcmlvciB0YXN0ZSBhbmQga25vd2xlZGdlIHJhdGhlciB0aGFuIGZvbGxvdyB0aGUgY3Jvd2QuXG5cblxuaHR0cDovL3d3dy5zYWJtaWxsZXIuaW4vYnJhbmRzX3JveWFsLWNoYWxsZW5nZS5odG1sIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjcyNyIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiUHJlbWl1bSBMaWdodCBMYWdlciIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI0ODQiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkljZWhvdXNlIiwiZGVzY3JpcHRpb24iOiJBbWVyaWNhJ3MgZmlyc3QgZG9tZXN0aWMgaWNlIGJlZXIsIEljZWhvdXNlIGlzIHRyYWRpdGlvbmFsbHkgYnJld2VkLCBmZXJtZW50ZWQgYW5kLCBqdXN0IGJlZm9yZSBhZ2luZywgaXRzIHRlbXBlcmF0dXJlIGlzIGxvd2VyZWQgdG8gYmVsb3cgZnJlZXppbmcuIFRoaXMgcHJvY2VzcyBpbXBhcnRzIHRoZSBiZWVyJ3Mgc21vb3RobmVzcyBhbmQgYW4gYWxjb2hvbCBjb250ZW50IHRoYXQncyBzbGlnaHRseSBoaWdoZXIgKDUuNSUgYnkgdm9sdW1lKSB0aGFuIG90aGVyIHJlZ3VsYXIgcHJlbWl1bSBiZWVyIGJyYW5kcy4gSWNlaG91c2Ugd2FzIGludHJvZHVjZWQgaW4gMTk5MyBhbmQgaGFzIHJlaW5mb3JjZWQgaXRzIHBvc2l0aW9uIGFzIHRoZSB1bHRpbWF0ZSBiZWVyIGZvciB3aW5kLXVwIGFuZCBwcmUtZ2FtZSBvY2Nhc2lvbnMuIEJsZW5kaW5nIGh1bW9yIGFuZCBoaWdoLWVuZXJneSBleGNpdGVtZW50LCBJY2Vob3VzZSBtYXJrZXRpbmcgZW5jb3VyYWdlcyBpdHMgdGFyZ2V0IGNvbnN1bWVycyB0byB0YWtlIG9jY2FzaW9ucyB0byB0aGUgbmV4dCBsZXZlbCB3aXRoIGEgZ3JlYXQtdGFzdGluZyBiZWVyLiIsImFidiI6NS41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiI3OTgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlNpcml1cyIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo3LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgQ3JlYW0gQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIzMDM2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJNaWNoZWxvYiBVbHRyYSIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjE5OTk5OTgwOTI2NTEzNywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMjUyMSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiVmljdG9yeSBMYWdlciIsImRlc2NyaXB0aW9uIjoiUGVyZmVjdGx5IGJhbGFuY2VkLCB0aGlzIGF1dGhlbnRpYyB2ZXJzaW9uIG9mIGEgR2VybWFuIGhlbGxlcy1zdHlsZSBsYWdlciBzYXRpc2ZpZXMgZ2xvcmlvdXNseS4gTGVhbiwgR2VybWFuIG1hbHRzIGFuZCBmaW5lIEV1cm9wZWFuIGhvcHMgb2ZmZXIgc3VidGxlIGhhcm1vbnkuIiwiYWJ2Ijo0LjgwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzAyMSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQnVkIERyeSIsImRlc2NyaXB0aW9uIjoiSW50cm9kdWNlZCBpbiAxOTg5IEJ1ZCBEcnkgaXMgdGhlIGZpcnN0IGRyeS1icmV3ZWQgYmVlciBwcm9kdWNlZCBieSBhbiBBbWVyaWNhbiBicmV3ZXIuIEl0IGlzIGJyZXdlZCB3aXRoIHNlbGVjdCBob3BzLCBncmFpbnMgYW5kIGJhcmxleSBtYWx0LCB3aGljaCByZXN1bHRzIGluIGEgbGlnaHRlciBib2R5IGFuZCBsZXNzLXN3ZWV0IHRhc3RlLiBBcyB3aXRoIGFsbCBBbmhldXNlci1CdXNjaCBiZWVycywgaXQgaXMgY29sZC1maWx0ZXJlZCBmb3IgYSBzbW9vdGggZHJhZnQgdGFzdGUsIGJ1dCB0aGVuIGdvZXMgdGhyb3VnaCBhIHNlY29uZCBjb2xkLWZpbHRlcmVkIGZpbmlzaGluZyBwcm9jZXNzIHRvIHByb3ZpZGUgaXRzIHVuaXF1ZSB0YXN0ZS4iLCJhYnYiOjUuMCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMaWdodCBMYWdlciJ9fV19
+  recorded_at: Thu, 10 Jun 2021 20:42:49 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=487
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:10:02 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ce85e6e667ab4b3fd0575b009d68f415"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5ce07fa6-c386-4a4e-9cec-d05512f76b38
+      X-Runtime:
+      - '0.741919'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"89","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":487,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:10:02 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=498
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:14:41 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"6cb8889c75b46f1882341192ec74a1d5"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - cc697dc6-6392-46b9-b9c5-b4f335814e97
+      X-Runtime:
+      - '0.638904'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"93","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":498,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:14:41 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=93
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:14:41 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"13b121743742e5bb2b4f27b00f712aca"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ed42c625-8356-4365-bd1b-9fd4880a3471
+      X-Runtime:
+      - '0.028347'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjM1NzEiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlBvb3IgUmljaGFyZCdzIFRhdmVybiBTcHJ1Y2UgQWxlIiwiZGVzY3JpcHRpb24iOiJCcmV3ZWQgdG8gY2VsZWJyYXRlIEJlbidzIDMwMHRoIGJpcnRoZGF5LlxuXG5XaGV0aGVyIEJlbiBGcmFua2xpbiBldmVyIHNhaWQsIFwiQmVlciBpcyBsaXZpbmcgcHJvb2YgdGhhdCBHb2QgbG92ZXMgdXMgYW5kIHdhbnRzIHVzIHRvIGJlIGhhcHB5XCIgaXMgdXAgZm9yIGRlYmF0ZS4gU29tZSBzYXkgaGUgc2FpZCBpdCwgb3RoZXJzIHNheSBoZSBkaWRuJ3QuIE5vIG9uZSBrbm93cyBmb3Igc3VyZS4gXG5cbkhpc3RvcmljYWwgZmFjdHMgb3IgZmljdGlvbnMgYXNpZGUsIFlhcmRzIEJyZXdpbmcgQ29tcGFueSBoYXMgcmVjcmVhdGVkIFBvb3IgUmljaGFyZCdzIFRhdmVybiBTcHJ1Y2UgQWxlw6LigJ7CoiB0byBjZWxlYnJhdGUgRnJhbmtsaW4ncyBhZmZpbml0eSBmb3IgZmluZSBhbGVzLiBQb29yIFJpY2hhcmQncyBUYXZlcm4gU3BydWNlIEFsZSBpcyBiYXNlZCBvbiBGcmFua2xpbidzIG9yaWdpbmFsIHJlY2lwZSwgd2hpY2ggY2FsbGVkIGZvciBzcHJ1Y2UgZXNzZW5jZSBhbmQgbW9sYXNzZXMsIGFzIGJhcmxleSBhbmQgaG9wcyB3ZXJlIG5vdCByZWFkaWx5IGF2YWlsYWJsZSBhdCB0aGUgdGltZS5cblxuRW5qb3kgYSB0YXN0ZSBvZiBoaXN0b3J5IGNvdXJ0ZXN5IG9mIFlhcmRzIEJyZXdpbmcgQ29tcGFueSwgUGhpbGFkZWxwaGlhJ3MgcHJlbWllciBicmV3ZXIgYW5kIGJvdHRsZXIuIiwiYWJ2Ijo1LjAsInN0eWxlIjoiSGVyYiBhbmQgU3BpY2UgQmVlciJ9fSx7ImlkIjoiNjIzIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJMaWdodGhvdXNlIEFsZSIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjQwMDAwMDA5NTM2NzQzMiwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzE3MCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiUmVkIERvZyIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGlnaHQgTGFnZXIifX0seyJpZCI6IjI5MjUiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJvdWxldmFyZCBVbmZpbHRlcmVkIFdoZWF0IiwiZGVzY3JpcHRpb24iOiJCb3VsZXZhcmQgVW5maWx0ZXJlZCBXaGVhdCBCZWVyIGlzIGEgbGl2ZWx5LCByZWZyZXNoaW5nIGFsZSB3aXRoIGEgbmF0dXJhbGx5IGNpdHJ1c3kgZmxhdm9yIGFuZCBkaXN0aW5jdGl2ZSBjbG91ZHkgYXBwZWFyYW5jZS4gVGhpcyBlYXN5LWRyaW5raW5nIEFtZXJpY2FuLXN0eWxlIHdoZWF0IGJlZXIgaGFzIGJlY29tZSBvdXIgbW9zdCBwb3B1bGFyIG9mZmVyaW5nLCBhbmQgdGhlIGJlc3Qtc2VsbGluZyBjcmFmdCBiZWVyIGluIHRoZSBNaWR3ZXN0LiIsImFidiI6NC41LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzcyNyIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiTW9udGVpdGgncyBTdW1tZXIgQWxlIiwiZGVzY3JpcHRpb24iOiJNb250ZWl0aMOi4oKs4oSicyBTdW1tZXIgQWxlIGlzIGEgcmVmcmVzaGluZ2x5IGRpZmZlcmVudCBiZWVyLiBUaGUgb3Bwb3J0dW5pdHkgdG8gcmVkaXNjb3ZlciBzb21lIGZsYXZvdXIgaGlnaGxpZ2h0cyBvZiBiZWVyIHN0eWxlcyBlbmpveWVkIG9uIHN1bW1lciBkYXlzIHBhc3QsIGFuZCBicmluZyB0aGVtIGJhY2sgdG8gbGlmZS5cblxuQXQgdGhlIGVuZCBvZiBsYXN0IGNlbnR1cnksIGluIEVuZ2xhbmQsIEV1cm9wZSBhbmQgdGhlIEFtZXJpY2FzIGFuZCBpbiBOZXcgWmVhbGFuZCwgdGhlcmUgd2FzIHN0aWxsIGFuIGFkaGVyZW5jZSB0byBicmV3IHdpdGggYmFybGV5LCB3aG9sZXNvbWUgZ3JhaW5zLCBob3BzIGFuZCBvdGhlciB0cmFkaXRpb25hbCBicmV3aW5nIHNwaWNlcy5cblxuTW9udGVpdGjDouKCrOKEonMgU3VtbWVyIEFsZSBpcyBhIGJyaWdodCBnb2xkIGJlZXIgd2l0aCBncmVhdCBib2R5IGZyb20gZm91ciBkaWZmZXJlbnQgbWFsdHMuIFNwaWNlZCB3aXRoIGEgc2luZ2xlIGhvcCB2YXJpZXR5IGFuZCBhIHRvdWNoIG9mIGhpc3RvcnkgLSBhIGxpdHRsZSBSYXRhIGhvbmV5LiBTdWJ0bGUsIGJ1dCBlbm91Z2ggdG8gbWFrZSBhbGwgdGhlIGRpZmZlcmVuY2UuIFRoZSByZXN1bHQgaXMgYSB0cnVseSByZWZyZXNoaW5nIGhlcmJhbCBzcGljZWQgYmVlciBicmV3ZWQgZm9yIHRoZSBTdW1tZXIgU2Vhc29uIMOi4oKs4oCdIGEgc3BsZW5kaWQgdGhpcnN0IHF1ZW5jaGVyLlxuXG5Nb250ZWl0aMOi4oKs4oSicyBTdW1tZXIgQWxlIGVuam95ZWQgaWNlLWNvbGQgd2l0aCBhIHNpbXBsZSByYW5nZSBvZiBmcnVpdHMsIHBlcmhhcHMgcmVmcmVzaGluZyB3ZWRnZSBvZiBvcmFuZ2Ugb3IgbGltZS4gQWx0ZXJuYXRpdmVseSwgbWF0Y2ggd2l0aCBzdW1tZXIgc2FsYWRzIGFuZCBzdGlyLWZyeXMgdG8gY29tcGxlbWVudCB0aGUgbGlnaHQgZmxhdm91cnMuIiwiYWJ2Ijo1LjAsInN0eWxlIjoiSGVyYiBhbmQgU3BpY2UgQmVlciJ9fSx7ImlkIjoiMzAzNSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiTWljaGVsb2IgSG9uZXkgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NC45MDAwMDAwOTUzNjc0MzIsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjE3NiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQm95cyBvZiBTdW1tZXIgV2hlYXQiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6My41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI0MDkzIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJXYXNhdGNoIDFzdCBBbWVuZG1lbnQgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IkEgdHVybiBvZiB0aGUgY2VudHVyeSBwdXJlIG1hbHQsIGNyaXNwIGxhZ2VyLiAxc3QgQW1lbmRtZW50IExhZ2VyIGlzIG1hZGUgd2l0aCBFdXJvcGVhbiBzdHlsZSBob3BzIGFuZCBNdW5pY2ggbWFsdHMuIFRoaXMgYmVlciBoYXMgYSB3b25kZXJmdWwsIGNsZWFuLCBjcmlzcCBmbGF2b3IgY2VydGFpbiB0byBwbGVhc2UgYWxsLiIsImFidiI6NC4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIzMjMzIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJTYXJhbmFjIFNlYXNvbidzIEJlc3QiLCJkZXNjcmlwdGlvbiI6IkJyZXdlZCB3aXRoIGEgc3BlY2lhbCBibGVuZCBvZiBkb21lc3RpYyBhbmQgQmVsZ2lhbiBtYWx0cyBmb3IgYSBkZWxpY2F0ZSBudXQtbGlrZSBjaGFyYWN0ZXIsIHlvdSdsbCBsb3ZlIHRoaXMgTGFnZXIncyByaWNoIHRhc3RlIGFuZCBzaWduYXR1cmUgaG9wIGFyb21hLiBUaGUgZXhjZXB0aW9uYWwgZnVsbC1ib2RpZWQgdGFzdGUgcmVmbGVjdHMgb3VyIEJyZXdlcnkncyBleHRyYW9yZGluYXJ5IGNvbW1pdG1lbnQgdG8gYnJld2luZyBiZWVycyBvZiB0aGUgaGlnaGVzdCBzdGFuZGFyZCBvZiBxdWFsaXR5LiIsImFidiI6NS4zMDAwMDAxOTA3MzQ4NjMsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 22:14:41 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=509
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:15:24 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d700ffbdef0df14e108aa49ea5ca7b87"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c76bfe43-b650-4bbc-bde3-b91f5074f642
+      X-Runtime:
+      - '0.657669'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"97","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":509,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:15:25 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=97
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:15:24 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c049ed31e907b172f89b431900f168d4"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d1ea7caa-3786-41a3-b71f-4ef4fbe8a6d9
+      X-Runtime:
+      - '0.059419'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjgxNiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiRGFyayBQaWxzZW5lciIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo1LjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM5MDMiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IldoaXRlIE1hZ2ljayBvZiB0aGUgU3VuIiwiZGVzY3JpcHRpb24iOiJUaGlzIFdoZWF0IGFsZSBpcyBtYWRlIHdpdGggYSBsaXR0bGUgVm9vZG9vIFR3aXN0LiBXZSB1c2Ugb3VyIGhvdXNlIEJlbGdpYW4gQWxlIHllYXN0IGFuZCBhZGQgdGhlIGF2ZXJhZ2UgdW5tYWx0ZWQgd2hlYXQsIHdoZWF0LCBiYXJsZXkscmF3IG9hdHMsIG1hbHRlZCByeWUgYW5kIGp1c3QgYWRkIG1vcmUgb2YgZWFjaC4gSG9wcGVkIGV2ZW5seSBhbmQgc3BpY2VkIHdpdGggY29yaWFuZGVyLCBiaXR0ZXIgYW5kIHN3ZWV0IG9yYW5nZSBwZWVsLCBqdW5pcGVyIGJlcnJpZXMsIDEyIHZhcmlldGllcyBvZiBwZXBwZXJjb3JucyxsZW1vbiBncmFzcyBhbmQgY2FyYXdheS4gQWJvdXQgNi43NSUgYWxjIGJ5IHZvbC4gXG5cbkJvdHRsZSBDb25kaXRpb25lZCBhbmQgUmVmZXJtZW50ZWQuICBOT1QgQSBXSVQgQklFUiEhISBKdXN0IHN0dWZmIHdlIGxpa2UgaW4gYmVlciB0aGF0IGdvZXMgZ3JlYXQgd2l0aCBmb29kLiBcblxuVGhpcyBiZWVyIGlzIHRvIGJlIHRoZSBhbnN3ZXIgdG8gdGhvc2UgaG90IHN1bW1lciBkYXlzLiBCbG93cyBhd2F5IGNhcmJvbmF0ZWQgd2F0ZXIhISEhISIsImFidiI6Ni43NSwic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjU3MCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiRmVhdGhlcndlaWdodCBMYWdlciIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjA5OTk5OTkwNDYzMjU2OCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiNDA0OSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiRG91YmxlIFdoaXRlIiwiZGVzY3JpcHRpb24iOiJXaGF0IGRvIGJyZXdtYXN0ZXJzIGRvIGluIHRoZWlyIGZyZWUgdGltZT8gSWYgeW91J3JlIFBoaWwgTWFya293c2tpLCB0aGUgb2JzZXNzZWl2ZSBicmV3bWFzdGVyIG9mIFNvdXRoYW1wdG9uLCB5b3UgYnJldyBhdCBob21lLCBvZiBjb3Vyc2UhIFBoaWwgdHVybmVkIGhpcyBmYXNjaW5hdGlvbiB3aXRoIEJlbGdpYW4tc3R5bGUgd2hpdGUgYWxlcyBpbnRvIGEgcXVlc3QgdG8gbWFzdGVyIG9uZSBvZiB0aGUgbW9zdCBjaGFsbGVuZ2luZyBiZWVycyB0byBicmV3LiBVc2luZyBydXN0aWMgaW5ncmVkaWVudHMgbGlrZSB1bi1tYWx0ZWQgd2hlYXQsIFBoaWwgZXhwZXJpbWVudGVkIG92ZXIgaGlzIHN0b3ZlIHVudGlsIGhlIGZlbHQgaXQgd2FzIHBlcmZlY3QuIFRha2Ugb25lIHRhc3RlIGFuZCB5b3UnbGwgYWdyZWUsIFBoaWwgZ290IGl0IFwid2hpdGUuXCIiLCJhYnYiOjYuNTk5OTk5OTA0NjMyNTY4LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzczNSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiRXN0cmVsbGEgRGFtbSIsImRlc2NyaXB0aW9uIjoiRXN0cmVsbGEgbWVhbnMgc3RhciBpbiBTcGFuaXNoIGFuZCBhcyBpdHMgbmFtZSBzdWdnZXN0cyB0aGUgYnJhbmQgaGFzIGJlY29tZSBhIHN0YXIgdG8gdGhlIHBlb3BsZSBvZiBCYXJjZWxvbmEuIEl0IGhhcyBldm9sdmVkIHdpdGggdGhlIGNpdHkgcmVmbGVjdGluZyBpdHMgY2hhcmFjdGVyIC0gc29waGlzdGljYXRlZCBhbmQgcGFzc2lvbmF0ZSB5ZXQgYXQgdGhlIHNhbWUgdGltZSByZWxheGVkIGFuZCB3ZWxjb21pbmcuIiwiYWJ2Ijo0LjU5OTk5OTkwNDYzMjU2OCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzY1MiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiU2hpbmVyIEJvaGVtaWFuIEJsYWNrIExhZ2VyIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjQuOTAwMDAwMDk1MzY3NDMyLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIxMTEiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlN1bnNoaW5lIFdoZWF0IiwiZGVzY3JpcHRpb24iOiJTVU5TSElORSBXSEVBVCBpcyBhIGdyZWF0IGJlZXIgZm9yIHRyb3VuY2luZyB0aGlyc3QuICBZZXQsIGl0IGhhcyBhIGRlcHRoIG9mIGNoYXJhY3RlciB0aGF0IGluc3BpcmVzIGEgcXVpZXQgbW9tZW50w6LigqzihKJzIHJlZmxlY3Rpb24uIFN1bnNoaW5lIFdoZWF0IHN3aXJscyBpbiB0aGUgbW91dGggd2l0aCByaXBwbGVzIG9mIGNvcmlhbmRlciBhbmQgb3JhbmdlIHBlZWwgdGFydG5lc3MsIHNldHRsaW5nIG5pY2VseSBpbnRvIGEgdHJhbnF1aWwgc2VhIG9mIGFwcGxlIGFuZCBob25leSB0b25lcy4gIEEgZmlsdGVyZWQgd2hlYXQgYmVlciwgU3Vuc2hpbmUgb2ZmZXJzIGEgY3Jpc3AsIHJlZnJlc2hpbmcgYWx0ZXJuYXRpdmUgdG8gaGVhdmllci1ib2RpZWQgaGVmZmUtd2VpemVucy4iLCJhYnYiOjQuODAwMDAwMTkwNzM0ODYzLCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiNjEyIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJXZXhmb3JkIElyaXNoIENyZWFtIEFsZSIsImRlc2NyaXB0aW9uIjoiQmFzZWQgb24gYSB0cmFkaXRpb25hbCBJcmlzaCByZWNpcGUgZnJvbSBjb3VudHkgV2V4Zm9yZCB0aGF0IGRhdGVzIGJhY2sgdG8gMTgxMCwgd2UgdXNlIG9ubHkgdGhlIGJlc3QgaW5ncmVkaWVudHMgdG8gZW5zdXJlIHRoYXQgb3VyIFdleGZvcmQgQWxlIGhhcyBhIHNtb290aCBtZWxsb3cgY3JlYW1pbmVzcyB3ZSBiZWxpZXZlIHlvdSB3aWxsIGVuam95LiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIENyZWFtIEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMTM0OSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiRmxhdCBCZWxseSBBbWVyaWNhbiBXaGVhdCIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2IjozLjU5OTk5OTkwNDYzMjU2ODQsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 22:15:25 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=520
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:23:44 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d3c011d2474eac7276fd40e553e8f9ed"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0b849bcb-37eb-4f79-a305-c21177976a8d
+      X-Runtime:
+      - '0.608571'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"103","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":520,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:23:44 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=103
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:23:43 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"140bf722d02aa3d00d49b086fe024aad"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0d5ec7c5-4bcc-4a94-9ebf-66684d9b09fa
+      X-Runtime:
+      - '0.021422'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjI3NTIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlJhc3BiZXJyeSBXaGVhdCIsImRlc2NyaXB0aW9uIjoiQSBnb2xkZW4gd2hlYXQgYmVlciBicmV3ZWQgd2l0aCB0aGUgZmluZXN0IE5vcnRoIEFtZXJpY2FuIG1hbHRlZCBiYXJsZXkgYW5kIHdoZWF0LiAgSXQncyB0aGVuIGxpZ2h0bHkgaG9wcGVkIHdpdGggdGhlIGNob2ljZXN0IEV1cm9wZWFuIHZhcmlldGllcy4gIFRoZSBzbW9vdGgsIGNyaXNwIGdvbGRlbiB3aGVhdCBiZWVyIGlzIHRoZW4gZmluaXNoZWQgd2l0aCBhIGhpbnQgb2YgcmFzYmVycnkuICBFbmpveSB0aGlzIGJlZXIgYW55IHRpbWUgb2YgdGhlIHllYXIuIiwiYWJ2Ijo0LjUsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIzNzI0IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJEZWx0YSBBbGUiLCJkZXNjcmlwdGlvbiI6IkEgcGl0Y2ggYmxhY2sgc3RvdXQgbWFkZSB3aXRoIGdpbmdlciwgY2lubmFtb24gYW5kIGEgdG91Y2ggb2YgbW9sYXNzZXMuIFRoaXMgbWVkaXVtw6LigqzigJxib2RpZWQgYWxlIGhhcyBmbGF2b3JzIG9mIGRhcmsgY2hvY29sYXRlLCByb2FzdGVkIGNvZmZlZSBiZWFucyBhbmQgZ2luZ2VyIHNuYXAgY29va2llcy4iLCJhYnYiOjcuODAwMDAwMTkwNzM0ODYzLCJzdHlsZSI6IkhlcmIgYW5kIFNwaWNlIEJlZXIifX0seyJpZCI6IjM0NTgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik1hcnplbiIsImRlc2NyaXB0aW9uIjoiVGhlIG5hbWUgc2F5cyBpdCBhbGwsIHlvdSB3YW50IEdlcm1hbiB0aGlzIGlzIGl0LiIsImFidiI6NS42OTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI3NTAiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkNhdWxmaWVsZCdzIFJ5ZSIsImRlc2NyaXB0aW9uIjoiT3VyIHJ5ZSBiZWVyIGlzIG1hZGUgd2l0aCAyMCUgZmxha2VkIHJ5ZSBhbmQgcnllIG1hbHQuIFRoZSBhZGRpdGlvbiBvZiByeWUgY3JlYXRlcyBhIGRyeSwgc3BpY3kgZmxhdm9yIHdpdGggYSBjcmlzcCwgZ3JhaW55IGFyb21hLiBXZSB3ZW50IHdpdGggYSBsaWdodGVyIGNvbG9yIGFuZCBsb3dlciBiaXR0ZXJuZXNzIHRvIGNvbXBsaW1lbnQgdGhlc2UgZmxhdm9ycy4gSXQgaGFzIGFuIGFsY29ob2wgY29udGVudCBvZiBhcm91bmQgNC45JS4iLCJhYnYiOjQuOTAwMDAwMDk1MzY3NDMyLCJzdHlsZSI6IkFtZXJpY2FuIFJ5ZSBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjE1NiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiSG9uZXkgQnVubnkgQmxvbmRlIEFsZSIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo1LjgwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiODE2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJEYXJrIFBpbHNlbmVyIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjUuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiNDAzNiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQmFsdGlrYSAjNSIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo1LjMwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzAyOCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiTWljaGVsb2IgQW1iZXIgQm9jayIsImRlc2NyaXB0aW9uIjoiXCJNaWNoZWxvYiBBbWVyQm9jayBpcyBBbWVyaWNhbi1zdHlsZSBib2NrIGJlZXIgd2l0aCBhIHJpY2gsIG1hbHR5IGFuZCBzbW9vdGggdGFzdGUgdGhhdCBpcyBoZWFydHkgYW5kIGZ1bGwtYm9kaWVkLCB5ZXQgZmluaXNoZXMgY2xlYW5seS4gQW5oZXVzZXItQnVzY2ggaW50cm9kdWNlZCB0aGlzIHByZW1pdW0tcGx1cyBiZWVyIG5hdGlvbmFsbHkgaW4gMTk5NS4iLCJhYnYiOjUuMTk5OTk5ODA5MjY1MTM3LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIzMTUxIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJFcmRpbmdlciBXZWl6ZW4iLCJkZXNjcmlwdGlvbiI6IlRoZSBmYW1vdXMgQmF2YXJpYW4gc3BlY2lhbHR5XG5cbkVyZGluZ2VyIFdlaXNzYmllciAnY3J5c3RhbCBjbGVhcicgaXMgcGFydGljdWxhcmx5IHdlbGNvbWUgYXMgYSB0YXN0eSB0aGlyc3QtcXVlbmNoZXIgZm9yIGhvdCBzdW1tZXIgZGF5cy5cblxuVGhpcyBzcGVjaWFsdHkgd2hlYXQgYmVlciBnZXRzIGl0cyAnY3J5c3RhbCBjbGVhcicgYXBwZWFyYW5jZSBmcm9tIGEgcGFydGljdWxhcmx5IGxvbmcgZmlsdHJhdGlvbiBwcm9jZXNzLCBrbm93biBpbiB0aGUgaW5kdXN0cnkgYXMgXCJmaW5lIGZpbHRyYXRpb25cIiwgd2hlcmVieSB0aGUgYmVlciBiZWNvbWVzIGNvbXBsZXRlbHkgY2xlYXIuXG5cblRoaXMgZ2l2ZXMgRXJkaW5nZXIgV2Vpc3NiaWVyICdjcnlzdGFsIGNsZWFyJyBpdHMgc3BhcmtsaW5nIGFuZCByZWZyZXNoaW5nIGNoYXJhY3RlciAtIHdoaWNoIGFsc28gbWFrZXMgaXQgdGhlIGlkZWFsIHdoZWF0IGJlZXIgZm9yIHdhcm0gc3VtbWVyIGRheXMuXG5cbkJyZXdlZCBpbiBzdHJpY3QgYWNjb3JkYW5jZSB3aXRoIG91ciBvd24gdHJhZGl0aW9uYWwgcmVjaXBlLCBFcmRpbmdlciBXZWlzc2JpZXIgJ2NyeXN0YWwgY2xlYXInIG1lZXRzIHRoZSBoaWdoZXN0IHF1YWxpdHkgc3RhbmRhcmRzIGFuZCBzYXRpc2ZpZXMgdGhlIG1vc3Qgc29waGlzdGljYXRlZCBwYWxhdGUuIiwiYWJ2Ijo1LjMwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 22:23:44 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=531
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:28:28 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b50dc728e1535f49fc50a6a9a304e7e9"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5b27f35f-20a3-4703-9e03-1e29bef65f60
+      X-Runtime:
+      - '0.613241'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"111","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":531,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:28:28 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=111
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:28:28 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b1ffea19d4d226b9140d4c663a33951c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0154a59b-bf0f-400e-933a-8246db263f08
+      X-Runtime:
+      - '0.059884'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"2578","type":"beer","attributes":{"name":"Pabst Blue
+        Ribbon Light","description":"PBR is not just any beer- so you would expect
+        the history to be a bit unusual, and it is. Pabst was originally called \"Select,\"
+        but people started asking for that \"Blue Ribbon\" beer in 1882 when we started
+        tying silk ribbons to the bottles. We officially added the words \"Blue Ribbon\"
+        to the bottle in 1895.\n\nPabst was the first brewery to put beer in cans
+        back in 1935. This was Blue Ribbon beer but it was called \"Export\" when
+        sold in the can. Our first cans had a picture of a can opener on the side
+        with instructions on how to open the can of beer, with the can opener.\n\nToday,
+        this classic American brew has been adopted by a whole new generation of PBR
+        drinkers. Currently, PBR is one of the fastest growing domestic beer brands.
+        When you''re this good, quality always comes through-PBR ME ASAP!","abv":4.190000057220459,"style":"American-Style
+        Light Lager"}},{"id":"2716","type":"beer","attributes":{"name":"American Wheat","description":"A
+        Silver Medal Winner in the American Hefenweizen category at the 2004 Great
+        American Beer Festival, our American Wheat has a crisp and refreshing flavor.","abv":4.699999809265137,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"3802","type":"beer","attributes":{"name":"Haywords
+        5000","description":"Launched in the year 1983, Haywards 5000 is synonymous
+        with strong beer in India. Haywards 5000 is brewed with the choicest of malts
+        and hops lending itself to a unique flavour profile to suit the Indian taste
+        and preference. Haywards 5000 is the hallmark of original and authentic strong
+        beer which other beer brands aspire for. With such credentials, it is not
+        surprising to see men get together over Haywards 5000. It is the language
+        of friendship amongst men who are proud of their masculinity and look forward
+        to a great time with their friends and peers .\n\nhttp://www.sabmiller.in/brands_haywards_5000.html","abv":7.5,"style":"American-Style
+        Lager"}},{"id":"1149","type":"beer","attributes":{"name":"Bartles and Lager","description":"","abv":4.0,"style":"American-Style
+        Lager"}},{"id":"1","type":"beer","attributes":{"name":"Hocus Pocus","description":"Our
+        take on a classic summer ale.  A toast to weeds, rays, and summer haze.  A
+        light, crisp ale for mowing lawns, hitting lazy fly balls, and communing with
+        nature, Hocus Pocus is offered up as a summer sacrifice to clodless days.\n\nIts
+        malty sweetness finishes tart and crisp and is best apprediated with a wedge
+        of orange.","abv":4.5,"style":"Light American Wheat Ale or Lager"}},{"id":"2948","type":"beer","attributes":{"name":"Cerveza
+        Sol","description":"","abv":4.5,"style":"American-Style Lager"}},{"id":"3928","type":"beer","attributes":{"name":"Ginger
+        Tom","description":"An old fashioned style ginger beer brewed naturally with
+        honey, malt, lemon and fresh root ginger, leaving you with a refreshing crisp
+        zesty flavour.","abv":4.0,"style":"Herb and Spice Beer"}},{"id":"3062","type":"beer","attributes":{"name":"Gumballhead","description":"Three
+        Floyds official summer beer highly dry hopped American wheat beer. Quite hoppy.
+        Gumballhead is brewed from red wheat and amarillo hops. It has a medium haze,
+        due to bottle conditioning; once the beer is bottled, extra yeast is added
+        for a secondary fermentation. The hops give off a pronounced citrus note on
+        the nose. Notes of bread - from the yeast - and a good malt undertone. Medium
+        carbonation.","abv":4.800000190734863,"style":"Light American Wheat Ale or
+        Lager"}},{"id":"4089","type":"beer","attributes":{"name":"Stiegl Leicht","description":"This
+        is a light beer with a full taste and a third less alcohol so therefore 30%
+        less calories. It is ideal for beer lovers who prefer light beers but do not
+        want to renounce the taste.","abv":3.299999952316284,"style":"American-Style
+        Light Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:28:28 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=542
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:50:37 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"eea5d1c0902706f5a1dc7f7115154f99"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d3038785-af7c-45d5-8528-a16c6b2de6f1
+      X-Runtime:
+      - '0.597676'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"115","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":542,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:50:37 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=115
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:50:36 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5bcbd5c79b38c28c435dd853703fbaf8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 17a81e21-d04a-41a7-9ddc-f551fbc977be
+      X-Runtime:
+      - '0.032283'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"3021","type":"beer","attributes":{"name":"Bud Dry","description":"Introduced
+        in 1989 Bud Dry is the first dry-brewed beer produced by an American brewer.
+        It is brewed with select hops, grains and barley malt, which results in a
+        lighter body and less-sweet taste. As with all Anheuser-Busch beers, it is
+        cold-filtered for a smooth draft taste, but then goes through a second cold-filtered
+        finishing process to provide its unique taste.","abv":5.0,"style":"American-Style
+        Light Lager"}},{"id":"3675","type":"beer","attributes":{"name":"Locke Mountain
+        Light","description":"Refreshing Light-Bodied Golden Lager","abv":3.700000047683716,"style":"American-Style
+        Light Lager"}},{"id":"2968","type":"beer","attributes":{"name":"Widmer W''08","description":"\"Our
+        Brewmasters'' Release - The three different red, caramelized, and dark wheat
+        malts give this beer an intense red color that runs as deep as the flavor.
+        The toasted grain flavors blend perfectly with the subtle spiciness of the
+        hops just as the entirety fades to a smooth quick finish. 2007 Great American
+        Beer Festival Silver Medal Award Winner.\"\n-Widmer Brothers Brewing Company","abv":4.900000095367432,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"3848","type":"beer","attributes":{"name":"Stinger
+        Wild Honey Wheat","description":"We put close to a half a pound of Colorado
+        honey per case in this wheat ale. The honey adds a sweetness and raises the
+        alcohol content slightly. We use Mount hood and hallertau hops.","abv":6.0,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"586","type":"beer","attributes":{"name":"Light
+        Lager","description":"","abv":3.5,"style":"American-Style Lager"}},{"id":"3142","type":"beer","attributes":{"name":"Summer
+        Solstice Cerveza Crema","description":"\"This copper colored ale is smooth,
+        malty, and lightly sweet, with a delicate hint of spice for that oh-so-drinkable,
+        extra velvety flavor.  The character is lighter in body than its cousin our
+        wildly popular Winter Solstice Seasonal Ale.  This is a silky, creamy dream,
+        perfect as a warm weather beer.\"","abv":5.599999904632568,"style":"American-Style
+        Cream Ale or Lager"}},{"id":"811","type":"beer","attributes":{"name":"Roggenbier","description":"","abv":5.5,"style":"American-Style
+        Lager"}},{"id":"2488","type":"beer","attributes":{"name":"Budweiser Select","description":"Bud
+        Select is a new beer offering a bold taste with a full and distinct flavor
+        that finishes clean. Budweiser Select was developed using two-row and roasted
+        specialty malts for a rich color. It offers excellent drinkability and a taste
+        that does not linger.","abv":4.300000190734863,"style":"American-Style Light
+        Lager"}},{"id":"354","type":"beer","attributes":{"name":"Island Lager","description":"","abv":5.0,"style":"American-Style
+        Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:50:37 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=553
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:58:01 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ad06d9a3f613b585fcddb2dad393d04c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 7c281e6e-9c1a-4f92-824f-e795dad8ea14
+      X-Runtime:
+      - '0.812436'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"119","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":553,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:58:01 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:58:01 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"53f2ce61f3a2e30b591482311e7db416"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 227391ce-141b-426b-987f-85df8dfb9962
+      X-Runtime:
+      - '0.131269'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjQwMjIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlJpdmVyIEhvcnNlIExhZ2VyIiwiZGVzY3JpcHRpb24iOiJXZSBtaWxsIHRoZSBjaG9pY2VzdCB0d28gcm93IGJhcmxleSBtYWx0IGluIG91ciAxMDAgeWVhciBvbGQgbWlsbCByb29tIGZvciB0aGlzIGFsbCBuYXR1cmFsLCB1bmZpbHRlcmVkIExhZ2VyLiBMaWdodGx5IGhvcHBlZCwgZmVybWVudGVkIHNsb3dseS4gUml2ZXIgSG9yc2UgTGFnZXIgZ2V0cyBwbGVudHkgb2YgcXVhbGl0eSB0aW1lIHdpdGggdXMgYmVmb3JlIHdlIHBhc3MgaXQgb24gdG8geW91LiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI0NDIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJsaW5kIFBpZyBEdW5rZWx3ZWl6ZW4iLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NC42OTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI5MjUiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJvdWxldmFyZCBVbmZpbHRlcmVkIFdoZWF0IiwiZGVzY3JpcHRpb24iOiJCb3VsZXZhcmQgVW5maWx0ZXJlZCBXaGVhdCBCZWVyIGlzIGEgbGl2ZWx5LCByZWZyZXNoaW5nIGFsZSB3aXRoIGEgbmF0dXJhbGx5IGNpdHJ1c3kgZmxhdm9yIGFuZCBkaXN0aW5jdGl2ZSBjbG91ZHkgYXBwZWFyYW5jZS4gVGhpcyBlYXN5LWRyaW5raW5nIEFtZXJpY2FuLXN0eWxlIHdoZWF0IGJlZXIgaGFzIGJlY29tZSBvdXIgbW9zdCBwb3B1bGFyIG9mZmVyaW5nLCBhbmQgdGhlIGJlc3Qtc2VsbGluZyBjcmFmdCBiZWVyIGluIHRoZSBNaWR3ZXN0LiIsImFidiI6NC41LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzg0IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJGb3N0ZXIgQ2hpbGQgQXVzdHJhbGlhbiBMYWdlciIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI1NjQiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlBlbm4gR29sZCIsImRlc2NyaXB0aW9uIjoiTmF0aW9uYWxseSBhY2NsYWltZWQgYXMgdGhlIGJlc3QgTXVuaWNoLXN0eWxlIGJlZXIgbWFkZSBpbiBBbWVyaWNhLiBQZW5uIEdvbGQgaXMgYSBsaWdodC1jb2xvcmVkLCBtZWRpdW0gYm9kaWVkIGxhZ2VyIGJlZXIgd2l0aCBhIGRlbGljYXRlIGhvcCBhcm9tYS4iLCJhYnYiOjQuMCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMjU3MCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiU3RvdWR0J3MgR29sZCBMYWdlciIsImRlc2NyaXB0aW9uIjoiU3RvdWR0J3MgR29sZCBMYWdlciBpcyB3aWRlbHkgcmVjb2duaXplZCBhcyBvbmUgb2YgdGhlIGZpbmVzdCBHZXJtYW4tc3R5bGUgYmVlcnMgYnJld2VkIGluIEFtZXJpY2EuICBCcmV3ZWQgd2l0aCB0aGUgZmluZXN0IHNwZWNpYWx0eSBtYWx0cyBhbmQgbm9ibGUgaG9wcywgdGhpcyBsaWdodCBib2RpZWQsIGVhc3kgZHJpbmtpbmcgbGFnZXIgZmVhdHVyZXMgYSBzdWJ0bGUgYmFsYW5jZSBvZiBzd2VldCBtYWx0IGFuZCBjbGVhbiBjcmlzcCBob3BzLiIsImFidiI6NC42OTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI0OTMiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik1vdW50YWluIExhZ2VyIiwiZGVzY3JpcHRpb24iOiJUaGUgRG9ydG11bmRlci1FeHBvcnQgc3R5bGUgb2YgYmVlciB3YXMgZGV2ZWxvcGVkIGluIFdlc3RmYWxlbiwgR2VybWFueSwgYW5kIGlzIGEgY2xhc3NpYyBsaWdodCBsYWdlciB3aXRoIGdyZWF0IGNoYXJhY3Rlci4gVGhpcyBzdHlsZSBib2FzdHMgYSBsaWdodCBnb2xkZW4gYmxvbmRlIGNvbG9yIGFuZCBleGhpYml0cyBhIG1vZGVyYXRlIGhvcCBwYWxhdGUuIFRoZSBmaW5pc2ggb2Ygb3VyIE1vdW50YWluIExhZ2VyIGlzIHJpY2ggeWV0IG1lbGxvdy5cbk91ciBicmV3ZXJzIGhhdmUgZGV2ZWxvcGVkIHRoaXMgYmVlciBhcyBhIHRyaWJ1dGUgdG8gdGhlIEFwcGFsYWNoaWFuIE1vdW50YWlucyB3aGVyZSB3ZSBsaXZlIGFuZCBwbGF5LiIsImFidiI6NC41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyOTYxIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJJcm9uIENpdHkiLCJkZXNjcmlwdGlvbiI6Iklyb24gQ2l0eSBoYXMgYmVlbiB0aGUgw6LigqzLnEJ1cmdow6LigqzihKJzIHNpZ25hdHVyZSBiZWVyIHNpbmNlIDE4NjEuIFRoaXMgcHJlbWl1bSBsYWdlciBoYXMgYmVjb21lIGEgcHJvdWQgdHJhZGl0aW9uIG9mIHRoZSBjaXR5IGFuZCBpdHMgcGVvcGxlLiBKdXN0IHRyeSB0byBpbWFnaW5lIGEgUGl0dHNidXJnaCBmb290YmFsbCwgYmFzZWJhbGwgb3IgaG9ja2V5IGdhbWUgd2l0aG91dCBhbiBpY2UgY29sZCBJcm9uLlxuXG5XZSBzdGlsbCBicmV3IElyb24gQ2l0eSBmcmVzaCBkYWlseSDDouKCrOKAnCBidXQgbm93LCBpbnN0ZWFkIG9mIGRlbGl2ZXJpbmcgaXQgdG8gUGl0dHNidXJnaCBuZWlnaGJvcmhvb2RzIGluIGhvcnNlLWRyYXduIGJ1Z2dpZXMsIHdlIGRlbGl2ZXIgaXQgdG8geW91ciBmYXZvcml0ZSBoYW5nb3V0cy4gWW91IGNhbiBnZXQgYW4gSXJvbiBhdCBuYXRpb25hbCByZXN0YXVyYW50IGNoYWlucywgdXBzY2FsZSBlYXRlcmllcywgYW5kIMOi4oKs4oCcIG9mIGNvdXJzZSDDouKCrOKAnCB5b3VyIGZhdm9yaXRlIGxvY2FsIGJhci4gWW91IGNhbiBhbHNvIGZpbmQgaXQgYXQgbW9yZSB0aGFuIDMzMCByZWdpb25hbCBiZWVyIGRpc3RyaWJ1dG9ycy4gQmVjYXVzZSBJcm9uIENpdHkgaXMgYnJld2VkIGxvY2FsbHksIGl0IGdvZXMgZnJvbSB0aGUgYnJld2VyeSB0byB5b3Ugd2l0aGluIGEgbWF0dGVyIG9mIGRheXMuIFlvdSB3b27DouKCrOKEonQgZmluZCBhIGZyZXNoZXIgYmVlciBhbnl3aGVyZSBpbiBQaXR0c2J1cmdoISIsImFidiI6NC41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIzMDY5IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJTdGFnZ2VyaW5nIEVsayIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 22:58:01 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=565
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:03:38 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b59afa2b26e876e3046f4762fb0c9906"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 87983687-83e6-4db8-9cd9-2f8e895c8409
+      X-Runtime:
+      - '0.696824'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"123","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":565,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 23:03:39 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=123
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:03:39 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"6a06558240518da32f1d0d55baac9535"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - cfdcfade-970b-41a5-b7c4-3def212054c0
+      X-Runtime:
+      - '0.116911'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"2851","type":"beer","attributes":{"name":"Juniper Pale
+        Ale","description":"Juniper Pale Ale: the new package for Yellow Snow Ale
+        (winter 2004/2005). While the recipe (a pale ale infused with whole juniper
+        berries) on the label remain the same, the name and label are new for 2005.
+        Juniper Pale Ale is available in the classic 22-ounce bottle and on draft.","abv":5.300000190734863,"style":"Herb
+        and Spice Beer"}},{"id":"3526","type":"beer","attributes":{"name":"Coopers
+        Premium Lager","description":"Coopers Premium Lager is quite different to
+        the famous Coopers ales.  This lager produces a refreshing flavour with a
+        good balance of malt and hop characters and is brewed using no sugar. With
+        its subtle fruity esters and light golden colour, combined with a judicious
+        blend of Pride of Ringwood and Saaz hops.  This produces a Lager with a crisp
+        malty full flavour.","abv":5.0,"style":"American-Style Lager"}},{"id":"3458","type":"beer","attributes":{"name":"Marzen","description":"The
+        name says it all, you want German this is it.","abv":5.699999809265137,"style":"American-Style
+        Lager"}},{"id":"2698","type":"beer","attributes":{"name":"Stella Artois","description":"Stella
+        Artois was first brewed as a Christmas beer in leuven. It was named Stella
+        from the star of Christmas, and Artois after Sebastian Artois, founder of
+        the brewery. It''s brewed to perfection using the original Stella Artois yeast
+        and the celebrated Saaz hops. It''s the optimum premium lager, with it''s
+        full flavour and clean crisp taste.","abv":5.199999809265137,"style":"American-Style
+        Lager"}},{"id":"370","type":"beer","attributes":{"name":"Old Seattle Lager","description":"","abv":4.300000190734863,"style":"American-Style
+        Lager"}},{"id":"2948","type":"beer","attributes":{"name":"Cerveza Sol","description":"","abv":4.5,"style":"American-Style
+        Lager"}},{"id":"3802","type":"beer","attributes":{"name":"Haywords 5000","description":"Launched
+        in the year 1983, Haywards 5000 is synonymous with strong beer in India. Haywards
+        5000 is brewed with the choicest of malts and hops lending itself to a unique
+        flavour profile to suit the Indian taste and preference. Haywards 5000 is
+        the hallmark of original and authentic strong beer which other beer brands
+        aspire for. With such credentials, it is not surprising to see men get together
+        over Haywards 5000. It is the language of friendship amongst men who are proud
+        of their masculinity and look forward to a great time with their friends and
+        peers .\n\nhttp://www.sabmiller.in/brands_haywards_5000.html","abv":7.5,"style":"American-Style
+        Lager"}},{"id":"2968","type":"beer","attributes":{"name":"Widmer W''08","description":"\"Our
+        Brewmasters'' Release - The three different red, caramelized, and dark wheat
+        malts give this beer an intense red color that runs as deep as the flavor.
+        The toasted grain flavors blend perfectly with the subtle spiciness of the
+        hops just as the entirety fades to a smooth quick finish. 2007 Great American
+        Beer Festival Silver Medal Award Winner.\"\n-Widmer Brothers Brewing Company","abv":4.900000095367432,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"3996","type":"beer","attributes":{"name":"Moosehead
+        Lager","description":"","abv":5.0,"style":"American-Style Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 23:03:39 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=567
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:04:53 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"facee68c6bf2f3b2f148b93da96847c2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6f4adac1-5664-4524-8794-0f5a8b72b482
+      X-Runtime:
+      - '0.684277'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"126","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":567,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 23:04:53 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=126
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:04:53 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4a45b8ac8d5a7ac5c61fc552244faca5"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - '06905425-9c7e-4879-95fa-b65aec8edf25'
+      X-Runtime:
+      - '0.098068'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjMwMDkiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkxvbmUgU3RhciBMaWdodCIsImRlc2NyaXB0aW9uIjoiXCJMb25lIFN0YXIgTGlnaHQgbWltaWNzIGl0cyBmdWxsLWJvZGllZCBjb3VudGVycGFydCB3aXRoIGFuIGF3YXJkIHdpbm5pbmcgcHJlbWl1bSBsaWdodCB0YXN0ZS4gVGhpcyBiZWVyIHJldGFpbnMgdGhlIGNvbXBsaW1lbnRhcnkgcmF0aW8gb2YgYmFybGV5LCBjZXJlYWwgZ3JhaW5zLCBhbmQgaG9wcyBvZiBpdHMgcGFyZW50IGJyYW5kLlwiIiwiYWJ2IjozLjg0OTk5OTkwNDYzMjU2ODQsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGlnaHQgTGFnZXIifX0seyJpZCI6IjM0OTUiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkNhcmxpbmciLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NC4wOTk5OTk5MDQ2MzI1NjgsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjQwMDQiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IjQyMiBQYWxlIFdoZWF0IEFsZSIsImRlc2NyaXB0aW9uIjoiUG91ciA0MjIgUGFsZSBXaGVhdCBBbGUgaW50byBhIHBpbnQgZ2xhc3MsIGdpdmUgaXQgYSBsb25nIHdoaWZmIGFuZCB5b3XDouKCrOKEomxsIHJlYWxpemUgdGhhdCB0aGlzIGlzbsOi4oKs4oSidCB5b3VyIGF2ZXJhZ2UgcGFsZSBnb2xkZW4gd2hlYXQuIFByZXNlcnZlZCBpbiBpdHMgdW5maWx0ZXJlZCBzdGF0ZSwgNDIyIGlzIGEgZmFudGFzdGljIHNlc3Npb24gYWxlIGluIHdoaWNoIGZsYXZvcnMgb2Ygd2hlYXQsIGJhcmxleSBhbmQgaG9wcyBjb21taW5nbGUgdG8gYSByZWZyZXNoaW5nIGFuZCB6ZXN0eSBjb25jbHVzaW9uLiBIaW50cyBvZiBvcmFuZ2UgYW5kIHN3ZWV0IG1hbHRzIHdhZnQgdG8gdGhlIGZvcmUgYXMgYSB0b3VjaCBvZiBiaXR0ZXJuZXNzIGNvbnRyaWJ1dGVzIHRvIGEgc21vb3RoIGZpbmlzaC4gNDIyIGlzIGJyZXdlZCBhcyBhIHRyaWJ1dGUgdG8gcHJlc2VydmluZyBvdXIgcHJlY2lvdXMgcGxhbmV0IGFuZCBpdMOi4oKs4oSicyBlbnZpcm9ubWVudC4gSXQgaXMgcmVzcG9uc2libHkgcGFja2FnZWQgd2l0aCBvdmVyIDgwJSByZWN5Y2xlZCBjb25zdW1lciBwcm9kdWN0cyBhbmQgaXMgY29tcGxldGVseSByZWN5Y2xhYmxlLiBFbmpveSA0MjIgYWxsIHllYXIgYXMgdG8gdGFrZSBvbmUgc3RyaWRlIGNsb3NlciB0byBhIGVjby1mcmllbmRseSBsaWZlLiIsImFidiI6NS4wLCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzA2NiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQW5jaG9yIFN1bW1lciBCZWVyIiwiZGVzY3JpcHRpb24iOiJBbmNob3IgU3VtbWVyIGlzIHRoZSBmaXJzdCBBbWVyaWNhbiB3aGVhdCBiZWVyIGluIG1vZGVybiB0aW1lcy4gT3VyIGZpcnN0IGJyZXcgb2YgdGhpcyBsaWdodCBhbmQgcmVmcmVzaGluZyBiZWVyIHdhcyBpbiB0aGUgc3VtbWVyIG9mIDE5ODQuXG5cbkFuY2hvciBTdW1tZXIgaXMgYW4gYWxsLW1hbHQgYmVlciwgYW5kIG92ZXIgNTAlIG9mIGl0cyBtYWx0IGNvbWVzIGZyb20gbWFsdGVkIHdoZWF0LiBJdCBpcyBmZXJtZW50ZWQgd2l0aCBhIFRyaXRpY3VtIGFlc3RpdnVtLCBBS0Egd2hlYXQgdHJhZGl0aW9uYWwgdG9wLWZlcm1lbnRpbmcgXCJhbGVcIiB5ZWFzdCBiZWNhdXNlIHdlIHByZWZlciB0aGUgY2xlYW4gZmxhdm9ycyBkZXZlbG9wZWQgYnkgdGhpcyB5ZWFzdC4gV2UgYmVsaWV2ZSB0aGF0IHRoaXMgc3R5bGUgYmVzdCBjZWxlYnJhdGVzIHRoZSByZWZyZXNoaW5nbHkgbGlnaHQgZmxhdm9yIG9mIG1hbHRlZCB3aGVhdC4gWW91IG1heSBub3RpY2UgdGhhdCB0aGUgaGVhZCBvbiB0aGlzIGJlZXIgaXMgdW51c3VhbGx5IGFidW5kYW50LCB3aXRoIGEgY29uc2lzdGVuY3kgc2ltaWxhciB0byB3aGlwcGVkIGVnZyB3aGl0ZXMuIFRoaXMgaXMgZHVlIHRvIHByb3RlaW4gY29udHJpYnV0ZWQgYnkgdGhlIHdoZWF0LlxuXG5UaGUgYnJld2VycyBhdCBBbmNob3IgYXJlIHByb3VkIHRvIGhhdmUgcmV2aXZlZCBub3Qgb25seSByaWNoIGhlYXJ0eSBkYXJrIGJlZXJzLCBidXQgYWxzbyB0aGlzIGxpZ2h0IGNyaXNwIHN0eWxlIG9mIGEgbW9kZXJuIEFtZXJpY2FuIHdoZWF0IGJlZXIuXG5cblN1bW1lciBnZXRhd2F5IFdoZWF0IG1hbHQgY29udHJpYnV0ZXMgdG8gYW4gdW51c3VhbCBsaWdodG5lc3MgYW5kIGRyeW5lc3MgdG8gdGhlIHBhbGF0ZSwgYW5kIHRoaXPDouKCrOKAnWNvbWJpbmVkIHdpdGggdGhlIGRpc3RpbmN0aXZlIGZsYXZvciBvZiB0aGUgd2hlYXTDouKCrOKAnW1ha2VzIGZvciBhIHBlcmZlY3QgdGhpcnN0LXF1ZW5jaGluZyBiZXZlcmFnZS4gSXQgaXMgdGhlIGlkZWFsIGRyaW5rIGZvciBiZWVyIGxvdmVycyB3aG8gYXBwcmVjaWF0ZSB0cmFkaXRpb24gYW5kIGNoYXJhY3RlciBpbiB0aGVpciBiZWVyLCBidXQgYWxzbyBzZWVrIGEgbGlnaHRlciwgcmVmcmVzaGluZyBzdHlsZSwgcGVyZmVjdCBmb3Igd2FybSB3ZWF0aGVyLlxuXG4taHR0cDovL3d3dy5hbmNob3JicmV3aW5nLmNvbS9iZWVycy9zdW1tZXJiZWVyLmh0bSIsImFidiI6NC41OTk5OTk5MDQ2MzI1NjgsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiI0MjM4IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJIb3AgUm9ja2VyIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjUuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMjkyMSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiU3QtQW1icm9pc2UgQXByaWNvdCBXaGVhdCBBbGUiLCJkZXNjcmlwdGlvbiI6IkFwcmljb3QgV2hlYXQgQWxlIGJsZW5kcyB2YXJpb3VzIGJhcmxleSBtYWx0cyB3aXRoIG1hbHRlZCB3aGVhdCBhbmQgbmF0dXJhbCBhcHJpY290IGVzc2VuY2UgdG8gY3JlYXRlIGFuIG9yaWdpbmFsLXRhc3RpbmcgYmVlciB3aXRoIGEgY2xlYW4sIGZydWl0IG5vc2UuXG5cbjUlIGFsYy92b2wgIEF2YWlsYWJsZSBpbiBCb3R0bGVzIGFuZCBEcmFmdCIsImFidiI6NS4wLCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMjYzOCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiTmF0dXJhbCBMaWdodCIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjE5OTk5OTgwOTI2NTEzNywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMaWdodCBMYWdlciJ9fSx7ImlkIjoiNDQ4IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJBbWJlciBXZWl6ZW4iLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NS41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyNTM5IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJLaWxsaWFuJ3MgSXJpc2ggUmVkIiwiZGVzY3JpcHRpb24iOiJLaWxsaWFuJ3MgSXJpc2ggUmVkIGlzIGEgdHJhZGl0aW9uYWwgbGFnZXIgd2l0aCBhbiBhdXRoZW50aWMgSXJpc2ggaGVyaXRhZ2UsIGJhc2VkIG9uIHRoZSBLaWxsaWFuIGZhbWlseSdzIHJlY2lwZSBjcmVhdGVkIGZvciB0aGUgS2lsbGlhbidzIGJyZXdlcnkgaW4gRW5uaXNjb3J0aHksIElyZWxhbmQgaW4gMTg2NC4gQ29vcnMgYWNxdWlyZWQgdGhlIHJpZ2h0cyB0byBicmV3IGFuZCBtYXJrZXQgdGhlIHByb2R1Y3QgaW4gQW1lcmljYSBhbmQgS2lsbGlhbidzIHdhcyBpbnRyb2R1Y2VkIHRvIHRoZSBVLlMuIGluIDE5ODEuXG5cbktpbGxpYW4ncyBJcmlzaCBSZWQgZGVyaXZlcyBpdHMgZGlzdGluY3RpdmUgcmVkLWFtYmVyIGNvbG9yIGFuZCB0YXN0ZSBmcm9tIGEgc3BlY2lhbCBjYXJhbWVsIG1hbHQgdGhhdCBoYXMgYmVlbiByb2FzdGVkIGF0IGEgaGlnaCB0ZW1wZXJhdHVyZSBsb25nZXIgYW5kIG1vcmUgc2xvd2x5IHRoYW4gbW9zdCBtYWx0cy4gVGhlcmUgYXJlIG5vIGNvbG9yaW5nIGFnZW50cyBvciBhcnRpZmljaWFsIGFkZGl0aXZlcyB1c2VkIGluIGJyZXdpbmcgS2lsbGlhbidzLiBUaGUgYnJldyBpcyBrbm93biBmb3IgaXRzIHJpY2ggYW1iZXIgY29sb3IgYW5kIHRoaWNrLCBjcmVhbXkgaGVhZC4iLCJhYnYiOjQuOTAwMDAwMDk1MzY3NDMyLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19XX0=
+  recorded_at: Thu, 10 Jun 2021 23:04:54 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=569
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:05:48 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"2af8532d05565b578692a29172ff30f8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 48f9aa9a-8bfe-42f0-93df-7723a965b705
+      X-Runtime:
+      - '0.634210'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"128","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":569,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 23:05:48 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=128
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:05:47 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"f046bc57f98117d9b2dadf4d42c6d3df"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 60495051-25b6-487f-8051-6f4b87e8b0a1
+      X-Runtime:
+      - '0.137454'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjQyMzAiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkV4aXQgMTEgLSBIb3BweSBBbWVyaWNhbiBXaGVhdCIsImRlc2NyaXB0aW9uIjoiRXhpdCAxMSBIb3BweSBBbWVyaWNhbiBXaGVhdCBBbGUgaXMgdGhlIHNlY29uZCBpbiB0aGVpciB3aWxkbHkgcG9wdWxhciBFeGl0IFNlcmllcyBvZiBCaWcgQm90dGxlIEJlZXJzLiBFeGl0IDExIGlzIGEgY29uZmx1ZW5jZSBvZiBzdHlsZXMgYW5kIGluZ3JlZGllbnRzLCBqdXN0IGFzIEV4aXQgMTEgaXMgdGhlIHBvaW50IGluIE5ldyBKZXJzZXkgd2hlcmUgdGhlIEdhcmRlbiBTdGF0ZSBQYXJrd2F5LCB0aGUgTmV3IEplcnNleSBUdXJucGlrZSBhbmQgc2V2ZXJhbCBvdGhlciBoaWdod2F5cyBjb21lIHRvZ2V0aGVyLlxuXG7DouKCrMWTRXhpdCAxMSBpcyB0aGUgcG9pbnQgb24gdGhlIFR1cm5waWtlIHdoZXJlIHRoZSBHYXJkZW4gU3RhdGUgUGFya3dheSBicmFuY2hlcyBvZmYgYW5kIHRha2VzIGh1bmRyZWRzIG9mIHRob3VzYW5kcyBvZiB0cmF2ZWxlcnMgdG8gdGhlIHJlbm93bmVkIEplcnNleSBTaG9yZSzDouKCrMKdIHNheXMgRmx5aW5nIEZpc2ggRm91bmRlciBHZW5lIE11bGxlci4gIMOi4oKsxZNPdXIgRXhpdCAxMSBXaGVhdCBBbGUgaXMgYSBmcmVzaCwgY2l0cnVzLXkgc3VtbWVyIGJlZXIgcGVyZmVjdCBmb3IgYmVhY2hnb2VycyBhbmQgdGhvc2Ugd2hvIG9ubHkgd2lzaCB0aGV5IHdlcmUgaGVhZGVkIMOi4oKsy5xkb3duYSBzaG9yZcOi4oKs4oSiLsOi4oKswp1cblxuRXhpdCAxMSBpcyBhbiBBbWVyaWNhbi1zdHlsZSB3aGVhdCBiZWVyIGJyZXdlZCB3aXRoIEVuZ2xpc2ggYWxlIHllYXN0IGFuZCB0aHJlZSBQYWNpZmljIE5vcnRod2VzdCBob3BzLCBDb2x1bWJ1cywgUGFsaXNhZGUgYW5kIEFtYXJpbGxvLiAgSXQgaXMgYnJld2VkIHdpdGggNTAlIEJlbGdpYW4gcGFsZSBtYWx0IGFuZCA1MCUgd2hpdGUgd2hlYXQsIGFuZCBpcyBhbiBpZGVhbCBzdW1tZXIgdGhpcnN0IHF1ZW5jaGVyLCB3aXRoIGl0cyBib3VxdWV0IG9mIHRhbmdlcmluZXMgYW5kIGFwcmljb3RzLiBFeGl0IDExIGlzIGF2YWlsYWJsZSBvbmx5IGR1cmluZyB0aGlzIG9uZS10aW1lIHJlbGVhc2UsIGFuZCBvbmx5IHVudGlsIGl0IHNlbGxzIG91dCBhY3Jvc3MgTmV3IEplcnNleSwgUGVubnN5bHZhbmlhIGFuZCBEZWxhd2FyZS4iLCJhYnYiOjYuMTk5OTk5ODA5MjY1MTM3LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMjUxNyIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiWXVlbmdsaW5nIFByZW1pdW0gQmVlciIsImRlc2NyaXB0aW9uIjoiQSByZWdpb25hbCBmYXZvcml0ZSwgWXVlbmdsaW5nIFByZW1pdW0gQmVlciBpcyBwb3B1bGFyIGFtb25nIGxvY2FsIGJlZXIgZHJpbmtlcnMgZm9yIGl0cyB0aGlyc3QgcXVlbmNoaW5nIHRhc3RlLiBJdCBpcyBhIHBpbHNuZXItc3R5bGUgYnJldywgZ29sZCBpbiBjb2xvciB3aXRoIHBhbGUgbWFsdCBjaGFyYWN0ZXIgdGhhdCBmaW5pc2hlcyBjcmlzcCBhbmQgY2xlYW4uIFByZW1pdW0gZmxhd2xlc3NseSBibGVuZHMgYm90aCB0d28tcm93IGFuZCBzaXgtcm93IGJhcmxleSBtYWx0IGZvciBhIHdlbGwgYmFsYW5jZWQgZmxhdm9yIHRoYXQgaXMgYWx3YXlzIHJlZnJlc2hpbmcuIFRyYWNlcyBvZiB0aGUgc2xpZ2h0IGhvcCBhcm9tYSBhcmUgZXZpZGVudCBpbiBldmVyeSBkZWxpY2lvdXMgc2lwIG9mIFByZW1pdW0gQmVlci4gRGlzY292ZXIgdGhpcyB3ZWxsIGtlcHQgc2VjcmV0IGFuZCBlbmpveSB0aGUgc3VwZXJpb3IgcXVhbGl0eSBhbmQgdGFzdGUgeW91J3ZlIGNvbWUgdG8gZXhwZWN0IGZyb20gQW1lcmljYSdzIE9sZGVzdCBCcmV3ZXJ5LiIsImFidiI6NC40MDAwMDAwOTUzNjc0MzIsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM4MDIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkhheXdvcmRzIDUwMDAiLCJkZXNjcmlwdGlvbiI6IkxhdW5jaGVkIGluIHRoZSB5ZWFyIDE5ODMsIEhheXdhcmRzIDUwMDAgaXMgc3lub255bW91cyB3aXRoIHN0cm9uZyBiZWVyIGluIEluZGlhLiBIYXl3YXJkcyA1MDAwIGlzIGJyZXdlZCB3aXRoIHRoZSBjaG9pY2VzdCBvZiBtYWx0cyBhbmQgaG9wcyBsZW5kaW5nIGl0c2VsZiB0byBhIHVuaXF1ZSBmbGF2b3VyIHByb2ZpbGUgdG8gc3VpdCB0aGUgSW5kaWFuIHRhc3RlIGFuZCBwcmVmZXJlbmNlLiBIYXl3YXJkcyA1MDAwIGlzIHRoZSBoYWxsbWFyayBvZiBvcmlnaW5hbCBhbmQgYXV0aGVudGljIHN0cm9uZyBiZWVyIHdoaWNoIG90aGVyIGJlZXIgYnJhbmRzIGFzcGlyZSBmb3IuIFdpdGggc3VjaCBjcmVkZW50aWFscywgaXQgaXMgbm90IHN1cnByaXNpbmcgdG8gc2VlIG1lbiBnZXQgdG9nZXRoZXIgb3ZlciBIYXl3YXJkcyA1MDAwLiBJdCBpcyB0aGUgbGFuZ3VhZ2Ugb2YgZnJpZW5kc2hpcCBhbW9uZ3N0IG1lbiB3aG8gYXJlIHByb3VkIG9mIHRoZWlyIG1hc2N1bGluaXR5IGFuZCBsb29rIGZvcndhcmQgdG8gYSBncmVhdCB0aW1lIHdpdGggdGhlaXIgZnJpZW5kcyBhbmQgcGVlcnMgLlxuXG5odHRwOi8vd3d3LnNhYm1pbGxlci5pbi9icmFuZHNfaGF5d2FyZHNfNTAwMC5odG1sIiwiYWJ2Ijo3LjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM0MzUiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJlZXIgRXN0ZWVtIiwiZGVzY3JpcHRpb24iOiJcIklmIHlvdSBjYW4ndCBmZWVsIGdvb2QgYWJvdXQgeW91ciBiZWVyLi4uIHdoYXQgZWxzZSBpcyB3b3J0aCBmZWVsaW5nIGdvb2QgYWJvdXQuXCJcbldlIGNhbGwgQmVlciBFc3RlZW0gYSBDYWxpZm9ybmlhIENvbW1vbiBiZWNhdXNlIGl0IGlzIGJyZXdlZCB3aXRoIGEgbGFnZXIgeWVhc3QgYW5kIGl0IGlzIGZlcm1lbnRlZCBhdCB3YXJtZXIgYWxlIHRlbXBlcmF0dXJlcy4gSG93ZXZlciwgQmVlciBFc3RlZW0gaXMgZGlzdGluY3RseSBkaWZmZXJlbnQgZnJvbSBvdGhlciBDYWxpZm9ybmlhIENvbW1vbnMuIFdpdGggYSB1bmlxdWUgaG9wIHByb2ZpbGUsIGEgbGFnZXIgeWVhc3Qgbm90IHR5cGljYWxseSB1c2VkIGZvciB0aGUgc3R5bGUsIGFuZCBhIFwiUnVzc2lhbiBSaXZlclwiIHR3aXN0LCBCZWVyIEVzdGVlbSBpcyBhbnl0aGluZyBidXQgXCJDb21tb24uXCIiLCJhYnYiOjUuNTk5OTk5OTA0NjMyNTY4LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyNTUzIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJMYWJhdHQgSWNlIiwiZGVzY3JpcHRpb24iOiJMYWJhdHQgSWNlLCBpbnRyb2R1Y2VkIGluIDE5OTMsIHdhcyB0aGUgd29ybGTDouKCrOKEonMgZmlyc3QgSWNlLUJyZXdlZMOi4oCewqIgYmVlciBhbmQgdGhlIG1vc3Qgc3VjY2Vzc2Z1bCBuZXcgYnJhbmQgaW50cm9kdWN0aW9uIGluIENhbmFkaWFuIGJyZXdpbmcgaGlzdG9yeS4gTGFiYXR0IEljZSBpcyBhIGZ1bGx5IGZlcm1lbnRlZCBiZWVyIHRoYXQgaXMgYWxsb3dlZCB0byBtYXR1cmUgYXQgY29sZCB0ZW1wZXJhdHVyZXMuIExhYmF0dCBJY2UgdXNlcyBzZWxlY3RlZCBOb3J0aCBBbWVyaWNhbiBob3BzIHRvIGNvbXBsZW1lbnQgaXRzIHNtb290aCwgZnVsbCBmbGF2b3VyLiIsImFidiI6NS41OTk5OTk5MDQ2MzI1NjgsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI1MzMiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkNvb3JzIE9yaWdpbmFsIiwiZGVzY3JpcHRpb24iOiJDb29ycyBiZWVyLCBmaXJzdCBpbnRyb2R1Y2VkIGJ5IEFkb2xwaCBDb29ycyBpbiBBcHJpbCwgMTg3NCwgaXMgYnJld2VkIGluIHRoZSBSb2NraWVzIGZvciBhIHVuaXF1ZWx5IGNyaXNwLCBjbGVhbiBhbmQgZHJpbmthYmxlIFwiTWlsZSBIaWdoIFRhc3RlLlwiXG5cbkR1cmluZyBXb3JsZCBXYXIgSUksIENvb3JzIGFpZGVkIHRoZSB3YXIgZWZmb3J0IGJ5IHNldHRpbmcgYXNpZGUgaGFsZiBpdHMgYmVlciBmb3Igc2FsZSB0byB0aGUgbWlsaXRhcnkuICBXaGVuIHRoZSBzZXJ2aWNlIG1lbiBhbmQgd29tZW4gcmV0dXJuZWQgaG9tZSB0byBzdGF0ZXMgb3V0c2lkZSBvZiBDb29ycycgb3JpZ2luYWwgMTEtc3RhdGUgbWFya2V0aW5nIHJlZ2lvbiwgdGhleSBzcHJlYWQgdGhlIHdvcmQgYWJvdXQgdGhlIGJlZXIncyB0YXN0ZSBhbmQgcXVhbGl0eSAtLSB3aGljaCBiZWNhbWUga25vd24gYXMgdGhlIFwiQ29vcnMgTXlzdGlxdWUuXCJcblxuUHJpb3IgdG8gaXRzIG5hdGlvbmFsIGV4cGFuc2lvbiBpbiB0aGUgMTk4MHMsIENvb3JzJyBsaW1pdGVkIGRpc3RyaWJ1dGlvbiBsZWZ0IGNvbnN1bWVycyBpbiB0aGUgZWFzdGVybiBVLlMuIHdhbnRpbmcgYSB0YXN0ZSBvZiB0aGUgUm9ja3kgTW91bnRhaW5zJyBmaW5lc3QgYmVlci4gUHJlc2lkZW50IEdlcmFsZCBGb3JkIHdhcyBrbm93biB0byB0YWtlIHNldmVyYWwgY2FzZXMgb2YgQ29vcnMgb24gaGlzIEFpciBGb3JjZSBPbmUgZHVyaW5nIHJldHVybiB0cmlwcyB0byB0aGUgV2hpdGUgSG91c2UuXG5cbkluIFNlcHRlbWJlciAxODkzLCBDb29ycyBjb21wZXRlZCBmb3IgdGhlIGZpcnN0IHRpbWUgYXQgdGhlIENoaWNhZ28gV29ybGQncyBGYWlyIGFuZCB3b24gYXdhcmRzIGZvciBicmlsbGlhbmN5LCBmbGF2b3IsIGNoZW1pY2FsIGFuYWx5c2lzIGFuZCBjb21tZXJjaWFsIGZsYXZvci4gIFRoZSBhd2FyZC13aW5uaW5nIGxlZ2FjeSBvZiB0aGUgYnJldyBjb250aW51ZXMgYW5kIGluIHJlY2VudCB5ZWFycyBDb29ycyBiZWVyIGhhcyB3b24gYSBudW1iZXIgb2YgaG9ub3JzIGF0IGJlZXIgZmVzdGl2YWxzLiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIyNTE0IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJZdWVuZ2xpbmcgTGFnZXIgTGlnaHQiLCJkZXNjcmlwdGlvbiI6IlRydWUgdG8gaXRzIEFtZXJpY2FuIGhlcml0YWdlLCBZdWVuZ2xpbmcgTGlnaHQgTGFnZXIgaXMgYW4gZXhjZXB0aW9uYWwgYnJldyB0aGF0IGFwcGVhbHMgdG8gY29uc3VtZXJzIHdobyBkb24ndCB3YW50IHRvIHNhY3JpZmljZSBjaGFyYWN0ZXIgZm9yIGEgbG93LWNhbG9yaWUgbGlnaHQgYmVlci4gSXQgaGFzIGJlZW4gbWFzdGVyZnVsbHkgZGV2ZWxvcGVkIHRvIG1haW50YWluIHRoZSBmdWxsIGZsYXZvciBwcm9maWxlIGFraW4gdG8gb3VyIGZsYWdzaGlwIExhZ2VyIGJyYW5kLiBTa2lsbGZ1bGx5IHBhaXJpbmcgYSBjYXJhbWVsIG1hbHQgZmxhdm9yIGFuZCBtaWxkIGhvcCBjaGFyYWN0ZXIgY3JlYXRlcyBhIGJlYXV0aWZ1bGx5IHJpY2gtY29sb3JlZCBiZWVyIHdpdGggZGVlcCBhbWJlciBoaWdobGlnaHRzIHRoYXQgZmluaXNoZXMgc21vb3RoIGFuZCBjbGVhbi4gV2l0aCBvbmx5IDk5IGNhbG9yaWVzLCBZdWVuZ2xpbmcgTGlnaHQgTGFnZXIgaXMgYSB1bmlxdWVseSByZWZyZXNoaW5nIGJlZXIgdGhhdCBicmluZ3MgbmV3IGRpbWVuc2lvbiB0byB0aGUgbWVhbmluZyBsaWdodCBiZWVyLiIsImFidiI6My40MDAwMDAwOTUzNjc0MzE2LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIzNTcxIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJQb29yIFJpY2hhcmQncyBUYXZlcm4gU3BydWNlIEFsZSIsImRlc2NyaXB0aW9uIjoiQnJld2VkIHRvIGNlbGVicmF0ZSBCZW4ncyAzMDB0aCBiaXJ0aGRheS5cblxuV2hldGhlciBCZW4gRnJhbmtsaW4gZXZlciBzYWlkLCBcIkJlZXIgaXMgbGl2aW5nIHByb29mIHRoYXQgR29kIGxvdmVzIHVzIGFuZCB3YW50cyB1cyB0byBiZSBoYXBweVwiIGlzIHVwIGZvciBkZWJhdGUuIFNvbWUgc2F5IGhlIHNhaWQgaXQsIG90aGVycyBzYXkgaGUgZGlkbid0LiBObyBvbmUga25vd3MgZm9yIHN1cmUuIFxuXG5IaXN0b3JpY2FsIGZhY3RzIG9yIGZpY3Rpb25zIGFzaWRlLCBZYXJkcyBCcmV3aW5nIENvbXBhbnkgaGFzIHJlY3JlYXRlZCBQb29yIFJpY2hhcmQncyBUYXZlcm4gU3BydWNlIEFsZcOi4oCewqIgdG8gY2VsZWJyYXRlIEZyYW5rbGluJ3MgYWZmaW5pdHkgZm9yIGZpbmUgYWxlcy4gUG9vciBSaWNoYXJkJ3MgVGF2ZXJuIFNwcnVjZSBBbGUgaXMgYmFzZWQgb24gRnJhbmtsaW4ncyBvcmlnaW5hbCByZWNpcGUsIHdoaWNoIGNhbGxlZCBmb3Igc3BydWNlIGVzc2VuY2UgYW5kIG1vbGFzc2VzLCBhcyBiYXJsZXkgYW5kIGhvcHMgd2VyZSBub3QgcmVhZGlseSBhdmFpbGFibGUgYXQgdGhlIHRpbWUuXG5cbkVuam95IGEgdGFzdGUgb2YgaGlzdG9yeSBjb3VydGVzeSBvZiBZYXJkcyBCcmV3aW5nIENvbXBhbnksIFBoaWxhZGVscGhpYSdzIHByZW1pZXIgYnJld2VyIGFuZCBib3R0bGVyLiIsImFidiI6NS4wLCJzdHlsZSI6IkhlcmIgYW5kIFNwaWNlIEJlZXIifX0seyJpZCI6IjM3MzUiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkVzdHJlbGxhIERhbW0iLCJkZXNjcmlwdGlvbiI6IkVzdHJlbGxhIG1lYW5zIHN0YXIgaW4gU3BhbmlzaCBhbmQgYXMgaXRzIG5hbWUgc3VnZ2VzdHMgdGhlIGJyYW5kIGhhcyBiZWNvbWUgYSBzdGFyIHRvIHRoZSBwZW9wbGUgb2YgQmFyY2Vsb25hLiBJdCBoYXMgZXZvbHZlZCB3aXRoIHRoZSBjaXR5IHJlZmxlY3RpbmcgaXRzIGNoYXJhY3RlciAtIHNvcGhpc3RpY2F0ZWQgYW5kIHBhc3Npb25hdGUgeWV0IGF0IHRoZSBzYW1lIHRpbWUgcmVsYXhlZCBhbmQgd2VsY29taW5nLiIsImFidiI6NC41OTk5OTk5MDQ2MzI1NjgsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 23:05:48 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=582
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:06:13 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"52d0375850cc262e3862b605a348b4ad"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 59978463-92d7-43df-ba27-c15e1e91232a
+      X-Runtime:
+      - '0.557649'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"132","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":582,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 23:06:14 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=132
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:06:14 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"9dad15f7d33e4212ffbeea958c8137c3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 52145f3d-bb6a-403c-9593-6b59f5f922fa
+      X-Runtime:
+      - '0.120267'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"2488","type":"beer","attributes":{"name":"Budweiser
+        Select","description":"Bud Select is a new beer offering a bold taste with
+        a full and distinct flavor that finishes clean. Budweiser Select was developed
+        using two-row and roasted specialty malts for a rich color. It offers excellent
+        drinkability and a taste that does not linger.","abv":4.300000190734863,"style":"American-Style
+        Light Lager"}},{"id":"3436","type":"beer","attributes":{"name":"Vienna Red
+        Lager","description":"This amber Austrian lager has a distinct bready malt
+        aroma and flavor, followed by a crisp, clean finish typical of lager styles.
+        The nose also shows plenty of the spicy hop aroma contributed by the use of
+        Saaz hops.","abv":5.0,"style":"American-Style Lager"}},{"id":"4093","type":"beer","attributes":{"name":"Wasatch
+        1st Amendment Lager","description":"A turn of the century pure malt, crisp
+        lager. 1st Amendment Lager is made with European style hops and Munich malts.
+        This beer has a wonderful, clean, crisp flavor certain to please all.","abv":4.0,"style":"American-Style
+        Lager"}},{"id":"3458","type":"beer","attributes":{"name":"Marzen","description":"The
+        name says it all, you want German this is it.","abv":5.699999809265137,"style":"American-Style
+        Lager"}},{"id":"1993","type":"beer","attributes":{"name":"Premium Lager","description":"","abv":5.300000190734863,"style":"American-Style
+        Lager"}},{"id":"446","type":"beer","attributes":{"name":"Krystal Weizen","description":"","abv":4.900000095367432,"style":"American-Style
+        Lager"}},{"id":"442","type":"beer","attributes":{"name":"Blind Pig Dunkelweizen","description":"","abv":4.699999809265137,"style":"American-Style
+        Lager"}},{"id":"2521","type":"beer","attributes":{"name":"Victory Lager","description":"Perfectly
+        balanced, this authentic version of a German helles-style lager satisfies
+        gloriously. Lean, German malts and fine European hops offer subtle harmony.","abv":4.800000190734863,"style":"American-Style
+        Lager"}},{"id":"1356","type":"beer","attributes":{"name":"Red Lager","description":"","abv":4.900000095367432,"style":"American-Style
+        Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 23:06:14 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=595
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:11:54 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"a886c5cf97ec68609ea4eeb7bb8cb244"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b665a652-dc5b-4b65-b783-c0aad26e299b
+      X-Runtime:
+      - '0.700288'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"137","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":595,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 23:11:55 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=137
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:11:54 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"fdb4018f4fcf998b7fdef6ab88a10898"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5d0fd45c-a745-4fb8-9f0f-f4b5f344e6a4
+      X-Runtime:
+      - '0.046425'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjE3NTEiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkxhZ2VyIEJlZXIiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyNjg4IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJHdWxsIENsYXNzaWMiLCJkZXNjcmlwdGlvbiI6IlwiQWFzcyBDbGFzc2ljXCIgaXMgYSBjbGFzc2ljYWwgXCJsYWdlclwiIFRoZSBiZWVyIGlzIHNsaWdodGx5IGRhcmtlciBpbiBjb2xvciB0aGFuIG91ciBHZW51aW5lIFBpbHNuZXIuIEl0IGlzIG9mIGNvdXJzZSBwcm9kdWNlZCBpbiBhY2NvcmRhbmNlIHdpdGggdGhlIFwiUHVyaXR5IGxhd1wiLiBcblxuVGhlIG1hbHRlZCBiYXJlbHkgaXMgcHJvZHVjZWQgaW4gdGhlIFNjYWRpbmF2aWFuIGNvdW50cmllcy4gSXQgaXMgYSBjb21iaW5hdGlvbiBvZiBwaWxzbmVyLSwgYmF5ZXItIGFuZCBjYXJhbWVsbWFsdC4gV2UgdXNlIHRoZSBmYW1vdXMgU2F6ZXIgYW5kIEhhbGxlcnRhdSBob3BzLCBhbmQgdGhlIHdhdGVyIGlzIGFzIHB1cmUgYXMgdGhlIE5vcndlZ2lhbiBuYXR1cmUuIFxuXG5UaGUgQ2xhc3NpYyBpcyBsYXJnZXJlZCBhdCBjb29sIHRlbXBlcmF0dXJlcywgYW5kIGl0IGlzIGFsbG93ZWQgdG8gbWF0dXJlIGZvciBhcHByb3hpbWF0ZWx5IDMgbW9udGhzIGJlZm9yZSBib3R0bGluZy4gXG5cblRoZSBiZWVyIGlzIHNvbGQgaW4gY2FyYWN0ZXJpc3RpYyBuaWNlIGxvb2tpbmcgZ3JlZW4gYm90dGVsIGNvbnRhaW5pbmcgMTEuMiBmbC4gb3ogb3IgMzMwIG1sLiIsImFidiI6NS41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIxNzYiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJveXMgb2YgU3VtbWVyIFdoZWF0IiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjMuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMjU0MyIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiU3BydWNlIENyZWVrIExhZ2VyIiwiZGVzY3JpcHRpb24iOiJUaGlzIGxpZ2h0IHJlZnJlc2hpbmcgQW1lcmljYW4gbGFnZXIgaGFzIGEgbWFsdHkgc21vb3RoIGNoYXJhY3RlciBhbmQgbG93IGhvcCBiaXR0ZXJuZXNzLiIsImFidiI6NC44MDAwMDAxOTA3MzQ4NjMsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjQxMTAiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik1pbGxlciBHZW51aW5lIERyYWZ0IDY0IiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjIuNzk5OTk5OTUyMzE2Mjg0LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIxMTQ5IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJCYXJ0bGVzIGFuZCBMYWdlciIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjgwMiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiVGh1bmRlciBTdG9ybSIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM0NjIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlBldGUncyBXaWNrZWQgV2FuZGVybHVzdCBDcmVhbSBBbGUiLCJkZXNjcmlwdGlvbiI6IlBldGXDouKCrOKEonMgd2ludGVyIHNlYXNvbmFsIFdhbmRlcmx1c3QgQ3JlYW0gQWxlLCBpcyBhIHZlbHZldHkgc21vb3RoIGJyZXcgb2ZmZXJpbmcgZW5kbGVzcyBmYXNjaW5hdGlvbi4gUGV0ZcOi4oKs4oSicyBXaWNrZWQgV2FuZGVybHVzdCBDcmVhbSBBbGUgaXMgYSBsaWdodCBhbWJlciBicmV3IHdpdGggYSByaGFwc29keSBvZiBDbHVzdGVyIGhvcHMgYW5kIHNlbGVjdCBNdW5pY2ggYW5kIHdoZWF0IG1hbHRzLiBUaGUgcmljaCwgY3JlYW15IHRhc3RlIGludml0ZXMgeW91IG9uIGEgam91cm5leSBvZiB3b25kZXJtZW50IGFuZCBpbnRyaWd1ZS4gU2l0IGJhY2suIEVuam95IHRoZSByaWRlLiIsImFidiI6NS41OTk5OTk5MDQ2MzI1NjgsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgQ3JlYW0gQWxlIG9yIExhZ2VyIn19LHsiaWQiOiI5ODciLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlN0aXRlIEdvbGRlbiBQaWxzbmVyIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjQuNjk5OTk5ODA5MjY1MTM3LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19XX0=
+  recorded_at: Thu, 10 Jun 2021 23:11:55 GMT
+recorded_with: VCR 6.0.0

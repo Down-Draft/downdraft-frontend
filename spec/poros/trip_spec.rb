@@ -1,7 +1,7 @@
 require 'rails_helper'
 describe 'Trip' do
   it 'abstracts and encapsulates trip data that can be read' do
-    trip_data={
+    trip_data= {
       "data": {
           "id": "24",
           "type": "trip",
@@ -16,7 +16,7 @@ describe 'Trip' do
           "relationships": {}
       }
   }
-    trip =  Trip.new(trip_data)
+    trip =  Trip.new(trip_data[:data])
     expect(trip.name).to eq("cabo")
     expect(trip.location).to eq("80206")
     expect(trip.date).to eq("2021-10-06")

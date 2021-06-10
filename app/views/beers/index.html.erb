@@ -11,14 +11,16 @@
       <th>ABV</th>
     </tr>
     <% @beers.each do |beer| %>
-    <tr id='tdata'>
-      <td><%= beer.name %></td>
-      <td><%= beer.style %></td>
-      <td><%= beer.abv %>%</td>
-      <% if @trip_id.present? %>
-      <td><%= button_to 'Add beer to trip!', trip_path(@trip_id) %></td>
-      <% end %>
-    </tr>
+    <section id="beer-<%=beer.id%>">
+      <tr id='tdata'>
+        <td><%= beer.name %></td>
+        <td><%= beer.style %></td>
+        <td><%= beer.abv %>%</td>
+        <% if @trip_id.present? %>
+        <td><%= button_to 'Add beer to trip!', trip_path(@trip_id), method: :get, params: {beer_id: beer.id} %></td>
+        <% end %>
+      </tr>
+    </section>
     <tr>
       <td id='tdesc' colspan="3"><%= beer.description if beer.description.present? %>
         <%= 'No description Available' if beer.description.empty? %></td>

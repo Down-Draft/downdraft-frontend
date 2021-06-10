@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/3-day-forecast?location=12345
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:44:02 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ea37d40184421b38d1390379845f05c8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c409e307-b444-4e09-b945-f4101b1c2ecc
+      X-Runtime:
+      - '0.271550'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"47126659037280","type":"forecast","attributes":{"location_name":"Schenectady","location_state":"New
+        York","date":"2021-06-10","max_temp":78.6,"min_temp":59.5,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47126659037260","type":"forecast","attributes":{"location_name":"Schenectady","location_state":"New
+        York","date":"2021-06-11","max_temp":73.0,"min_temp":56.8,"description":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"id":"47126659037240","type":"forecast","attributes":{"location_name":"Schenectady","location_state":"New
+        York","date":"2021-06-12","max_temp":77.5,"min_temp":56.1,"description":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:44:02 GMT
+recorded_with: VCR 6.0.0

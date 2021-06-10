@@ -6,7 +6,7 @@ describe 'TripFacade' do
       name: "Going to Cabo",
       location: "80206",
       date: "2021-06-10",
-      user_id: 1,
+      user_id: 1
     }
     facade = TripFacade.new_trip(trip_details)
     expect(facade.date).to eq("2021-06-10")

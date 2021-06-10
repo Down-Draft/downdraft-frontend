@@ -734,7 +734,6 @@ http_interactions:
       string: !binary |-
         eyJkYXRhIjpbeyJpZCI6IjM1MDciLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik5hZ2Vsd2Vpc3MiLCJkZXNjcmlwdGlvbiI6IlRoaXMgR2VybWFuIHN0eWxlIHdoZWF0IGJlZXIgY29udGFpbnMgYWJvdXQgNTAlIG1hbHRlZCB3aGVhdCBhbmQgaXMgYmFsYW5jZWQgd2l0aCBIYWxsZXJ0YXUgaG9wcy4gVGhpcyBiZWVyIGZpbmlzaGVzIGxvdyBpbiBncmF2aXR5IHNvIHRoZSBmaW5hbCB0YXN0ZSBpcyBsaWdodCBvbiB0aGUgcGFsZXR0ZSBhbmQgZXh0cmVtZWx5IGRyaW5rYWJsZS4gVGhpcyBpcyBzdXJlIHRvIGJlIGEgZmF2b3JpdGUgd2l0aCBmaXJzdCB0aW1lIGFuZCBsb25nIHRpbWUgd2hlYXQgYmVlciBkcmlua2Vycy4iLCJhYnYiOjUuMDk5OTk5OTA0NjMyNTY4LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzQyNiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiSGFtdHJhbWNrIiwiZGVzY3JpcHRpb24iOiJCcmlnaHRseSBmaWx0ZXJlZCwgaGlnaGx5IGNhcmJvbmF0ZWQsIGdvbGRlbiBwcmVtaXVtLXN0eWxlIGxhZ2VyLiBJdCBpcyBsaWdodGx5IGhvcHBlZCB3aXRoIFBvbGlzaCBMdWJsaW4gaG9wcy4gVGhlIGJlZXIgd2lsbCBhcHBlYWwgdG8gdGhvc2Ugd2hvIHByZWZlciB0aGUgbGlnaHRlciBBbWVyaWNhbiBzdHlsZSBiZWVycy4iLCJhYnYiOjQuMCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiNDE4OCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQmxhY2tlbmVkIFZvb2RvbyIsImRlc2NyaXB0aW9uIjoiSW5zcGlyZWQgYnkgb2xkLXdvcmxkIGJyZXdpbmcgbWV0aG9kcywgdGhpcyBiZXdpdGNoaW5nIGFsbC1tYWx0IGJyZXcgaXMgYSBkYXJrbHkgcmljaCwgZXhvdGljIGxhZ2VyLCBjcmFmdGVkIHdpdGggYSB0b3VjaCBvZiBtYWdpY2FsIE5ldyBPcmxlYW5zIHNwaXJpdC4iLCJhYnYiOjUuMCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzA0NSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiVG9hc3RlZCBMYWdlciIsImRlc2NyaXB0aW9uIjoiVE9BU1RFRCBMQUdFUlxuXG5CbHVlIFBvaW50IEJyZXdpbmcncyBhd2FyZC13aW5uaW5nIFRvYXN0ZWQgTGFnZXIgaXMgb3VyIGZsYWdzaGlwIHByb2R1Y3QuIENvcHBlciBpbiBjb2xvciB0aGlzIGJyZXcgaXMgbWFkZSBmcm9tIHNpeCBkaWZmZXJlbnQgbWFsdHMgaW5jbHVkaW5nOiBFbmdsaXNoIFBhbGUsIENyeXN0YWwsIE11bmljaCwgQ2FyYXBpbHMsIFdoZWF0IGFuZCBCZWxnaWFuIENhcmF2aWVubmEuIFRvYXN0ZWQgTGFnZXIgZGlzcGxheXMgYSBiYWxhbmNlZCBmbGF2b3Igb2YgbWFsdCBhbmQgaG9wIHdoaWNoIG1ha2VzIGZvciBlYXN5IGRyaW5raW5nLiBTcGVjaWFsIGxhZ2VyIHllYXN0IGlzIHVzZWQgdG8gcHJvZHVjZSB0aGF0IGxvbmcgbGFzdGluZywgc21vb3RoIGZpbmlzaC4gVGhlIFwidG9hc3RlZFwiIHBhcnQgb2YgdGhlIG5hbWUgcmVmZXJzIHRvIG91ciBkaXJlY3QtZmlyZSBicmV3IGtldHRsZcOi4oKs4oSicyBob3QgZmxhbWVzIHRoYXQgaW1wYXJ0IGEgdG9hc3RlZCBmbGF2b3IgdG8gb3VyIG1vc3QgcG9wdWxhciBtaWNyb2JyZXcuIiwiYWJ2Ijo1LjMwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzUzMiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQmlyZWxsIiwiZGVzY3JpcHRpb24iOiJCaXJlbGwgaGFzIGFsbCB0aGUgaGFsbG1hcmtzIG9mIGEgZ3JlYXQgcHJlbWl1bSBiZWVyLCByaWNoIGNvbG91ciwgZnVsbCBtYWx0eSBmbGF2b3VyIGFuZCB0aGUgYWJpbGl0eSB0byBxdWVuY2ggYSB0aGlyc3QsIHdpdGggb25lIGltcG9ydGFudCBkaWZmZXJlbmNlIC0gdmlydHVhbGx5IG5vIGFsY29ob2wuIFxuXG5CcmV3ZWQgdW5kZXIgbGljZW5zZSBpbiBBdXN0cmFsaWEgYnkgQ29vcGVycywgQmlyZWxsIGlzIG1hZGUgdXNpbmcgb25seSB0aGUgZmluZXN0IEF1c3RyYWxpYW4gbWFsdGVkIGJhcmxleSwgaG9wcyBhbmQgeWVhc3QsIHdpdGggbm8gYXJ0aWZpY2lhbCBhZGRpdGl2ZXMgb3IgcHJlc2VydmF0aXZlcy5cblxuQ29vcGVycyBCaXJlbGwgbWF5IGJlIGZvdW5kIGluIG1vc3Qgc3VwZXJtYXJrZXRzICgzNzVtbCBib3R0bGVzIG9yIGNhbnMpLiIsImFidiI6MC41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiI3OCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiWWV0aSBTcGVjaWFsIEV4cG9ydCIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo3LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjMwMzYiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik1pY2hlbG9iIFVsdHJhIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjQuMTk5OTk5ODA5MjY1MTM3LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyOTg2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJIZWluZWtlbiIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjQxNzIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkNhdHRhaWwgUGVhayIsImRlc2NyaXB0aW9uIjoiQW4gaW52aWdvcmF0aW5nIHdoZWF0IGJlZXIgd2l0aCAxMDAlIG9yZ2FuaWMgZ3JhaW5zLCBhIGhpbnQgb2YgcnllIGFuZCB0aGUgdGFuZyBhbmQgaHVlIG9mIG9yZ2FuaWMgaGliaXNjdXMsIHRoaXMgcmVmcmVzaGluZyBicmV3IGlzIGFzIGNvb2wgYXMgdGhlIGJyZWV6ZSB0aGF0IGJsb3dzIGRvd24gZnJvbSBNb3VudCBNaXRjaGVsbCB0byBDYXR0YWlsIFBlYWsuIEVuam95IHRoaXMgZGVsaWNpb3VzIGNyZWF0aW9uIHdoZW4gdGhlIGhvdHRlc3Qgc3VtbWVyIGRheSBkZW1hbmRzIHRoZSBiZXN0IG9mIHRoZSBCbHVlIFJpZGdlLiIsImFidiI6NC42OTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19XX0=
   recorded_at: Thu, 10 Jun 2021 17:36:20 GMT
-
 - request:
     method: post
     uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09%2019:34:20%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=59
@@ -1140,4 +1139,940 @@ http_interactions:
       string: '{"data":{"id":"65","type":"trip","attributes":{"location":"80206","name":"Going
         to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":103,"max_temperature":93.7},"relationships":{}}}'
   recorded_at: Thu, 10 Jun 2021 17:41:37 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:10:00%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=485
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:10:00 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c404883b5f7614d210e38445eb9f6d60"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - bce62c61-d50b-4b5b-8a78-fbcdcd9da3e1
+      X-Runtime:
+      - '0.667742'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"88","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":485,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:10:01 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:14:39%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=496
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:14:39 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c263e1564165d43d21cf1ef8b7af5da7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2a9dfab8-e978-48bd-b915-8ecef8cb2850
+      X-Runtime:
+      - '0.690889'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"92","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":496,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:14:40 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=92
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:14:39 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ca095bb195921ba5a3743a6ca5eaeb9b"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 40180c6e-af35-4246-8874-3cd2c05d065f
+      X-Runtime:
+      - '0.044174'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"4242","type":"beer","attributes":{"name":"Dogma","description":"Dogma
+        is an innovative, enigmatic ale brewed with guarana, poppy seeds and kola
+        nut all blended together with Scottish heather honey. A conspiracy of transcontinental
+        ingredients infused with some devastatingly BrewDog imaginative thinking.\n\nThe
+        flavours, intricacies and nuances of this beer are best enjoyed while musing
+        over some obscure 17th Century philosophical meanderings, such as:\n\n\"If
+        we disbelieve everything because we cannot certainly know all things we will
+        do much, what as wisely as he who would not use his wings but sit still and
+        perish because he had no wings to fly.\"\nJohn Locke.\n\nThis beer is not
+        cool. You may think it is, but that is just a beautiful lie fabricated by
+        clowns and gypsies.","abv":7.800000190734863,"style":"Herb and Spice Beer"}},{"id":"2552","type":"beer","attributes":{"name":"Labatt
+        Blue","description":"Labatt Blue is the best-selling Canadian beer in the
+        world. Introduced in 1951 as Labatt Pilsener, it was named for the colour
+        of its label by fans of the Winnipeg Blue Bombers football team. Blue was
+        the first brand in Canada with a twist-off cap and won the silver medal in
+        the International Lager category at the 1998 Brewing Industry International
+        Awards. Labatt Blue, brewed using specially selected aromatic hops, is a well-balanced,
+        fully matured, full-flavoured beer with a fruity character and a slightly
+        sweet aftertaste.","abv":4.699999809265137,"style":"American-Style Lager"}},{"id":"3436","type":"beer","attributes":{"name":"Vienna
+        Red Lager","description":"This amber Austrian lager has a distinct bready
+        malt aroma and flavor, followed by a crisp, clean finish typical of lager
+        styles. The nose also shows plenty of the spicy hop aroma contributed by the
+        use of Saaz hops.","abv":5.0,"style":"American-Style Lager"}},{"id":"3426","type":"beer","attributes":{"name":"Hamtramck","description":"Brightly
+        filtered, highly carbonated, golden premium-style lager. It is lightly hopped
+        with Polish Lublin hops. The beer will appeal to those who prefer the lighter
+        American style beers.","abv":4.0,"style":"American-Style Lager"}},{"id":"3233","type":"beer","attributes":{"name":"Saranac
+        Season''s Best","description":"Brewed with a special blend of domestic and
+        Belgian malts for a delicate nut-like character, you''ll love this Lager''s
+        rich taste and signature hop aroma. The exceptional full-bodied taste reflects
+        our Brewery''s extraordinary commitment to brewing beers of the highest standard
+        of quality.","abv":5.300000190734863,"style":"American-Style Lager"}},{"id":"4008","type":"beer","attributes":{"name":"Sea
+        Dog Raspberry Wheat Ale","description":"Sea Dog Raspberry Wheat Ale is a dry,
+        crisp refreshing ale with the added essence of raspberries.","abv":4.5,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"154","type":"beer","attributes":{"name":"Chazz
+        Cat Rye","description":"","abv":4.5,"style":"American-Style Lager"}},{"id":"2637","type":"beer","attributes":{"name":"Natural
+        Ice","description":"","abv":5.900000095367432,"style":"American-Style Light
+        Lager"}},{"id":"1349","type":"beer","attributes":{"name":"Flat Belly American
+        Wheat","description":"","abv":3.5999999046325684,"style":"American-Style Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:14:40 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:15:23%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=507
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:15:23 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0535c1659ea699887adb2a1f96c24130"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 83760947-521d-4a56-b4e2-ab2c2bd336f3
+      X-Runtime:
+      - '0.588794'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"96","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":507,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:15:23 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=96
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:15:23 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"6d60ebc5a089eac659b68bdd634c18a0"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6b728a4d-a514-40b4-b36b-d66b7b7a5dc9
+      X-Runtime:
+      - '0.021798'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"3170","type":"beer","attributes":{"name":"Red Dog","description":"","abv":5.0,"style":"American-Style
+        Light Lager"}},{"id":"4049","type":"beer","attributes":{"name":"Double White","description":"What
+        do brewmasters do in their free time? If you''re Phil Markowski, the obsesseive
+        brewmaster of Southampton, you brew at home, of course! Phil turned his fascination
+        with Belgian-style white ales into a quest to master one of the most challenging
+        beers to brew. Using rustic ingredients like un-malted wheat, Phil experimented
+        over his stove until he felt it was perfect. Take one taste and you''ll agree,
+        Phil got it \"white.\"","abv":6.599999904632568,"style":"Light American Wheat
+        Ale or Lager"}},{"id":"4242","type":"beer","attributes":{"name":"Dogma","description":"Dogma
+        is an innovative, enigmatic ale brewed with guarana, poppy seeds and kola
+        nut all blended together with Scottish heather honey. A conspiracy of transcontinental
+        ingredients infused with some devastatingly BrewDog imaginative thinking.\n\nThe
+        flavours, intricacies and nuances of this beer are best enjoyed while musing
+        over some obscure 17th Century philosophical meanderings, such as:\n\n\"If
+        we disbelieve everything because we cannot certainly know all things we will
+        do much, what as wisely as he who would not use his wings but sit still and
+        perish because he had no wings to fly.\"\nJohn Locke.\n\nThis beer is not
+        cool. You may think it is, but that is just a beautiful lie fabricated by
+        clowns and gypsies.","abv":7.800000190734863,"style":"Herb and Spice Beer"}},{"id":"2521","type":"beer","attributes":{"name":"Victory
+        Lager","description":"Perfectly balanced, this authentic version of a German
+        helles-style lager satisfies gloriously. Lean, German malts and fine European
+        hops offer subtle harmony.","abv":4.800000190734863,"style":"American-Style
+        Lager"}},{"id":"442","type":"beer","attributes":{"name":"Blind Pig Dunkelweizen","description":"","abv":4.699999809265137,"style":"American-Style
+        Lager"}},{"id":"4233","type":"beer","attributes":{"name":"Scratch #25 2009
+        Magical Moustache Rye","description":"This mahogany ale packs a lingering,
+        earthy hoppiness. The addition of more than 20% rye to the grain bill gives
+        a creamy mouthfeel and hints of spice that compliment the bitterness of hops.
+        Subtle fruitiness come through from the Bravo hops added during the boil,
+        but the Cluster and Liberty varieties used in dry-hopping this beer are the
+        true flavor drivers in this spicy ale. Dark in color and intense is flavor,
+        Scratch 25-2009 finds true balance in a beer that could have easily gone way
+        over the top. Enjoy.","abv":6.5,"style":"American Rye Ale or Lager"}},{"id":"2484","type":"beer","attributes":{"name":"Icehouse","description":"America''s
+        first domestic ice beer, Icehouse is traditionally brewed, fermented and,
+        just before aging, its temperature is lowered to below freezing. This process
+        imparts the beer''s smoothness and an alcohol content that''s slightly higher
+        (5.5% by volume) than other regular premium beer brands. Icehouse was introduced
+        in 1993 and has reinforced its position as the ultimate beer for wind-up and
+        pre-game occasions. Blending humor and high-energy excitement, Icehouse marketing
+        encourages its target consumers to take occasions to the next level with a
+        great-tasting beer.","abv":5.5,"style":"American-Style Light Lager"}},{"id":"3767","type":"beer","attributes":{"name":"Scratch
+        #18 2009","description":"We started with the same grain bill as Scratch #12
+        (IPA) and substituted 25% rye for the base malt giving Scratch #18 a creamy
+        mouth feel and a full-bodied taste.\n\nMount Hood and Chinook hops are combined
+        here for flavoring and aroma, and Warrior hops are used for overall bitterness.\n\nThe
+        rye plays off the Mount Hood hops, with both ingredients releasing an herbal,
+        spicy flavor. Cheers.","abv":7.300000190734863,"style":"American Rye Ale or
+        Lager"}},{"id":"3274","type":"beer","attributes":{"name":"Hansa Imported Dortmunder","description":"Surviving
+        beer from the Dortmunder Hansa-Brauerei before being acquired by Actien.","abv":4.800000190734863,"style":"American-Style
+        Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:15:23 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:23:41%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=518
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:23:41 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"e264e6152346581232eadb1c27818450"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f02b9cff-22b5-47f4-9e39-a35554afcf3b
+      X-Runtime:
+      - '0.647129'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"102","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":518,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:23:42 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=102
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:23:42 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"246a765ca38924702afb126a02d41856"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0c06dccd-f04e-4e97-b735-432ee78612b1
+      X-Runtime:
+      - '0.042262'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"2639","type":"beer","attributes":{"name":"Harp Lager","description":"The
+        best selling premium irish import lager in the world today.  This rich, golden
+        pilsner style lager, with a smooth, refreshing hoppy taste, is brewed the
+        irish way, using only the finest barley and pure spring water from the Cooley
+        Mountains of Dundalk, Ireland.","abv":5.0,"style":"American-Style Lager"}},{"id":"3428","type":"beer","attributes":{"name":"Hite","description":"Hite
+        lager is golden in colour and is styled upon traditional European and American
+        lagers.","abv":4.5,"style":"American-Style Lager"}},{"id":"3544","type":"beer","attributes":{"name":"Mamma
+        Mia! Pizza Beer","description":"An ale flavored with fresh tomatoes, oregano,
+        basil and garlic.","abv":4.599999904632568,"style":"Herb and Spice Beer"}},{"id":"570","type":"beer","attributes":{"name":"Featherweight
+        Lager","description":"","abv":4.099999904632568,"style":"American-Style Lager"}},{"id":"2895","type":"beer","attributes":{"name":"Upland
+        Wheat Ale","description":"","abv":4.5,"style":"Light American Wheat Ale or
+        Lager"}},{"id":"3226","type":"beer","attributes":{"name":"Saranac Lager","description":"A
+        simple well-made Classic American Lager brewed with only choice ingredients.
+        It is extremely mellow refreshingly smooth, glass after glass.","abv":4.800000190734863,"style":"American-Style
+        Lager"}},{"id":"3172","type":"beer","attributes":{"name":"Amstel Light","description":"","abv":3.5,"style":"American-Style
+        Light Lager"}},{"id":"2485","type":"beer","attributes":{"name":"Milwaukees
+        Best","description":"","abv":4.5,"style":"American-Style Light Lager"}},{"id":"802","type":"beer","attributes":{"name":"Thunder
+        Storm","description":"","abv":5.0,"style":"American-Style Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:23:42 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:28:26%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=529
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:28:26 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"acae191654f3848eb4f6095e1bf8bdcf"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d231218a-9c97-4490-a4ed-60d81229cad9
+      X-Runtime:
+      - '0.550746'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"110","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":529,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:28:27 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=110
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:28:27 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7dd0c3d2af698ede5bd859e52d0a2106"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - edbaeff6-0dcc-49e3-afa3-edd6d2e6023f
+      X-Runtime:
+      - '0.031978'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjM1MzEiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkNvb3BlcnMgUHJlbWl1bSBMaWdodCIsImRlc2NyaXB0aW9uIjoiQ29vcGVycyBQcmVtaXVtIExpZ2h0IGlzIGJyZXdlZCB1c2luZyBtYWx0ZWQgYmFybGV5IGFuZCBubyBzdWdhci4gIENvb3BlcnMgaGFzIHVzZWQgdHJhZGl0aW9uYWwgbGFnZXIgYnJld2luZyB0ZWNobmlxdWVzIHRvIHByb2R1Y2UgYSBmdWxsLWZsYXZvdXJlZCBsaWdodCBiZWVyLiAgVGhlIGxpZ2h0IGhhcyBhIGZyZXNoIGFyb21hIHdpdGggY2xlYW4gZmxvcmFsIGhvcCBub3RlcywgZXhjZWxsZW50IGhlYWQgYW5kIGNvbG91ciBwcmVzZW50YXRpb24uIiwiYWJ2IjoyLjkwMDAwMDA5NTM2NzQzMTYsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGlnaHQgTGFnZXIifX0seyJpZCI6IjM4OTAiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkR1bmRlZSBXaGVhdCBCZWVyIiwiZGVzY3JpcHRpb24iOiJTZW5hdG9yIEpvc2VwaCBNY0NhcnRoeS4gVGhlIEhvbGxvdyBFYXJ0aCBTb2NpZXR5LiBNZW1iZXJzIG9mIHRoZSBTcGFuaXNoIElucXVpc2l0aW9uLiBBbGwgY29udmluY2VkIHRoZXkgd2VyZSBibGVzc2VkIHdpdGggdGhlIGdpZnQgb2YgY2xhcml0eS4gQW5kIHByb29mIHRoYXQgY2xhcml0eSBtaWdodCBiZSBvdmVycmF0ZWQuIFxuXG5Tb21ldGltZXMsIGJlaW5nIHVuY2xlYXLDouKCrOKAnWFuZCBhIGxpdHRsZSBmbGV4aWJsZcOi4oKs4oCdaXMgYSBnb29kIHRoaW5nLiBMaWtlIHdoZW4geW91IGFyZSBsb29raW5nIGZvciB0aGUgcGVyZmVjdCByZWZyZXNobWVudC4gRHVuZGVlIFdoZWF0IEJlZXIgY29tYmluZXMgd2hlYXQgYW5kIHllYXN0IGludG8gYSByZWZyZXNoaW5nIGhlZmV3ZWl6ZW4tc3R5bGUgYnJldy4gVW5maWx0ZXJlZCwgc28gaXQgaXMgc2xpZ2h0bHkgY2xvdWR5IGFuZCBwbGVhc2FudGx5IHVuY2xlYXIuIFxuXG5TbyB0aGUgbmV4dCB0aW1lIHlvdcOi4oKs4oSicmUgY29udmluY2VkIHlvdcOi4oKs4oSicmUgcmlnaHQgYWJvdXQgd2hhdCB5b3XDouKCrOKEonZlIGJlZW4gZHJpbmtpbmcsIGdpdmUgYSBsaXR0bGUgw6LigqzFk3VuY2xhcml0ecOi4oKswp0gYSB0cnkuXG5cbkFuIEFtZXJpY2FuLXN0eWxlLCB1bmZpbHRlcmVkIHdoZWF0IGJlZXIuIFBhbGUgc3RyYXcgaW4gY29sb3Igd2l0aCBhIGxpZ2h0IGNsb3VkaW5lc3MgZnJvbSBjYXJlZnVsbHkgc2VsZWN0ZWQgd2hlYXQgYW5kIHllYXN0LiBQbGVhc2FudCBzcGljeSBtYWx0IGFyb21hIGFuZCBhIGNyaXNwIGhvcCBmaW5pc2guIiwiYWJ2Ijo0LjE5OTk5OTgwOTI2NTEzNywic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjI1MTgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ill1ZW5nbGluZyBQcmVtaXVtIExpZ2h0IiwiZGVzY3JpcHRpb24iOiJZdWVuZ2xpbmcgTGlnaHQgQmVlciBpcyBza2lsbGZ1bGx5IGNyYWZ0ZWQgdG8gZGVsaXZlciBhIGNvbnNpc3RlbnRseSByZWZyZXNoaW5nIGJyZXcgd2l0aCBvbmx5IDk4IGNhbG9yaWVzLiBEcmF3aW5nIGZyb20gdHJhZGl0aW9uYWwgYnJld2luZyB0ZWNobmlxdWVzLCBvdXIgTGlnaHQgQmVlciBpcyBicmV3ZWQgbG9uZ2VyIHRvIHJlZHVjZSB0aGUgc3VnYXIgY29udGVudCBhbmQgcHJvZHVjZSBmZXdlciBjYWxvcmllcyBpbiBlYWNoIHRoaXJzdC1xdWVuY2hpbmcgZHJpbmsuIEl0cyBwYWxlIGdvbGRlbiBjb2xvciBpcyBjb21wbGVtZW50ZWQgYnkgYSBsaWdodC1ib2RpZWQgZmxhdm9yLiBZdWVuZ2xpbmcgTGlnaHQgbWFpbnRhaW5zIGEgd2VsbCBiYWxhbmNlZCBjaGFyYWN0ZXIgb2YgbWFsdCBhbmQgaG9wcywgd2l0aCBzbGlnaHQgY2FyYm9uYXRpb24gZm9yIGEgY3Jpc3Agc2F0aXNmeWluZyBmaW5pc2guIFdlIHNhY3JpZmljZSBub3RoaW5nIHRvIHByb2R1Y2UgYSBwcmVtaXVtIGxpZ2h0IGJlZXIgdGhhdCBpcyBsb3cgaW4gY2Fsb3JpZXMgYW5kIGZ1bGwgb2YgZmxhdm9yLiBUaGlzIGNvbWJpbmF0aW9uIGRlbGl2ZXJzIHRoZSB1bHRpbWF0ZSByZWZyZXNobWVudCBpbiBZdWVuZ2xpbmcgTGlnaHQgQmVlci4iLCJhYnYiOjMuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMaWdodCBMYWdlciJ9fSx7ImlkIjoiMjUxMyIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiWXVlbmdsaW5nIExhZ2VyIiwiZGVzY3JpcHRpb24iOiJZdWVuZ2xpbmcgVHJhZGl0aW9uYWwgTGFnZXIgaXMgYW4gaWNvbmljIEFtZXJpY2FuIGxhZ2VyIGZhbW91cyBmb3IgaXRzIHJpY2ggYW1iZXIgY29sb3IgYW5kIG1lZGl1bS1ib2RpZWQgZmxhdm9yLiBCcmV3ZWQgd2l0aCByb2FzdGVkIGNhcmFtZWwgbWFsdCBmb3IgYSBzdWJ0bGUgc3dlZXRuZXNzIGFuZCBhIGNvbWJpbmF0aW9uIG9mIGNsdXN0ZXIgYW5kIGNhc2NhZGUgaG9wcywgdGhpcyB0cnVlIG9yaWdpbmFsIHByb21pc2VzIGEgd2VsbCBiYWxhbmNlZCB0YXN0ZSB3aXRoIHZlcnkgZGlzdGluY3QgY2hhcmFjdGVyLiBJdHMgZXhjZXB0aW9uYWwgZmxhdm9yIGFuZCBzbW9vdGggZmluaXNoIGlzIHByZXZhbGVudGx5IGVuam95ZWQgYnkgY29uc3VtZXJzIHdpdGggZXZlbiB0aGUgbW9zdCBkaXNjZXJuaW5nIHRhc3Rlcy4gT3VyIGZsYWdzaGlwIGJyYW5kLCBZdWVuZ2xpbmcgVHJhZGl0aW9uYWwgTGFnZXIgaXMgYW4gQW1lcmljYW4gZmF2b3JpdGUgZGVsaXZlcmluZyBjb25zaXN0ZW50IHF1YWxpdHkgYW5kIHJlZnJlc2htZW50IHRoYXQgbmV2ZXIgZGlzYXBwb2ludHMuIEluIGZhY3QsIGl0J3Mgc28gd2lkZWx5IGtub3duIGFuZCB1bmlxdWUgaW4gaXRzIGNsYXNzLCBpbiBzb21lIGFyZWFzIHlvdSBjYW4gYXNrIGZvciBpdCBzaW1wbHkgYnkgdGhlIG5hbWUgXCJMYWdlci5cIiIsImFidiI6NC40MDAwMDAwOTUzNjc0MzIsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM0NzgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkhvcCBTdW4iLCJkZXNjcmlwdGlvbiI6IlBvdXIgSG9wIFN1biBTdW1tZXIgV2hlYXQgQmVlciBpbnRvIGEgcGludCBnbGFzcywgZ2l2ZSBpdCBhIGxvbmcgd2hpZmYgYW5kIHlvdcOi4oKs4oSibGwgcmVhbGl6ZSB0aGF0IHRoaXMgaXNuw6LigqzihKJ0IHlvdXIgYXZlcmFnZSB3aGVhdGJlZXIuIEZpbHRlcmVkIHRvIGEgZ29sZGVuIGNsYXJpdHkgYW5kIGRyeS1ob3BwZWQgdG8gcGVyZmVjdGlvbiwgSG9wIFN1biBpcyBhIGZhbnRhc3RpYyBzZXNzaW9uIGFsZSBpbiB3aGljaCBmbGF2b3JzIG9mIHdoZWF0LCBiYXJsZXkgYW5kIGhvcHMgY29tbWluZ2xlIHRvIGEgcmVmcmVzaGluZyBhbmQgemVzdHkgY29uY2x1c2lvbi4gSGludHMgb2YgbGVtb24gYW5kIHN3ZWV0IG1hbHRzIHdhZnQgdG8gdGhlIGZvcmUgYXMgYSB0b3VjaCBvZiBiaXR0ZXJuZXNzIGNvbnRyaWJ1dGVzIHRvIEhvcCBTdW7DouKCrOKEonMgYnJpZ2h0IGZpbmlzaC4gRW5qb3kgSG9wIFN1biBhbGwgc3VtbWVyIGxvbmcgYXMgYSBwZXJmZWN0IGJhbGFuY2UgdG8geW91ciBvdXRkb29yIHJlY3JlYXRpb24uIFN1bW1lciBuZXZlciB0YXN0ZWQgc28gZ29vZC4iLCJhYnYiOjQuNSwic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjQzMzgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlN0LiBQYXRyaWNrJ3MgR29sZCIsImRlc2NyaXB0aW9uIjoiT3VyIHNtb290aCB5ZXQgcG93ZXJmdWwgd2hlYXQgYmVlciBpcyB1bnVzdWFsbHkgcmVmcmVzaGluZyBvbiB0aGUgcGFsbGV0LiAgR29sZGVuIGluIGNvbG91ciwgU3QuIFBhdHJpY2sncyBHb2xkIGlzIGJyZXdlZCB3aXRoIGJhcmxleSBhbmQgd2hlYXQgbWFsdC4gQ2l0cnVzIHBlZWwgYW5kIGNvcmlhbmRlciBhcmUgYWRkZWQgdG8gdGhlIEdvbGRpbmdzIGFuZCBTYWF6IGhvcHMgZm9yIGEgc3ltcGhvbnkgb2YgYXV0aGVudGljIGZsYXZvdXIuIiwiYWJ2Ijo0LjgwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjQwMDQiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IjQyMiBQYWxlIFdoZWF0IEFsZSIsImRlc2NyaXB0aW9uIjoiUG91ciA0MjIgUGFsZSBXaGVhdCBBbGUgaW50byBhIHBpbnQgZ2xhc3MsIGdpdmUgaXQgYSBsb25nIHdoaWZmIGFuZCB5b3XDouKCrOKEomxsIHJlYWxpemUgdGhhdCB0aGlzIGlzbsOi4oKs4oSidCB5b3VyIGF2ZXJhZ2UgcGFsZSBnb2xkZW4gd2hlYXQuIFByZXNlcnZlZCBpbiBpdHMgdW5maWx0ZXJlZCBzdGF0ZSwgNDIyIGlzIGEgZmFudGFzdGljIHNlc3Npb24gYWxlIGluIHdoaWNoIGZsYXZvcnMgb2Ygd2hlYXQsIGJhcmxleSBhbmQgaG9wcyBjb21taW5nbGUgdG8gYSByZWZyZXNoaW5nIGFuZCB6ZXN0eSBjb25jbHVzaW9uLiBIaW50cyBvZiBvcmFuZ2UgYW5kIHN3ZWV0IG1hbHRzIHdhZnQgdG8gdGhlIGZvcmUgYXMgYSB0b3VjaCBvZiBiaXR0ZXJuZXNzIGNvbnRyaWJ1dGVzIHRvIGEgc21vb3RoIGZpbmlzaC4gNDIyIGlzIGJyZXdlZCBhcyBhIHRyaWJ1dGUgdG8gcHJlc2VydmluZyBvdXIgcHJlY2lvdXMgcGxhbmV0IGFuZCBpdMOi4oKs4oSicyBlbnZpcm9ubWVudC4gSXQgaXMgcmVzcG9uc2libHkgcGFja2FnZWQgd2l0aCBvdmVyIDgwJSByZWN5Y2xlZCBjb25zdW1lciBwcm9kdWN0cyBhbmQgaXMgY29tcGxldGVseSByZWN5Y2xhYmxlLiBFbmpveSA0MjIgYWxsIHllYXIgYXMgdG8gdGFrZSBvbmUgc3RyaWRlIGNsb3NlciB0byBhIGVjby1mcmllbmRseSBsaWZlLiIsImFidiI6NS4wLCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMjU4NSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiU3ByaW5nIEJvY2siLCJkZXNjcmlwdGlvbiI6IkEgdHJhZGl0aW9uYWwgR2VybWFuIHN0eWxlIGxhZ2VyLiBDaGFyYWN0ZXJpemVkIGJ5IGEgZGVlcCBjb3BwZXIgY29sb3IgYW5kIHJpY2ggbWFsdCBmbGF2b3IuIEJhbGFuY2VkIHdpdGggR2VybWFuIGhvcHMuXG5cbkF2YWlsYWJsZSBhdCB0aGUgQnJld2VyeSBhbmQgaW4gYm90dGxlcyBcdTAwMjYgY2FzZXMgZnJvbSBNYXJjaCAtIE1heS4iLCJhYnYiOjYuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiODExIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJSb2dnZW5iaWVyIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjUuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fV19
+  recorded_at: Thu, 10 Jun 2021 22:28:27 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:50:34%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=540
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:50:34 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"cfc3be420ff965cb2112d3cf58c45de4"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d0db5315-0adc-4474-9eda-4fe78361d431
+      X-Runtime:
+      - '0.846952'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"114","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":540,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:50:35 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=114
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:50:35 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"20281d54182baa21f18cc8011b016615"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 73a23033-a0e7-4329-9f45-849eed724994
+      X-Runtime:
+      - '0.048845'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjMxOTgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkhvbmV5IE1vb24gU3VtbWVyIEFsZSIsImRlc2NyaXB0aW9uIjoiVGhlIEdvbGQgTWVkYWwtd2lubmluZyBIb25leSBNb29uIFN1bW1lciBBbGUgaXMgYSBjbGFzc2ljIHN1bW1lciBhbGUgbWFkZSBldmVuIGJldHRlciB3aXRoIHJlYWwgY2xvdmVyIGhvbmV5LCBmcmVzaCBvcmFuZ2UgcGVlbCBhbmQgYm90aCBwYWxlIGFuZCB3aGl0ZSB3aGVhdCBtYWx0cy4gIFByb2ZmIHRoYXQgYnJld2luZyB0aGUgcGVyZmVjdCBzdW1tZXIgYWxlIGlzIGEgdHJ1ZSBhcnQuIiwiYWJ2Ijo1LjU5OTk5OTkwNDYzMjU2OCwic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjQwMDgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlNlYSBEb2cgUmFzcGJlcnJ5IFdoZWF0IEFsZSIsImRlc2NyaXB0aW9uIjoiU2VhIERvZyBSYXNwYmVycnkgV2hlYXQgQWxlIGlzIGEgZHJ5LCBjcmlzcCByZWZyZXNoaW5nIGFsZSB3aXRoIHRoZSBhZGRlZCBlc3NlbmNlIG9mIHJhc3BiZXJyaWVzLiIsImFidiI6NC41LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzIyNiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiU2FyYW5hYyBMYWdlciIsImRlc2NyaXB0aW9uIjoiQSBzaW1wbGUgd2VsbC1tYWRlIENsYXNzaWMgQW1lcmljYW4gTGFnZXIgYnJld2VkIHdpdGggb25seSBjaG9pY2UgaW5ncmVkaWVudHMuIEl0IGlzIGV4dHJlbWVseSBtZWxsb3cgcmVmcmVzaGluZ2x5IHNtb290aCwgZ2xhc3MgYWZ0ZXIgZ2xhc3MuIiwiYWJ2Ijo0LjgwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiNDExMCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiTWlsbGVyIEdlbnVpbmUgRHJhZnQgNjQiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6Mi43OTk5OTk5NTIzMTYyODQsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGlnaHQgTGFnZXIifX0seyJpZCI6IjI5MjUiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJvdWxldmFyZCBVbmZpbHRlcmVkIFdoZWF0IiwiZGVzY3JpcHRpb24iOiJCb3VsZXZhcmQgVW5maWx0ZXJlZCBXaGVhdCBCZWVyIGlzIGEgbGl2ZWx5LCByZWZyZXNoaW5nIGFsZSB3aXRoIGEgbmF0dXJhbGx5IGNpdHJ1c3kgZmxhdm9yIGFuZCBkaXN0aW5jdGl2ZSBjbG91ZHkgYXBwZWFyYW5jZS4gVGhpcyBlYXN5LWRyaW5raW5nIEFtZXJpY2FuLXN0eWxlIHdoZWF0IGJlZXIgaGFzIGJlY29tZSBvdXIgbW9zdCBwb3B1bGFyIG9mZmVyaW5nLCBhbmQgdGhlIGJlc3Qtc2VsbGluZyBjcmFmdCBiZWVyIGluIHRoZSBNaWR3ZXN0LiIsImFidiI6NC41LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMjU1MiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiTGFiYXR0IEJsdWUiLCJkZXNjcmlwdGlvbiI6IkxhYmF0dCBCbHVlIGlzIHRoZSBiZXN0LXNlbGxpbmcgQ2FuYWRpYW4gYmVlciBpbiB0aGUgd29ybGQuIEludHJvZHVjZWQgaW4gMTk1MSBhcyBMYWJhdHQgUGlsc2VuZXIsIGl0IHdhcyBuYW1lZCBmb3IgdGhlIGNvbG91ciBvZiBpdHMgbGFiZWwgYnkgZmFucyBvZiB0aGUgV2lubmlwZWcgQmx1ZSBCb21iZXJzIGZvb3RiYWxsIHRlYW0uIEJsdWUgd2FzIHRoZSBmaXJzdCBicmFuZCBpbiBDYW5hZGEgd2l0aCBhIHR3aXN0LW9mZiBjYXAgYW5kIHdvbiB0aGUgc2lsdmVyIG1lZGFsIGluIHRoZSBJbnRlcm5hdGlvbmFsIExhZ2VyIGNhdGVnb3J5IGF0IHRoZSAxOTk4IEJyZXdpbmcgSW5kdXN0cnkgSW50ZXJuYXRpb25hbCBBd2FyZHMuIExhYmF0dCBCbHVlLCBicmV3ZWQgdXNpbmcgc3BlY2lhbGx5IHNlbGVjdGVkIGFyb21hdGljIGhvcHMsIGlzIGEgd2VsbC1iYWxhbmNlZCwgZnVsbHkgbWF0dXJlZCwgZnVsbC1mbGF2b3VyZWQgYmVlciB3aXRoIGEgZnJ1aXR5IGNoYXJhY3RlciBhbmQgYSBzbGlnaHRseSBzd2VldCBhZnRlcnRhc3RlLiIsImFidiI6NC42OTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI0ODQiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkljZWhvdXNlIiwiZGVzY3JpcHRpb24iOiJBbWVyaWNhJ3MgZmlyc3QgZG9tZXN0aWMgaWNlIGJlZXIsIEljZWhvdXNlIGlzIHRyYWRpdGlvbmFsbHkgYnJld2VkLCBmZXJtZW50ZWQgYW5kLCBqdXN0IGJlZm9yZSBhZ2luZywgaXRzIHRlbXBlcmF0dXJlIGlzIGxvd2VyZWQgdG8gYmVsb3cgZnJlZXppbmcuIFRoaXMgcHJvY2VzcyBpbXBhcnRzIHRoZSBiZWVyJ3Mgc21vb3RobmVzcyBhbmQgYW4gYWxjb2hvbCBjb250ZW50IHRoYXQncyBzbGlnaHRseSBoaWdoZXIgKDUuNSUgYnkgdm9sdW1lKSB0aGFuIG90aGVyIHJlZ3VsYXIgcHJlbWl1bSBiZWVyIGJyYW5kcy4gSWNlaG91c2Ugd2FzIGludHJvZHVjZWQgaW4gMTk5MyBhbmQgaGFzIHJlaW5mb3JjZWQgaXRzIHBvc2l0aW9uIGFzIHRoZSB1bHRpbWF0ZSBiZWVyIGZvciB3aW5kLXVwIGFuZCBwcmUtZ2FtZSBvY2Nhc2lvbnMuIEJsZW5kaW5nIGh1bW9yIGFuZCBoaWdoLWVuZXJneSBleGNpdGVtZW50LCBJY2Vob3VzZSBtYXJrZXRpbmcgZW5jb3VyYWdlcyBpdHMgdGFyZ2V0IGNvbnN1bWVycyB0byB0YWtlIG9jY2FzaW9ucyB0byB0aGUgbmV4dCBsZXZlbCB3aXRoIGEgZ3JlYXQtdGFzdGluZyBiZWVyLiIsImFidiI6NS41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIzNTI2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJDb29wZXJzIFByZW1pdW0gTGFnZXIiLCJkZXNjcmlwdGlvbiI6IkNvb3BlcnMgUHJlbWl1bSBMYWdlciBpcyBxdWl0ZSBkaWZmZXJlbnQgdG8gdGhlIGZhbW91cyBDb29wZXJzIGFsZXMuICBUaGlzIGxhZ2VyIHByb2R1Y2VzIGEgcmVmcmVzaGluZyBmbGF2b3VyIHdpdGggYSBnb29kIGJhbGFuY2Ugb2YgbWFsdCBhbmQgaG9wIGNoYXJhY3RlcnMgYW5kIGlzIGJyZXdlZCB1c2luZyBubyBzdWdhci4gV2l0aCBpdHMgc3VidGxlIGZydWl0eSBlc3RlcnMgYW5kIGxpZ2h0IGdvbGRlbiBjb2xvdXIsIGNvbWJpbmVkIHdpdGggYSBqdWRpY2lvdXMgYmxlbmQgb2YgUHJpZGUgb2YgUmluZ3dvb2QgYW5kIFNhYXogaG9wcy4gIFRoaXMgcHJvZHVjZXMgYSBMYWdlciB3aXRoIGEgY3Jpc3AgbWFsdHkgZnVsbCBmbGF2b3VyLiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIzNzI2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJQaHVrZXQgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IlBodWtldCBCZWVyIHdhcyBjcmVhdGVkIGFzIGEgcmVmcmVzaGluZyDDouKCrMucYm91dGlxdWXDouKCrOKEoiBiZWVyIGluIHZpZXcgb2YgdGhlIGV4b3RpYyBpc2xhbmQgb2YgUGh1a2V0IHdpdGggYSBtdWNoIGxvd2VyIGZvcm11bGEgb2YgYml0dGVybmVzcyB0aGFuIGFueSBvdGhlciBkb21lc3RpYyByaXZhbHMgaW4gVGhhaWxhbmQuXG5cblBodWtldCBCZWVyIGlzIHRoZSBmaXJzdCByZWdpb25hbCBiZWVyIGJyZXdlZCBpbiBUaGFpbGFuZCBhbmQgaXMgcG9zaXRpb25lZCB0byBhcHBlYWwgdG8gYm90aCB0aGUgaW50ZXJuYXRpb25hbCBtYXJrZXRzIGFzIHdlbGwgYXMgdGhlIGxvY2FsIHBvcHVsYXRpb24uIFRoaXMgaXMgbWFuaWZlc3RlZCB0aHJvdWdoIHRoZSBsYWJlbCBhbmQgcGFja2FnaW5nIGRlc2lnbnMgcHJlc2VudGVkIGluIGJvdGggRW5nbGlzaCBhbmQgVGhhaSBsYW5ndWFnZXMuXG5cblBodWtldCBCZWVyIGlzIHdlbGwgcG9zaXRpb25lZCBhcyBhIHByZW1pdW0gYnJhbmQgbG9jYXRlZCBzb21ld2hlcmUgYmV0d2VlbiB0aGUgbG9jYWwgc3RhbmRhcmQgYnJhbmRzIGFuZCB0aGUgaW1wb3J0ZWQgcHJlbWl1bSBicmFuZHMuIFRoZSBlZmZvcnRzIHdlcmUgaW5zcGlyZWQgZnJvbSB0aGUgZmVlbGluZyBvZiBiZWluZyBpbiBhIHRyb3BpY2FsIHBhcmFkaXNlLiBUaGFpIGJlZXIgY29uc3VtZXJzIGhhdmUgYmVjb21lIG1vcmUgc29waGlzdGljYXRlZCBvdmVyIHRoZSB5ZWFycywgYnkgc2VsZWN0aW5nIGFuZCBkZW1hbmRpbmcgcHJlbWl1bSBhbmQgaGlnaC1lbmQgYmVlcnMuIGluaXRpYWwgY29uc3VtZXIgdGFyZ2V0IHdhcyBQaHVrZXQgSXNsYW5kJ3Mgc2lnbmlmaWNhbnQgdG91cmlzdCBzZWN0b3IsIGEgc2VjdG9yIHRoYXQgaXMgcHJvbmUgdG8gdGFzdGUgYW5kIGRyaW5rIGxvY2FsbHkgcHJvZHVjZWQgYnJhbmRzLkhvd2V2ZXIsIHN0cmF0ZWdpYyBwb3NpdGlvbmluZyBhbmQgc2VsZWN0ZWQgbWFya2V0aW5nIG9mIFBodWtldCBCZWVyIGhhcyByZXN1bHRlZCBpbiBhIHJheSBvZiBzdWNjZXNzZnVsIGV4cG9ydCBtYXJrZXRzIHdpdGggb3ZlcndoZWxtaW5nIHJlc3BvbnNlIGZyb20gdGhlIGluaXRpYWwgbWFya2V0cyBvdmVyc2Vhcy5cblxuVGhlIHBoaWxvc29waHkgaXMgdG8gcHJvdmlkZSBhIMOi4oKsy5x0cm9waWNhbCBsaWZlc3R5bGXDouKCrOKEoiBkcmlua2luZyBleHBlcmllbmNlIGluIGEgZnJlc2ggY2xlYW4gbGlnaHQgdGFzdGluZyBsYWdlciBiZWVyIHdpdGggNSUgYWxjb2hvbCBieSB2b2x1bWUsIHdoaWNoIGlzIGluIHRvdGFsIGNvbnRyYXN0IHRvIHRoZSBvdGhlciBUaGFpIGJlZXJzIHRoYXQgYXJlIHZlcnkgYml0dGVyIHdpdGggaGlnaGVyIGFsY29ob2wgY29udGVudC4iLCJhYnYiOjUuMCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fV19
+  recorded_at: Thu, 10 Jun 2021 22:50:35 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:57:58%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=551
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:57:59 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"87972c8aee45f20a0825f1b201dc78fb"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e078ac73-d096-4d05-82f6-dd290966ea9b
+      X-Runtime:
+      - '1.025042'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"118","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":551,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:58:00 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=118
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:57:59 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"dfc5da0211fca7e7dded9f6b6771c3db"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a2633c98-a2ab-4e7d-bd32-c2210f0a2b54
+      X-Runtime:
+      - '0.058770'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjEiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkhvY3VzIFBvY3VzIiwiZGVzY3JpcHRpb24iOiJPdXIgdGFrZSBvbiBhIGNsYXNzaWMgc3VtbWVyIGFsZS4gIEEgdG9hc3QgdG8gd2VlZHMsIHJheXMsIGFuZCBzdW1tZXIgaGF6ZS4gIEEgbGlnaHQsIGNyaXNwIGFsZSBmb3IgbW93aW5nIGxhd25zLCBoaXR0aW5nIGxhenkgZmx5IGJhbGxzLCBhbmQgY29tbXVuaW5nIHdpdGggbmF0dXJlLCBIb2N1cyBQb2N1cyBpcyBvZmZlcmVkIHVwIGFzIGEgc3VtbWVyIHNhY3JpZmljZSB0byBjbG9kbGVzcyBkYXlzLlxuXG5JdHMgbWFsdHkgc3dlZXRuZXNzIGZpbmlzaGVzIHRhcnQgYW5kIGNyaXNwIGFuZCBpcyBiZXN0IGFwcHJlZGlhdGVkIHdpdGggYSB3ZWRnZSBvZiBvcmFuZ2UuIiwiYWJ2Ijo0LjUsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIzMDA1IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJCbGFja2JlYXJ5IFdoZWF0IiwiZGVzY3JpcHRpb24iOiJMaWdodCBcdTAwMjYgcmVmcmVzaGluZyB3aXRoIGEgaGludCBvZiBibGFja2JlcnJ5IGF0IHRoZSBmaW5pc2ggbWFrZXMgdGhpcyBiZWVyIGEgcmVhbCB0aGlyc3QgcXVlbmNoZXIuIEZvciB0aGUgaGVhbHRoIGNvbnNjaW91cywgQmxhY2tiZWFyeSBXaGVhdCBoYXMgbGVzcyB0aGFuIDYgZ3JhbXMgb2YgY2FyYnMgYW5kIGNvbnRhaW5zIDAgZmF0LiIsImFidiI6NC4wLCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiNzc0IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJDYWxpZm9ybmlhIEdvbGQiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NC41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI0MzM4IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJTdC4gUGF0cmljaydzIEdvbGQiLCJkZXNjcmlwdGlvbiI6Ik91ciBzbW9vdGggeWV0IHBvd2VyZnVsIHdoZWF0IGJlZXIgaXMgdW51c3VhbGx5IHJlZnJlc2hpbmcgb24gdGhlIHBhbGxldC4gIEdvbGRlbiBpbiBjb2xvdXIsIFN0LiBQYXRyaWNrJ3MgR29sZCBpcyBicmV3ZWQgd2l0aCBiYXJsZXkgYW5kIHdoZWF0IG1hbHQuIENpdHJ1cyBwZWVsIGFuZCBjb3JpYW5kZXIgYXJlIGFkZGVkIHRvIHRoZSBHb2xkaW5ncyBhbmQgU2FheiBob3BzIGZvciBhIHN5bXBob255IG9mIGF1dGhlbnRpYyBmbGF2b3VyLiIsImFidiI6NC44MDAwMDAxOTA3MzQ4NjMsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIyNDgyIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJNaWxsZXIgR2VudWluZSBEcmFmdCIsImRlc2NyaXB0aW9uIjoiTWlsbGVyIEdlbnVpbmUgRHJhZnQgZGVidXRlZCBpbiAxOTg1IHdpdGggZnJlc2gsIHNtb290aCBmbGF2b3IgdGhhdCdzIGEgcmVzdWx0IG9mIGJlaW5nIGNvbGQtZmlsdGVyZWQgZm91ciB0aW1lcy4gQXMgd2UgY2FwaXRhbGl6ZSBvbiB0aGUgZ3Jvd2luZyB0cmVuZCB0b3dhcmRzIFwibWFpbnN0cmVhbSBzb3BoaXN0aWNhdGlvbixcIiBNR0QgaXMgcG9zaXRpb25lZCBhcyB0aGUgb25seSBiZWVyIHJlZmluZWQgdG8gaWRlYWwgc21vb3RobmVzcyBmb3IgdGhvc2Ugd2hvIHB1cnN1ZSB0aGVpciBwYXNzaW9uIHdpdGggaW50ZWdyaXR5IGFuZCBjb252aWN0aW9uLiBGb3Igb3VyIHRhcmdldCBjb25zdW1lciwgTUdEIGlzIGEgYnJhbmQgdGhhdCBjZWxlYnJhdGVzIHRoZWlyIGV4cGVyaWVuY2VzIC4uLiBwYXN0LCBwcmVzZW50LCBhbmQgZnV0dXJlLiBCZWNhdXNlLCB1bHRpbWF0ZWx5LCBpbiBiZWVyIGFzIGluIGxpZmUsIFwiRXhwZXJpZW5jZSBpcyBHb2xkZW4uXCIiLCJhYnYiOjQuNjU5OTk5ODQ3NDEyMTA5LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIyNDIyIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJIaW5hbm8iLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI0MjMzIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJTY3JhdGNoICMyNSAyMDA5IE1hZ2ljYWwgTW91c3RhY2hlIFJ5ZSIsImRlc2NyaXB0aW9uIjoiVGhpcyBtYWhvZ2FueSBhbGUgcGFja3MgYSBsaW5nZXJpbmcsIGVhcnRoeSBob3BwaW5lc3MuIFRoZSBhZGRpdGlvbiBvZiBtb3JlIHRoYW4gMjAlIHJ5ZSB0byB0aGUgZ3JhaW4gYmlsbCBnaXZlcyBhIGNyZWFteSBtb3V0aGZlZWwgYW5kIGhpbnRzIG9mIHNwaWNlIHRoYXQgY29tcGxpbWVudCB0aGUgYml0dGVybmVzcyBvZiBob3BzLiBTdWJ0bGUgZnJ1aXRpbmVzcyBjb21lIHRocm91Z2ggZnJvbSB0aGUgQnJhdm8gaG9wcyBhZGRlZCBkdXJpbmcgdGhlIGJvaWwsIGJ1dCB0aGUgQ2x1c3RlciBhbmQgTGliZXJ0eSB2YXJpZXRpZXMgdXNlZCBpbiBkcnktaG9wcGluZyB0aGlzIGJlZXIgYXJlIHRoZSB0cnVlIGZsYXZvciBkcml2ZXJzIGluIHRoaXMgc3BpY3kgYWxlLiBEYXJrIGluIGNvbG9yIGFuZCBpbnRlbnNlIGlzIGZsYXZvciwgU2NyYXRjaCAyNS0yMDA5IGZpbmRzIHRydWUgYmFsYW5jZSBpbiBhIGJlZXIgdGhhdCBjb3VsZCBoYXZlIGVhc2lseSBnb25lIHdheSBvdmVyIHRoZSB0b3AuIEVuam95LiIsImFidiI6Ni41LCJzdHlsZSI6IkFtZXJpY2FuIFJ5ZSBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjI1NTMiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkxhYmF0dCBJY2UiLCJkZXNjcmlwdGlvbiI6IkxhYmF0dCBJY2UsIGludHJvZHVjZWQgaW4gMTk5Mywgd2FzIHRoZSB3b3JsZMOi4oKs4oSicyBmaXJzdCBJY2UtQnJld2Vkw6LigJ7CoiBiZWVyIGFuZCB0aGUgbW9zdCBzdWNjZXNzZnVsIG5ldyBicmFuZCBpbnRyb2R1Y3Rpb24gaW4gQ2FuYWRpYW4gYnJld2luZyBoaXN0b3J5LiBMYWJhdHQgSWNlIGlzIGEgZnVsbHkgZmVybWVudGVkIGJlZXIgdGhhdCBpcyBhbGxvd2VkIHRvIG1hdHVyZSBhdCBjb2xkIHRlbXBlcmF0dXJlcy4gTGFiYXR0IEljZSB1c2VzIHNlbGVjdGVkIE5vcnRoIEFtZXJpY2FuIGhvcHMgdG8gY29tcGxlbWVudCBpdHMgc21vb3RoLCBmdWxsIGZsYXZvdXIuIiwiYWJ2Ijo1LjU5OTk5OTkwNDYzMjU2OCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMjkyNSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQm91bGV2YXJkIFVuZmlsdGVyZWQgV2hlYXQiLCJkZXNjcmlwdGlvbiI6IkJvdWxldmFyZCBVbmZpbHRlcmVkIFdoZWF0IEJlZXIgaXMgYSBsaXZlbHksIHJlZnJlc2hpbmcgYWxlIHdpdGggYSBuYXR1cmFsbHkgY2l0cnVzeSBmbGF2b3IgYW5kIGRpc3RpbmN0aXZlIGNsb3VkeSBhcHBlYXJhbmNlLiBUaGlzIGVhc3ktZHJpbmtpbmcgQW1lcmljYW4tc3R5bGUgd2hlYXQgYmVlciBoYXMgYmVjb21lIG91ciBtb3N0IHBvcHVsYXIgb2ZmZXJpbmcsIGFuZCB0aGUgYmVzdC1zZWxsaW5nIGNyYWZ0IGJlZXIgaW4gdGhlIE1pZHdlc3QuIiwiYWJ2Ijo0LjUsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19XX0=
+  recorded_at: Thu, 10 Jun 2021 22:58:00 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2018:03:37%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=563
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:03:37 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"35a4c95b9877ccef55d80ad1d17e3463"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0be4a686-2b6c-430e-afee-8fa385ff28cb
+      X-Runtime:
+      - '0.875878'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"122","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":563,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 23:03:38 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=122
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:03:37 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"50f409c8a3fe9f22a81f7ad8424e1c73"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e080a820-cabe-4ff1-bf93-0921fefe5992
+      X-Runtime:
+      - '0.066167'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjM4NCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiRm9zdGVyIENoaWxkIEF1c3RyYWxpYW4gTGFnZXIiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NC4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyNTU2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJMYWJhdHQgQ3J5c3RhbCIsImRlc2NyaXB0aW9uIjoiTGFiYXR0IENyeXN0YWwgd2FzIGludHJvZHVjZWQgdG8gT250YXJpbyBpbiB0aGUgbGF0ZSAxODAwcyBhcyBvbmUgb2YgdGhlIGZpcnN0IGxhZ2VycyBicmV3ZWQgYnkgTGFiYXR0LiBXb3JsZC1yZW5vd25lZCBTYWF6IGhvcHMgYXJlIHVzZWQgdG8gZ2l2ZSB0aGlzIGJlZXIgYSBjbGVhbiwgYWxtb3N0IHN3ZWV0IHRhc3RlIHdoaWNoIG5pY2VseSBiYWxhbmNlcyB0aGUgZnVsbGVyIGJvZHksIGhpZ2hlciBiaXR0ZXJuZXNzIGFuZCByaWNoZXIgdGFzdGUgdHlwaWNhbGx5IGFzc29jaWF0ZWQgd2l0aCB0cmFkaXRpb25hbCBsYWdlcnMuIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM0NjciLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlJhc3BiZXJyeSBXaGVhdCIsImRlc2NyaXB0aW9uIjoiQW4gQW1lcmljYW4gd2hlYXQgYmVlciBtYWRlIHdpdGggbWFsdGVkIGJhcmxleSBhbmQgbWFsdGVkIHdoZWF0LiAgTGlnaHRseSBmbGF2b3JlZCB3aXRoIHB1cmUgZnJ1aXQgdG8gaW1wYXJ0IGEgc3VidGxlIHJhc3BiZXJyeSBub3NlLCBhIGRlbGljYXRlIGZydWl0IGZsYXZvciBhbmQgYSBzbGlnaHQgcGluayBodWUuIiwiYWJ2Ijo0LjgwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjI2MzciLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik5hdHVyYWwgSWNlIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjUuOTAwMDAwMDk1MzY3NDMyLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIzMjEwIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJTY2huZWlkZXIgV2Vpc3NlIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjUuNDAwMDAwMDk1MzY3NDMyLCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzg5MCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiRHVuZGVlIFdoZWF0IEJlZXIiLCJkZXNjcmlwdGlvbiI6IlNlbmF0b3IgSm9zZXBoIE1jQ2FydGh5LiBUaGUgSG9sbG93IEVhcnRoIFNvY2lldHkuIE1lbWJlcnMgb2YgdGhlIFNwYW5pc2ggSW5xdWlzaXRpb24uIEFsbCBjb252aW5jZWQgdGhleSB3ZXJlIGJsZXNzZWQgd2l0aCB0aGUgZ2lmdCBvZiBjbGFyaXR5LiBBbmQgcHJvb2YgdGhhdCBjbGFyaXR5IG1pZ2h0IGJlIG92ZXJyYXRlZC4gXG5cblNvbWV0aW1lcywgYmVpbmcgdW5jbGVhcsOi4oKs4oCdYW5kIGEgbGl0dGxlIGZsZXhpYmxlw6LigqzigJ1pcyBhIGdvb2QgdGhpbmcuIExpa2Ugd2hlbiB5b3UgYXJlIGxvb2tpbmcgZm9yIHRoZSBwZXJmZWN0IHJlZnJlc2htZW50LiBEdW5kZWUgV2hlYXQgQmVlciBjb21iaW5lcyB3aGVhdCBhbmQgeWVhc3QgaW50byBhIHJlZnJlc2hpbmcgaGVmZXdlaXplbi1zdHlsZSBicmV3LiBVbmZpbHRlcmVkLCBzbyBpdCBpcyBzbGlnaHRseSBjbG91ZHkgYW5kIHBsZWFzYW50bHkgdW5jbGVhci4gXG5cblNvIHRoZSBuZXh0IHRpbWUgeW91w6LigqzihKJyZSBjb252aW5jZWQgeW91w6LigqzihKJyZSByaWdodCBhYm91dCB3aGF0IHlvdcOi4oKs4oSidmUgYmVlbiBkcmlua2luZywgZ2l2ZSBhIGxpdHRsZSDDouKCrMWTdW5jbGFyaXR5w6LigqzCnSBhIHRyeS5cblxuQW4gQW1lcmljYW4tc3R5bGUsIHVuZmlsdGVyZWQgd2hlYXQgYmVlci4gUGFsZSBzdHJhdyBpbiBjb2xvciB3aXRoIGEgbGlnaHQgY2xvdWRpbmVzcyBmcm9tIGNhcmVmdWxseSBzZWxlY3RlZCB3aGVhdCBhbmQgeWVhc3QuIFBsZWFzYW50IHNwaWN5IG1hbHQgYXJvbWEgYW5kIGEgY3Jpc3AgaG9wIGZpbmlzaC4iLCJhYnYiOjQuMTk5OTk5ODA5MjY1MTM3LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiNzc0IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJDYWxpZm9ybmlhIEdvbGQiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NC41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyNTEzIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJZdWVuZ2xpbmcgTGFnZXIiLCJkZXNjcmlwdGlvbiI6Ill1ZW5nbGluZyBUcmFkaXRpb25hbCBMYWdlciBpcyBhbiBpY29uaWMgQW1lcmljYW4gbGFnZXIgZmFtb3VzIGZvciBpdHMgcmljaCBhbWJlciBjb2xvciBhbmQgbWVkaXVtLWJvZGllZCBmbGF2b3IuIEJyZXdlZCB3aXRoIHJvYXN0ZWQgY2FyYW1lbCBtYWx0IGZvciBhIHN1YnRsZSBzd2VldG5lc3MgYW5kIGEgY29tYmluYXRpb24gb2YgY2x1c3RlciBhbmQgY2FzY2FkZSBob3BzLCB0aGlzIHRydWUgb3JpZ2luYWwgcHJvbWlzZXMgYSB3ZWxsIGJhbGFuY2VkIHRhc3RlIHdpdGggdmVyeSBkaXN0aW5jdCBjaGFyYWN0ZXIuIEl0cyBleGNlcHRpb25hbCBmbGF2b3IgYW5kIHNtb290aCBmaW5pc2ggaXMgcHJldmFsZW50bHkgZW5qb3llZCBieSBjb25zdW1lcnMgd2l0aCBldmVuIHRoZSBtb3N0IGRpc2Nlcm5pbmcgdGFzdGVzLiBPdXIgZmxhZ3NoaXAgYnJhbmQsIFl1ZW5nbGluZyBUcmFkaXRpb25hbCBMYWdlciBpcyBhbiBBbWVyaWNhbiBmYXZvcml0ZSBkZWxpdmVyaW5nIGNvbnNpc3RlbnQgcXVhbGl0eSBhbmQgcmVmcmVzaG1lbnQgdGhhdCBuZXZlciBkaXNhcHBvaW50cy4gSW4gZmFjdCwgaXQncyBzbyB3aWRlbHkga25vd24gYW5kIHVuaXF1ZSBpbiBpdHMgY2xhc3MsIGluIHNvbWUgYXJlYXMgeW91IGNhbiBhc2sgZm9yIGl0IHNpbXBseSBieSB0aGUgbmFtZSBcIkxhZ2VyLlwiIiwiYWJ2Ijo0LjQwMDAwMDA5NTM2NzQzMiwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzQzNSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQmVlciBFc3RlZW0iLCJkZXNjcmlwdGlvbiI6IlwiSWYgeW91IGNhbid0IGZlZWwgZ29vZCBhYm91dCB5b3VyIGJlZXIuLi4gd2hhdCBlbHNlIGlzIHdvcnRoIGZlZWxpbmcgZ29vZCBhYm91dC5cIlxuV2UgY2FsbCBCZWVyIEVzdGVlbSBhIENhbGlmb3JuaWEgQ29tbW9uIGJlY2F1c2UgaXQgaXMgYnJld2VkIHdpdGggYSBsYWdlciB5ZWFzdCBhbmQgaXQgaXMgZmVybWVudGVkIGF0IHdhcm1lciBhbGUgdGVtcGVyYXR1cmVzLiBIb3dldmVyLCBCZWVyIEVzdGVlbSBpcyBkaXN0aW5jdGx5IGRpZmZlcmVudCBmcm9tIG90aGVyIENhbGlmb3JuaWEgQ29tbW9ucy4gV2l0aCBhIHVuaXF1ZSBob3AgcHJvZmlsZSwgYSBsYWdlciB5ZWFzdCBub3QgdHlwaWNhbGx5IHVzZWQgZm9yIHRoZSBzdHlsZSwgYW5kIGEgXCJSdXNzaWFuIFJpdmVyXCIgdHdpc3QsIEJlZXIgRXN0ZWVtIGlzIGFueXRoaW5nIGJ1dCBcIkNvbW1vbi5cIiIsImFidiI6NS41OTk5OTk5MDQ2MzI1NjgsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 23:03:38 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2018:06:12%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=580
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:06:12 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5ba4f97b52a1fb0550bfbedc5a24db4d"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 21f6d4fd-d082-42cc-b2bf-96e226b92006
+      X-Runtime:
+      - '0.843317'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"131","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":580,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 23:06:13 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=131
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:06:13 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"49fb782d0a72e75a556a1f982c40173c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d46014fe-68cb-45b7-9ae2-6a227eef6c2e
+      X-Runtime:
+      - '0.188305'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjI1ODUiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlNwcmluZyBCb2NrIiwiZGVzY3JpcHRpb24iOiJBIHRyYWRpdGlvbmFsIEdlcm1hbiBzdHlsZSBsYWdlci4gQ2hhcmFjdGVyaXplZCBieSBhIGRlZXAgY29wcGVyIGNvbG9yIGFuZCByaWNoIG1hbHQgZmxhdm9yLiBCYWxhbmNlZCB3aXRoIEdlcm1hbiBob3BzLlxuXG5BdmFpbGFibGUgYXQgdGhlIEJyZXdlcnkgYW5kIGluIGJvdHRsZXMgXHUwMDI2IGNhc2VzIGZyb20gTWFyY2ggLSBNYXkuIiwiYWJ2Ijo2LjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI1NzciLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlBhYnN0IEJsdWUgUmliYm9uIiwiZGVzY3JpcHRpb24iOiJQQlIgaXMgbm90IGp1c3QgYW55IGJlZXItIHNvIHlvdSB3b3VsZCBleHBlY3QgdGhlIGhpc3RvcnkgdG8gYmUgYSBiaXQgdW51c3VhbCwgYW5kIGl0IGlzLiBQYWJzdCB3YXMgb3JpZ2luYWxseSBjYWxsZWQgXCJTZWxlY3QsXCIgYnV0IHBlb3BsZSBzdGFydGVkIGFza2luZyBmb3IgdGhhdCBcIkJsdWUgUmliYm9uXCIgYmVlciBpbiAxODgyIHdoZW4gd2Ugc3RhcnRlZCB0eWluZyBzaWxrIHJpYmJvbnMgdG8gdGhlIGJvdHRsZXMuIFdlIG9mZmljaWFsbHkgYWRkZWQgdGhlIHdvcmRzIFwiQmx1ZSBSaWJib25cIiB0byB0aGUgYm90dGxlIGluIDE4OTUuXG5cblBhYnN0IHdhcyB0aGUgZmlyc3QgYnJld2VyeSB0byBwdXQgYmVlciBpbiBjYW5zIGJhY2sgaW4gMTkzNS4gVGhpcyB3YXMgQmx1ZSBSaWJib24gYmVlciBidXQgaXQgd2FzIGNhbGxlZCBcIkV4cG9ydFwiIHdoZW4gc29sZCBpbiB0aGUgY2FuLiBPdXIgZmlyc3QgY2FucyBoYWQgYSBwaWN0dXJlIG9mIGEgY2FuIG9wZW5lciBvbiB0aGUgc2lkZSB3aXRoIGluc3RydWN0aW9ucyBvbiBob3cgdG8gb3BlbiB0aGUgY2FuIG9mIGJlZXIsIHdpdGggdGhlIGNhbiBvcGVuZXIuXG5cblRvZGF5LCB0aGlzIGNsYXNzaWMgQW1lcmljYW4gYnJldyBoYXMgYmVlbiBhZG9wdGVkIGJ5IGEgd2hvbGUgbmV3IGdlbmVyYXRpb24gb2YgUEJSIGRyaW5rZXJzLiBDdXJyZW50bHksIFBCUiBpcyBvbmUgb2YgdGhlIGZhc3Rlc3QgZ3Jvd2luZyBkb21lc3RpYyBiZWVyIGJyYW5kcy4gV2hlbiB5b3UncmUgdGhpcyBnb29kLCBxdWFsaXR5IGFsd2F5cyBjb21lcyB0aHJvdWdoLVBCUiBNRSBBU0FQISIsImFidiI6NC43Mzk5OTk3NzExMTgxNjQsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGlnaHQgTGFnZXIifX0seyJpZCI6IjI1NzkiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik9sZCBNaWx3YXVrZWUiLCJkZXNjcmlwdGlvbiI6Ik9sZCBNaWx3YXVrZWUuIEEgdHJ1c3RlZCwgaGlnaCBxdWFsaXR5IGJlZXIgdGhhdCBjb250aW51YWxseSByZWNlaXZlcyB0aGUgaGlnaGVzdCBhd2FyZHMgYW5kIGFjY29sYWRlcyBmcm9tIEJlZXIgZXhwZXJ0cyBhY3Jvc3MgQW1lcmljYS4gT2xkIE1pbHdhdWtlZSBoYXMgYSBsb25nIGhpc3Rvcnkgb2YgY2VsZWJyYXRpbmcgXCJCbHVlIENvbGxhclwiIHNlbnNpYmlsaXR5LiBTaW1wbHkgc2FpZCwgZ29vZCBiZWVyIGF0IGEgZmFpciBwcmljZS4gT2xkIE1pbHdhdWtlZSBoYXMgYWx3YXlzIHJlcHJlc2VudGVkIEFtZXJpY2EncyBjb3JlIHZhbHVlczogSG9uZXN0eSwgaW50ZWdyaXR5LCBoYXJkIHdvcmsgYW5kIGxvdmUgZm9yIHlvdXIgZmFtaWx5LlxuXG5TcGVha2luZyBvZiBmYW1pbHksIHRoZSBPbGQgTWlsd2F1a2VlIEZhbWlseSBoYXMgYSBiZWVyIHRoYXQgaXMgcmlnaHQgZm9yIHlvdS4gT2xkIE1pbHdhdWtlZSB3aGVuIHlvdSB3YW50IGEgZnVsbCBib2RpZWQsIGZ1bGwgZmxhdm9yIEFtZXJpY2FuIExhZ2VyLiBPTSBMaWdodCB3aGVuIHlvdSBhcmUgaW4gdGhlIG1vb2QgZm9yIGEgbGlnaHRlciB0YXN0aW5nIGJlZXIgd2l0aCBmZXdlciBjYWxvcmllcy4gQW5kIGRvbid0IGZvcmdldCBPTU5BLCBvdXIgZmxhdm9yZnVsIG5vbi1hbGNvaG9saWMgYmVlciBmb3IgdGhvc2UgbW9tZW50cyB3aGVuIHlvdSB3YW50IHRoZSB0YXN0ZSBvZiBBbWVyaWNhJyBiZXN0IHRhc3RpbmcgYmVlciB3aXRob3V0IHRoZSBhbGNvaG9sIGNvbnRlbnQuIiwiYWJ2Ijo0LjU5OTk5OTkwNDYzMjU2OCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiNDAyMiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiUml2ZXIgSG9yc2UgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IldlIG1pbGwgdGhlIGNob2ljZXN0IHR3byByb3cgYmFybGV5IG1hbHQgaW4gb3VyIDEwMCB5ZWFyIG9sZCBtaWxsIHJvb20gZm9yIHRoaXMgYWxsIG5hdHVyYWwsIHVuZmlsdGVyZWQgTGFnZXIuIExpZ2h0bHkgaG9wcGVkLCBmZXJtZW50ZWQgc2xvd2x5LiBSaXZlciBIb3JzZSBMYWdlciBnZXRzIHBsZW50eSBvZiBxdWFsaXR5IHRpbWUgd2l0aCB1cyBiZWZvcmUgd2UgcGFzcyBpdCBvbiB0byB5b3UuIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI3NTAiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkNhdWxmaWVsZCdzIFJ5ZSIsImRlc2NyaXB0aW9uIjoiT3VyIHJ5ZSBiZWVyIGlzIG1hZGUgd2l0aCAyMCUgZmxha2VkIHJ5ZSBhbmQgcnllIG1hbHQuIFRoZSBhZGRpdGlvbiBvZiByeWUgY3JlYXRlcyBhIGRyeSwgc3BpY3kgZmxhdm9yIHdpdGggYSBjcmlzcCwgZ3JhaW55IGFyb21hLiBXZSB3ZW50IHdpdGggYSBsaWdodGVyIGNvbG9yIGFuZCBsb3dlciBiaXR0ZXJuZXNzIHRvIGNvbXBsaW1lbnQgdGhlc2UgZmxhdm9ycy4gSXQgaGFzIGFuIGFsY29ob2wgY29udGVudCBvZiBhcm91bmQgNC45JS4iLCJhYnYiOjQuOTAwMDAwMDk1MzY3NDMyLCJzdHlsZSI6IkFtZXJpY2FuIFJ5ZSBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjExMSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiU3Vuc2hpbmUgV2hlYXQiLCJkZXNjcmlwdGlvbiI6IlNVTlNISU5FIFdIRUFUIGlzIGEgZ3JlYXQgYmVlciBmb3IgdHJvdW5jaW5nIHRoaXJzdC4gIFlldCwgaXQgaGFzIGEgZGVwdGggb2YgY2hhcmFjdGVyIHRoYXQgaW5zcGlyZXMgYSBxdWlldCBtb21lbnTDouKCrOKEonMgcmVmbGVjdGlvbi4gU3Vuc2hpbmUgV2hlYXQgc3dpcmxzIGluIHRoZSBtb3V0aCB3aXRoIHJpcHBsZXMgb2YgY29yaWFuZGVyIGFuZCBvcmFuZ2UgcGVlbCB0YXJ0bmVzcywgc2V0dGxpbmcgbmljZWx5IGludG8gYSB0cmFucXVpbCBzZWEgb2YgYXBwbGUgYW5kIGhvbmV5IHRvbmVzLiAgQSBmaWx0ZXJlZCB3aGVhdCBiZWVyLCBTdW5zaGluZSBvZmZlcnMgYSBjcmlzcCwgcmVmcmVzaGluZyBhbHRlcm5hdGl2ZSB0byBoZWF2aWVyLWJvZGllZCBoZWZmZS13ZWl6ZW5zLiIsImFidiI6NC44MDAwMDAxOTA3MzQ4NjMsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIyNjA4IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJTYW11ZWwgQWRhbXMgU3VtbWVyIEFsZSIsImRlc2NyaXB0aW9uIjoicmlnaHQgYW5kIGNpdHJ1c3ksIGJyZXdlZCB3aXRoIG15c3RlcmlvdXMgZ3JhaW5zIG9mIHBhcmFkaXNlLlxuU2FtdWVsIEFkYW1zwq4gU3VtbWVyIEFsZSBpcyBhbiBBbWVyaWNhbiB3aGVhdCBhbGUuIFRoaXMgc3VtbWVyIHNlYXNvbmFsIHVzZXMgbWFsdGVkIHdoZWF0IGFzIHdlbGwgYXMgbGVtb24gemVzdCBhbmQgZ3JhaW5zIG9mIHBhcmFkaXNlLCBhIHJhcmUgcGVwcGVyIGZyb20gQWZyaWNhIGZpcnN0IHVzZWQgYXMgYSBicmV3aW5nIHNwaWNlIGluIHRoZSAxM3RoIENlbnR1cnkgdG8gY3JlYXRlIGEgY3Jpc3AgYW5kIHNwaWN5IGZsYXZvciBhbmQgYm9keS4gVGhlIGFsZSBmZXJtZW50YXRpb24gaW1wYXJ0cyBhIGJhY2tncm91bmQgdHJvcGljYWwgZnJ1aXQgbm90ZSByZW1pbmlzY2VudCBvZiBtYW5nb3MgYW5kIHBlYWNoZXMuIEFsbCBvZiB0aGVzZSBjb21lIHRvZ2V0aGVyIHRvIGNyZWF0ZSBhIHF1ZW5jaGluZywgY2xlYW4gZmluaXNoaW5nIGJlZXIgcGVyZmVjdCBmb3IgdGhvc2Ugd2FybSBTdW1tZXIgZGF5cyIsImFidiI6NS4xOTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIzNDI0IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJCaWcgTWFjIiwiZGVzY3JpcHRpb24iOiJNYWRlIHBvcHVsYXIgaW4gdGhlIDE5dGggY2VudHVyeSBpbiBEb3J0bXVuZGVyLCBHZXJtYW55LCB0aGVzZSBwYWxlIGdvbGRlbiBsYWdlcnMgZXhoaWJpdCBhIGNsYXNzaWMgY2xlYW4gY2hhcmFjdGVyIHdpdGggbm90ZXMgb2YgYmlzY3VpdHkgbWFsdHMuIEJpdHRlcm5lc3MgaXMgYWtpbiB0byBhIEdlcm1hbiBQaWxzbmVyIHdpdGggYW4gYXJvbWF0aWMgYXJvbWEuIE1vdXRoZmVlbCBpcyBmaXJtIGFuZCBldmVuLCB3aXRoIGFuIG92ZXJhbGwgZHJ5IHRvbmUuIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjMwMDUiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJsYWNrYmVhcnkgV2hlYXQiLCJkZXNjcmlwdGlvbiI6IkxpZ2h0IFx1MDAyNiByZWZyZXNoaW5nIHdpdGggYSBoaW50IG9mIGJsYWNrYmVycnkgYXQgdGhlIGZpbmlzaCBtYWtlcyB0aGlzIGJlZXIgYSByZWFsIHRoaXJzdCBxdWVuY2hlci4gRm9yIHRoZSBoZWFsdGggY29uc2Npb3VzLCBCbGFja2JlYXJ5IFdoZWF0IGhhcyBsZXNzIHRoYW4gNiBncmFtcyBvZiBjYXJicyBhbmQgY29udGFpbnMgMCBmYXQuIiwiYWJ2Ijo0LjAsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19XX0=
+  recorded_at: Thu, 10 Jun 2021 23:06:13 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2018:11:52%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=593
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:11:53 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"55e6e6b15ee41a3b4dc29a12ee8ac1a0"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - fa64f0d2-d2eb-4af9-83d5-1b78d64bdad9
+      X-Runtime:
+      - '0.696539'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"136","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":593,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 23:11:53 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=136
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 23:11:53 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0900b5285f34ea8cba6b3108b7741023"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c827c2f7-6d51-45cd-825c-64baa50d7770
+      X-Runtime:
+      - '0.044316'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjI1NjgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkF1Z3VzdGluZXIiLCJkZXNjcmlwdGlvbiI6IkF1Z3VzdGluZXIgaXMgYSBwcmVtaXVtIGFtYmVyIGxhZ2VyIHdpdGggYSBzbW9vdGgsIGZ1bGwtYm9kaWVkIGZsYXZvci4gRnJvbSB0aGUgcmljaCBjb3BwZXIgY29sb3IgdG8gdGhlIHN1YnRsZSBjYXJhbWVsIHRhc3RlIGFuZCBjbGVhbiBmaW5pc2gsIGl0w6LigqzihKJzIGJyZXdlZCB0byBwbGVhc2UgdGhlIGJlZXIgZHJpbmtlciB3aG8gYXBwcmVjaWF0ZXMgdGhlIGJlc3QuIFRoaXMgZGlzdGluY3RpdmUsIHdlbGwtYmFsYW5jZWQgYnJldyBpcyBxdWlja2x5IGJlY29taW5nIFBpdHRzYnVyZ2jDouKCrOKEonMgbW9zdCB0YWxrZWQtYWJvdXQgYmVlci4gVXBncmFkZSB0byBBdWd1c3RpbmVyISIsImFidiI6NC4zMDAwMDAxOTA3MzQ4NjMsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI5NjgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IldpZG1lciBXJzA4IiwiZGVzY3JpcHRpb24iOiJcIk91ciBCcmV3bWFzdGVycycgUmVsZWFzZSAtIFRoZSB0aHJlZSBkaWZmZXJlbnQgcmVkLCBjYXJhbWVsaXplZCwgYW5kIGRhcmsgd2hlYXQgbWFsdHMgZ2l2ZSB0aGlzIGJlZXIgYW4gaW50ZW5zZSByZWQgY29sb3IgdGhhdCBydW5zIGFzIGRlZXAgYXMgdGhlIGZsYXZvci4gVGhlIHRvYXN0ZWQgZ3JhaW4gZmxhdm9ycyBibGVuZCBwZXJmZWN0bHkgd2l0aCB0aGUgc3VidGxlIHNwaWNpbmVzcyBvZiB0aGUgaG9wcyBqdXN0IGFzIHRoZSBlbnRpcmV0eSBmYWRlcyB0byBhIHNtb290aCBxdWljayBmaW5pc2guIDIwMDcgR3JlYXQgQW1lcmljYW4gQmVlciBGZXN0aXZhbCBTaWx2ZXIgTWVkYWwgQXdhcmQgV2lubmVyLlwiXG4tV2lkbWVyIEJyb3RoZXJzIEJyZXdpbmcgQ29tcGFueSIsImFidiI6NC45MDAwMDAwOTUzNjc0MzIsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19LHsiaWQiOiI0MjIwIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJIb3dsIiwiZGVzY3JpcHRpb24iOiJCb3JuIG9mIGRhcmsgYW5kIGNvbGQgYW5kIHNub3cgaW4gdGhlIG1hcnJvdyBvZiB0aGUgbm9ydGhlYXN0J3MgbG9uZ2VzdCBuaWdodCwgSE9XTCBjb21lcyBpbiBvbiB3YWlsaW5nIHdpbmRzIHdpdGggd2ludGVyLXdlYXJ5IGV5ZXMgYnVybmluZyBob2xlcyBpbiBzdW5sZXNzIHNoYWRvd3MuIEluIGl0cyBkYXJrZW5lZCBkZXB0aHMgb3V0IGlubmVyIHZvaWRzIGFyZSB3YXJtZWQuIiwiYWJ2Ijo0LjU5OTk5OTkwNDYzMjU2OCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiOTExIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJSZWQgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NC41OTk5OTk5MDQ2MzI1NjgsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI1MjEiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlZpY3RvcnkgTGFnZXIiLCJkZXNjcmlwdGlvbiI6IlBlcmZlY3RseSBiYWxhbmNlZCwgdGhpcyBhdXRoZW50aWMgdmVyc2lvbiBvZiBhIEdlcm1hbiBoZWxsZXMtc3R5bGUgbGFnZXIgc2F0aXNmaWVzIGdsb3Jpb3VzbHkuIExlYW4sIEdlcm1hbiBtYWx0cyBhbmQgZmluZSBFdXJvcGVhbiBob3BzIG9mZmVyIHN1YnRsZSBoYXJtb255LiIsImFidiI6NC44MDAwMDAxOTA3MzQ4NjMsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM1NiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiS2l0c2lsYW5vIE1hcGxlIENyZWFtIEFsZSIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjQ0MyIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiV2hpc3RsaW5nIFBpZyBIZWZld2VpemVuIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjQuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMjU1NiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiTGFiYXR0IENyeXN0YWwiLCJkZXNjcmlwdGlvbiI6IkxhYmF0dCBDcnlzdGFsIHdhcyBpbnRyb2R1Y2VkIHRvIE9udGFyaW8gaW4gdGhlIGxhdGUgMTgwMHMgYXMgb25lIG9mIHRoZSBmaXJzdCBsYWdlcnMgYnJld2VkIGJ5IExhYmF0dC4gV29ybGQtcmVub3duZWQgU2FheiBob3BzIGFyZSB1c2VkIHRvIGdpdmUgdGhpcyBiZWVyIGEgY2xlYW4sIGFsbW9zdCBzd2VldCB0YXN0ZSB3aGljaCBuaWNlbHkgYmFsYW5jZXMgdGhlIGZ1bGxlciBib2R5LCBoaWdoZXIgYml0dGVybmVzcyBhbmQgcmljaGVyIHRhc3RlIHR5cGljYWxseSBhc3NvY2lhdGVkIHdpdGggdHJhZGl0aW9uYWwgbGFnZXJzLiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIzNTMyIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJCaXJlbGwiLCJkZXNjcmlwdGlvbiI6IkJpcmVsbCBoYXMgYWxsIHRoZSBoYWxsbWFya3Mgb2YgYSBncmVhdCBwcmVtaXVtIGJlZXIsIHJpY2ggY29sb3VyLCBmdWxsIG1hbHR5IGZsYXZvdXIgYW5kIHRoZSBhYmlsaXR5IHRvIHF1ZW5jaCBhIHRoaXJzdCwgd2l0aCBvbmUgaW1wb3J0YW50IGRpZmZlcmVuY2UgLSB2aXJ0dWFsbHkgbm8gYWxjb2hvbC4gXG5cbkJyZXdlZCB1bmRlciBsaWNlbnNlIGluIEF1c3RyYWxpYSBieSBDb29wZXJzLCBCaXJlbGwgaXMgbWFkZSB1c2luZyBvbmx5IHRoZSBmaW5lc3QgQXVzdHJhbGlhbiBtYWx0ZWQgYmFybGV5LCBob3BzIGFuZCB5ZWFzdCwgd2l0aCBubyBhcnRpZmljaWFsIGFkZGl0aXZlcyBvciBwcmVzZXJ2YXRpdmVzLlxuXG5Db29wZXJzIEJpcmVsbCBtYXkgYmUgZm91bmQgaW4gbW9zdCBzdXBlcm1hcmtldHMgKDM3NW1sIGJvdHRsZXMgb3IgY2FucykuIiwiYWJ2IjowLjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGlnaHQgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 23:11:53 GMT
 recorded_with: VCR 6.0.0

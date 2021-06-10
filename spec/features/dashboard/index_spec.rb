@@ -50,7 +50,7 @@ RSpec.describe "Dashboard Page" do
           click_link "New Trip"
           expect(current_path).to eq(new_trip_path)
         end
-        xit "displays link to trip index", :vcr do
+        it "displays link to trip index", :vcr do
           click_link "Scheduled Trips"
           expect(current_path).to eq(trips_path)
         end
