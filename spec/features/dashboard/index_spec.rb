@@ -41,13 +41,9 @@ RSpec.describe "Dashboard Page" do
       # end
       #
       describe "Nav Bar" do
-        # before(:each) do
-        #   check '#active'
-        # end
         it "has a link to the Dashboard", :vcr do
           click_link 'Home'
           expect(current_path).to eq(dashboard_index_path)
-
         end
       
         it "displays link to create a trip", :vcr do
@@ -59,8 +55,13 @@ RSpec.describe "Dashboard Page" do
           expect(current_path).to eq(trips_path)
         end
       
-        # it "has a search bar to search for a beer by name" do
-        # end
+        it "has a search bar to search for a beer by name", :vcr do
+          # fill_in :search, with: 'cow'
+          find(".search").click_on
+          # click_link 'Search'
+          save_and_open_page
+          expect(current_path).to eq(beers_path)
+        end
       
         it "has a link to log out", :vcr do
           click_link "Logout"
