@@ -16,7 +16,11 @@ class TripsService
           faraday.params[k] = v
         end
       end
-      parse_json(resp)[:data]
+      if resp.body.include?("errors")
+        parse_json(resp)
+      else
+        parse_json(resp)[:data]
+      end
     end
 
     private
