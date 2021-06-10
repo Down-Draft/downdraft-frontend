@@ -17,7 +17,6 @@ class TripsController < ApplicationController
   def create
     new_trip = TripFacade.new_trip(trip_params)
     if new_trip.is_a? Hash
-
       flash[:error] = new_trip[:errors]
       render :new
     else
