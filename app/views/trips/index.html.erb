@@ -1,7 +1,7 @@
 <h1>Trips for <%= current_user.full_name %></h1>
 <ul>
   <% @trips.each do |trip| %>
-    <li>
+    <li id="trip-<%= trip.id %>">
       Name: <%= link_to "#{trip.name}", "/trips/#{trip.id}" %>
       Location: <%= trip.location %> |
       Date: <%= trip.date %> |
