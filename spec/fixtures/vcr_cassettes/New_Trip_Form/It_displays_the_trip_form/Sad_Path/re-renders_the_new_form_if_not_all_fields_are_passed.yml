@@ -1591,4 +1591,90 @@ http_interactions:
       string: '{"errors":"Could not find location. Please ensure zip code is valid
         or try again later."}'
   recorded_at: Thu, 10 Jun 2021 22:28:27 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:50:35%20-0500&location=&name=Going%20to%20Joeys%20house&user_id=541
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:50:35 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 07fc8eca-4d58-4281-bf51-9c7e6d70ff83
+      X-Runtime:
+      - '0.002727'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"errors":"Could not find location. Please ensure zip code is valid
+        or try again later."}'
+  recorded_at: Thu, 10 Jun 2021 22:50:36 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:58:00%20-0500&location=&name=Going%20to%20Joeys%20house&user_id=552
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:58:00 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 80be14e6-9f7e-4fa7-a67b-23b54584c9cd
+      X-Runtime:
+      - '0.005065'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"errors":"Could not find location. Please ensure zip code is valid
+        or try again later."}'
+  recorded_at: Thu, 10 Jun 2021 22:58:00 GMT
 recorded_with: VCR 6.0.0

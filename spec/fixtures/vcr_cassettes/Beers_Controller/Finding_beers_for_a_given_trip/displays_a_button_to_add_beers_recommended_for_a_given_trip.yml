@@ -808,4 +808,209 @@ http_interactions:
         want to renounce the taste.","abv":3.299999952316284,"style":"American-Style
         Light Lager"}}]}'
   recorded_at: Thu, 10 Jun 2021 22:28:28 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=542
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:50:37 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"eea5d1c0902706f5a1dc7f7115154f99"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d3038785-af7c-45d5-8528-a16c6b2de6f1
+      X-Runtime:
+      - '0.597676'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"115","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":542,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:50:37 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=115
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:50:36 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5bcbd5c79b38c28c435dd853703fbaf8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 17a81e21-d04a-41a7-9ddc-f551fbc977be
+      X-Runtime:
+      - '0.032283'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"3021","type":"beer","attributes":{"name":"Bud Dry","description":"Introduced
+        in 1989 Bud Dry is the first dry-brewed beer produced by an American brewer.
+        It is brewed with select hops, grains and barley malt, which results in a
+        lighter body and less-sweet taste. As with all Anheuser-Busch beers, it is
+        cold-filtered for a smooth draft taste, but then goes through a second cold-filtered
+        finishing process to provide its unique taste.","abv":5.0,"style":"American-Style
+        Light Lager"}},{"id":"3675","type":"beer","attributes":{"name":"Locke Mountain
+        Light","description":"Refreshing Light-Bodied Golden Lager","abv":3.700000047683716,"style":"American-Style
+        Light Lager"}},{"id":"2968","type":"beer","attributes":{"name":"Widmer W''08","description":"\"Our
+        Brewmasters'' Release - The three different red, caramelized, and dark wheat
+        malts give this beer an intense red color that runs as deep as the flavor.
+        The toasted grain flavors blend perfectly with the subtle spiciness of the
+        hops just as the entirety fades to a smooth quick finish. 2007 Great American
+        Beer Festival Silver Medal Award Winner.\"\n-Widmer Brothers Brewing Company","abv":4.900000095367432,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"3848","type":"beer","attributes":{"name":"Stinger
+        Wild Honey Wheat","description":"We put close to a half a pound of Colorado
+        honey per case in this wheat ale. The honey adds a sweetness and raises the
+        alcohol content slightly. We use Mount hood and hallertau hops.","abv":6.0,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"586","type":"beer","attributes":{"name":"Light
+        Lager","description":"","abv":3.5,"style":"American-Style Lager"}},{"id":"3142","type":"beer","attributes":{"name":"Summer
+        Solstice Cerveza Crema","description":"\"This copper colored ale is smooth,
+        malty, and lightly sweet, with a delicate hint of spice for that oh-so-drinkable,
+        extra velvety flavor.  The character is lighter in body than its cousin our
+        wildly popular Winter Solstice Seasonal Ale.  This is a silky, creamy dream,
+        perfect as a warm weather beer.\"","abv":5.599999904632568,"style":"American-Style
+        Cream Ale or Lager"}},{"id":"811","type":"beer","attributes":{"name":"Roggenbier","description":"","abv":5.5,"style":"American-Style
+        Lager"}},{"id":"2488","type":"beer","attributes":{"name":"Budweiser Select","description":"Bud
+        Select is a new beer offering a bold taste with a full and distinct flavor
+        that finishes clean. Budweiser Select was developed using two-row and roasted
+        specialty malts for a rich color. It offers excellent drinkability and a taste
+        that does not linger.","abv":4.300000190734863,"style":"American-Style Light
+        Lager"}},{"id":"354","type":"beer","attributes":{"name":"Island Lager","description":"","abv":5.0,"style":"American-Style
+        Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:50:37 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=553
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:58:01 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ad06d9a3f613b585fcddb2dad393d04c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 7c281e6e-9c1a-4f92-824f-e795dad8ea14
+      X-Runtime:
+      - '0.812436'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"119","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":553,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:58:01 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:58:01 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"53f2ce61f3a2e30b591482311e7db416"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 227391ce-141b-426b-987f-85df8dfb9962
+      X-Runtime:
+      - '0.131269'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjQwMjIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlJpdmVyIEhvcnNlIExhZ2VyIiwiZGVzY3JpcHRpb24iOiJXZSBtaWxsIHRoZSBjaG9pY2VzdCB0d28gcm93IGJhcmxleSBtYWx0IGluIG91ciAxMDAgeWVhciBvbGQgbWlsbCByb29tIGZvciB0aGlzIGFsbCBuYXR1cmFsLCB1bmZpbHRlcmVkIExhZ2VyLiBMaWdodGx5IGhvcHBlZCwgZmVybWVudGVkIHNsb3dseS4gUml2ZXIgSG9yc2UgTGFnZXIgZ2V0cyBwbGVudHkgb2YgcXVhbGl0eSB0aW1lIHdpdGggdXMgYmVmb3JlIHdlIHBhc3MgaXQgb24gdG8geW91LiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI0NDIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJsaW5kIFBpZyBEdW5rZWx3ZWl6ZW4iLCJkZXNjcmlwdGlvbiI6IiIsImFidiI6NC42OTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI5MjUiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkJvdWxldmFyZCBVbmZpbHRlcmVkIFdoZWF0IiwiZGVzY3JpcHRpb24iOiJCb3VsZXZhcmQgVW5maWx0ZXJlZCBXaGVhdCBCZWVyIGlzIGEgbGl2ZWx5LCByZWZyZXNoaW5nIGFsZSB3aXRoIGEgbmF0dXJhbGx5IGNpdHJ1c3kgZmxhdm9yIGFuZCBkaXN0aW5jdGl2ZSBjbG91ZHkgYXBwZWFyYW5jZS4gVGhpcyBlYXN5LWRyaW5raW5nIEFtZXJpY2FuLXN0eWxlIHdoZWF0IGJlZXIgaGFzIGJlY29tZSBvdXIgbW9zdCBwb3B1bGFyIG9mZmVyaW5nLCBhbmQgdGhlIGJlc3Qtc2VsbGluZyBjcmFmdCBiZWVyIGluIHRoZSBNaWR3ZXN0LiIsImFidiI6NC41LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzg0IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJGb3N0ZXIgQ2hpbGQgQXVzdHJhbGlhbiBMYWdlciIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI1NjQiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlBlbm4gR29sZCIsImRlc2NyaXB0aW9uIjoiTmF0aW9uYWxseSBhY2NsYWltZWQgYXMgdGhlIGJlc3QgTXVuaWNoLXN0eWxlIGJlZXIgbWFkZSBpbiBBbWVyaWNhLiBQZW5uIEdvbGQgaXMgYSBsaWdodC1jb2xvcmVkLCBtZWRpdW0gYm9kaWVkIGxhZ2VyIGJlZXIgd2l0aCBhIGRlbGljYXRlIGhvcCBhcm9tYS4iLCJhYnYiOjQuMCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMjU3MCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiU3RvdWR0J3MgR29sZCBMYWdlciIsImRlc2NyaXB0aW9uIjoiU3RvdWR0J3MgR29sZCBMYWdlciBpcyB3aWRlbHkgcmVjb2duaXplZCBhcyBvbmUgb2YgdGhlIGZpbmVzdCBHZXJtYW4tc3R5bGUgYmVlcnMgYnJld2VkIGluIEFtZXJpY2EuICBCcmV3ZWQgd2l0aCB0aGUgZmluZXN0IHNwZWNpYWx0eSBtYWx0cyBhbmQgbm9ibGUgaG9wcywgdGhpcyBsaWdodCBib2RpZWQsIGVhc3kgZHJpbmtpbmcgbGFnZXIgZmVhdHVyZXMgYSBzdWJ0bGUgYmFsYW5jZSBvZiBzd2VldCBtYWx0IGFuZCBjbGVhbiBjcmlzcCBob3BzLiIsImFidiI6NC42OTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjI0OTMiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik1vdW50YWluIExhZ2VyIiwiZGVzY3JpcHRpb24iOiJUaGUgRG9ydG11bmRlci1FeHBvcnQgc3R5bGUgb2YgYmVlciB3YXMgZGV2ZWxvcGVkIGluIFdlc3RmYWxlbiwgR2VybWFueSwgYW5kIGlzIGEgY2xhc3NpYyBsaWdodCBsYWdlciB3aXRoIGdyZWF0IGNoYXJhY3Rlci4gVGhpcyBzdHlsZSBib2FzdHMgYSBsaWdodCBnb2xkZW4gYmxvbmRlIGNvbG9yIGFuZCBleGhpYml0cyBhIG1vZGVyYXRlIGhvcCBwYWxhdGUuIFRoZSBmaW5pc2ggb2Ygb3VyIE1vdW50YWluIExhZ2VyIGlzIHJpY2ggeWV0IG1lbGxvdy5cbk91ciBicmV3ZXJzIGhhdmUgZGV2ZWxvcGVkIHRoaXMgYmVlciBhcyBhIHRyaWJ1dGUgdG8gdGhlIEFwcGFsYWNoaWFuIE1vdW50YWlucyB3aGVyZSB3ZSBsaXZlIGFuZCBwbGF5LiIsImFidiI6NC41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyOTYxIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJJcm9uIENpdHkiLCJkZXNjcmlwdGlvbiI6Iklyb24gQ2l0eSBoYXMgYmVlbiB0aGUgw6LigqzLnEJ1cmdow6LigqzihKJzIHNpZ25hdHVyZSBiZWVyIHNpbmNlIDE4NjEuIFRoaXMgcHJlbWl1bSBsYWdlciBoYXMgYmVjb21lIGEgcHJvdWQgdHJhZGl0aW9uIG9mIHRoZSBjaXR5IGFuZCBpdHMgcGVvcGxlLiBKdXN0IHRyeSB0byBpbWFnaW5lIGEgUGl0dHNidXJnaCBmb290YmFsbCwgYmFzZWJhbGwgb3IgaG9ja2V5IGdhbWUgd2l0aG91dCBhbiBpY2UgY29sZCBJcm9uLlxuXG5XZSBzdGlsbCBicmV3IElyb24gQ2l0eSBmcmVzaCBkYWlseSDDouKCrOKAnCBidXQgbm93LCBpbnN0ZWFkIG9mIGRlbGl2ZXJpbmcgaXQgdG8gUGl0dHNidXJnaCBuZWlnaGJvcmhvb2RzIGluIGhvcnNlLWRyYXduIGJ1Z2dpZXMsIHdlIGRlbGl2ZXIgaXQgdG8geW91ciBmYXZvcml0ZSBoYW5nb3V0cy4gWW91IGNhbiBnZXQgYW4gSXJvbiBhdCBuYXRpb25hbCByZXN0YXVyYW50IGNoYWlucywgdXBzY2FsZSBlYXRlcmllcywgYW5kIMOi4oKs4oCcIG9mIGNvdXJzZSDDouKCrOKAnCB5b3VyIGZhdm9yaXRlIGxvY2FsIGJhci4gWW91IGNhbiBhbHNvIGZpbmQgaXQgYXQgbW9yZSB0aGFuIDMzMCByZWdpb25hbCBiZWVyIGRpc3RyaWJ1dG9ycy4gQmVjYXVzZSBJcm9uIENpdHkgaXMgYnJld2VkIGxvY2FsbHksIGl0IGdvZXMgZnJvbSB0aGUgYnJld2VyeSB0byB5b3Ugd2l0aGluIGEgbWF0dGVyIG9mIGRheXMuIFlvdSB3b27DouKCrOKEonQgZmluZCBhIGZyZXNoZXIgYmVlciBhbnl3aGVyZSBpbiBQaXR0c2J1cmdoISIsImFidiI6NC41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIzMDY5IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJTdGFnZ2VyaW5nIEVsayIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo0LjUsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 22:58:01 GMT
 recorded_with: VCR 6.0.0
