@@ -8,7 +8,6 @@ class TripsController < ApplicationController
       flash[:error] = new_trip[:errors]
       render :new
     else
-
       redirect_to beers_path(params:{trip_id: new_trip.id})
     end
   end
