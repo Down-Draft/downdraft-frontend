@@ -20,5 +20,10 @@ class TripFacade
         Trip.new(trip)
       end
     end
+    
+    def new_trip_beer(trip_id, beer_id)
+      trip = TripsService.create_trip_beer(trip_id, beer_id)
+      Trip.new(trip)
+    end
   end
 end

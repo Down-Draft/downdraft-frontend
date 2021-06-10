@@ -15,13 +15,13 @@ class Trip
     @elevation = data[:attributes][:elevation].round(2)
     @id = data[:id]
     @max_temp = data[:attributes][:max_temperature]
-    @relationships = data[:attributes][:relationships]
+    @relationships = data
   end
 
   def beers
-    beers = @relationships[:beers][:data]
+    beers = @relationships[:relationships][:beers][:data]
     beers.map do |beer|
-      BeerFacade.one_beer(beer[:id])
+      BeerFacade.one_beer(beer[:id].to_i)
     end
   end
 end

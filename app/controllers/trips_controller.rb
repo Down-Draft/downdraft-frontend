@@ -4,10 +4,13 @@ class TripsController < ApplicationController
   end
 
   def show
-    require 'pry'; binding.pry
     if TripsService.get_trip_show(params[:id])[:id].nil?
       redirect_to "/trips"
       flash[:error] = "Trip not found"
+    elsif params[:beer_id].present?
+      TripFacade.new_trip_beer(params[:id], params[:beer_id])
+      @trip = TripFacade.get_single_trip(params[:id])
+      @beers = @trip.beers 
     else
       @trip = TripFacade.get_single_trip(params[:id])
     end

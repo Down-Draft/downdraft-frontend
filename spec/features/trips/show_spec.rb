@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe 'Trips Index' do
-  describe 'It displays trips for a users' do
+RSpec.describe 'Trips Show' do
+  describe 'It displays a trip for a user' do
     describe 'Happy Path' do
       before :each do
         @user = create(:user, id: 1, zip_code: '80201')

@@ -734,7 +734,6 @@ http_interactions:
       string: !binary |-
         eyJkYXRhIjpbeyJpZCI6IjM1MDciLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik5hZ2Vsd2Vpc3MiLCJkZXNjcmlwdGlvbiI6IlRoaXMgR2VybWFuIHN0eWxlIHdoZWF0IGJlZXIgY29udGFpbnMgYWJvdXQgNTAlIG1hbHRlZCB3aGVhdCBhbmQgaXMgYmFsYW5jZWQgd2l0aCBIYWxsZXJ0YXUgaG9wcy4gVGhpcyBiZWVyIGZpbmlzaGVzIGxvdyBpbiBncmF2aXR5IHNvIHRoZSBmaW5hbCB0YXN0ZSBpcyBsaWdodCBvbiB0aGUgcGFsZXR0ZSBhbmQgZXh0cmVtZWx5IGRyaW5rYWJsZS4gVGhpcyBpcyBzdXJlIHRvIGJlIGEgZmF2b3JpdGUgd2l0aCBmaXJzdCB0aW1lIGFuZCBsb25nIHRpbWUgd2hlYXQgYmVlciBkcmlua2Vycy4iLCJhYnYiOjUuMDk5OTk5OTA0NjMyNTY4LCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzQyNiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiSGFtdHJhbWNrIiwiZGVzY3JpcHRpb24iOiJCcmlnaHRseSBmaWx0ZXJlZCwgaGlnaGx5IGNhcmJvbmF0ZWQsIGdvbGRlbiBwcmVtaXVtLXN0eWxlIGxhZ2VyLiBJdCBpcyBsaWdodGx5IGhvcHBlZCB3aXRoIFBvbGlzaCBMdWJsaW4gaG9wcy4gVGhlIGJlZXIgd2lsbCBhcHBlYWwgdG8gdGhvc2Ugd2hvIHByZWZlciB0aGUgbGlnaHRlciBBbWVyaWNhbiBzdHlsZSBiZWVycy4iLCJhYnYiOjQuMCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiNDE4OCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQmxhY2tlbmVkIFZvb2RvbyIsImRlc2NyaXB0aW9uIjoiSW5zcGlyZWQgYnkgb2xkLXdvcmxkIGJyZXdpbmcgbWV0aG9kcywgdGhpcyBiZXdpdGNoaW5nIGFsbC1tYWx0IGJyZXcgaXMgYSBkYXJrbHkgcmljaCwgZXhvdGljIGxhZ2VyLCBjcmFmdGVkIHdpdGggYSB0b3VjaCBvZiBtYWdpY2FsIE5ldyBPcmxlYW5zIHNwaXJpdC4iLCJhYnYiOjUuMCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzA0NSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiVG9hc3RlZCBMYWdlciIsImRlc2NyaXB0aW9uIjoiVE9BU1RFRCBMQUdFUlxuXG5CbHVlIFBvaW50IEJyZXdpbmcncyBhd2FyZC13aW5uaW5nIFRvYXN0ZWQgTGFnZXIgaXMgb3VyIGZsYWdzaGlwIHByb2R1Y3QuIENvcHBlciBpbiBjb2xvciB0aGlzIGJyZXcgaXMgbWFkZSBmcm9tIHNpeCBkaWZmZXJlbnQgbWFsdHMgaW5jbHVkaW5nOiBFbmdsaXNoIFBhbGUsIENyeXN0YWwsIE11bmljaCwgQ2FyYXBpbHMsIFdoZWF0IGFuZCBCZWxnaWFuIENhcmF2aWVubmEuIFRvYXN0ZWQgTGFnZXIgZGlzcGxheXMgYSBiYWxhbmNlZCBmbGF2b3Igb2YgbWFsdCBhbmQgaG9wIHdoaWNoIG1ha2VzIGZvciBlYXN5IGRyaW5raW5nLiBTcGVjaWFsIGxhZ2VyIHllYXN0IGlzIHVzZWQgdG8gcHJvZHVjZSB0aGF0IGxvbmcgbGFzdGluZywgc21vb3RoIGZpbmlzaC4gVGhlIFwidG9hc3RlZFwiIHBhcnQgb2YgdGhlIG5hbWUgcmVmZXJzIHRvIG91ciBkaXJlY3QtZmlyZSBicmV3IGtldHRsZcOi4oKs4oSicyBob3QgZmxhbWVzIHRoYXQgaW1wYXJ0IGEgdG9hc3RlZCBmbGF2b3IgdG8gb3VyIG1vc3QgcG9wdWxhciBtaWNyb2JyZXcuIiwiYWJ2Ijo1LjMwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMzUzMiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiQmlyZWxsIiwiZGVzY3JpcHRpb24iOiJCaXJlbGwgaGFzIGFsbCB0aGUgaGFsbG1hcmtzIG9mIGEgZ3JlYXQgcHJlbWl1bSBiZWVyLCByaWNoIGNvbG91ciwgZnVsbCBtYWx0eSBmbGF2b3VyIGFuZCB0aGUgYWJpbGl0eSB0byBxdWVuY2ggYSB0aGlyc3QsIHdpdGggb25lIGltcG9ydGFudCBkaWZmZXJlbmNlIC0gdmlydHVhbGx5IG5vIGFsY29ob2wuIFxuXG5CcmV3ZWQgdW5kZXIgbGljZW5zZSBpbiBBdXN0cmFsaWEgYnkgQ29vcGVycywgQmlyZWxsIGlzIG1hZGUgdXNpbmcgb25seSB0aGUgZmluZXN0IEF1c3RyYWxpYW4gbWFsdGVkIGJhcmxleSwgaG9wcyBhbmQgeWVhc3QsIHdpdGggbm8gYXJ0aWZpY2lhbCBhZGRpdGl2ZXMgb3IgcHJlc2VydmF0aXZlcy5cblxuQ29vcGVycyBCaXJlbGwgbWF5IGJlIGZvdW5kIGluIG1vc3Qgc3VwZXJtYXJrZXRzICgzNzVtbCBib3R0bGVzIG9yIGNhbnMpLiIsImFidiI6MC41LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiI3OCIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiWWV0aSBTcGVjaWFsIEV4cG9ydCIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo3LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjMwMzYiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ik1pY2hlbG9iIFVsdHJhIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjQuMTk5OTk5ODA5MjY1MTM3LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyOTg2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJIZWluZWtlbiIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo1LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjQxNzIiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkNhdHRhaWwgUGVhayIsImRlc2NyaXB0aW9uIjoiQW4gaW52aWdvcmF0aW5nIHdoZWF0IGJlZXIgd2l0aCAxMDAlIG9yZ2FuaWMgZ3JhaW5zLCBhIGhpbnQgb2YgcnllIGFuZCB0aGUgdGFuZyBhbmQgaHVlIG9mIG9yZ2FuaWMgaGliaXNjdXMsIHRoaXMgcmVmcmVzaGluZyBicmV3IGlzIGFzIGNvb2wgYXMgdGhlIGJyZWV6ZSB0aGF0IGJsb3dzIGRvd24gZnJvbSBNb3VudCBNaXRjaGVsbCB0byBDYXR0YWlsIFBlYWsuIEVuam95IHRoaXMgZGVsaWNpb3VzIGNyZWF0aW9uIHdoZW4gdGhlIGhvdHRlc3Qgc3VtbWVyIGRheSBkZW1hbmRzIHRoZSBiZXN0IG9mIHRoZSBCbHVlIFJpZGdlLiIsImFidiI6NC42OTk5OTk4MDkyNjUxMzcsInN0eWxlIjoiTGlnaHQgQW1lcmljYW4gV2hlYXQgQWxlIG9yIExhZ2VyIn19XX0=
   recorded_at: Thu, 10 Jun 2021 17:36:20 GMT
-
 - request:
     method: post
     uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09%2019:34:20%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=59
@@ -1140,4 +1139,500 @@ http_interactions:
       string: '{"data":{"id":"65","type":"trip","attributes":{"location":"80206","name":"Going
         to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":103,"max_temperature":93.7},"relationships":{}}}'
   recorded_at: Thu, 10 Jun 2021 17:41:37 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:10:00%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=485
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:10:00 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c404883b5f7614d210e38445eb9f6d60"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - bce62c61-d50b-4b5b-8a78-fbcdcd9da3e1
+      X-Runtime:
+      - '0.667742'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"88","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":485,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:10:01 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:14:39%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=496
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:14:39 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c263e1564165d43d21cf1ef8b7af5da7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2a9dfab8-e978-48bd-b915-8ecef8cb2850
+      X-Runtime:
+      - '0.690889'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"92","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":496,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:14:40 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=92
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:14:39 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ca095bb195921ba5a3743a6ca5eaeb9b"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 40180c6e-af35-4246-8874-3cd2c05d065f
+      X-Runtime:
+      - '0.044174'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"4242","type":"beer","attributes":{"name":"Dogma","description":"Dogma
+        is an innovative, enigmatic ale brewed with guarana, poppy seeds and kola
+        nut all blended together with Scottish heather honey. A conspiracy of transcontinental
+        ingredients infused with some devastatingly BrewDog imaginative thinking.\n\nThe
+        flavours, intricacies and nuances of this beer are best enjoyed while musing
+        over some obscure 17th Century philosophical meanderings, such as:\n\n\"If
+        we disbelieve everything because we cannot certainly know all things we will
+        do much, what as wisely as he who would not use his wings but sit still and
+        perish because he had no wings to fly.\"\nJohn Locke.\n\nThis beer is not
+        cool. You may think it is, but that is just a beautiful lie fabricated by
+        clowns and gypsies.","abv":7.800000190734863,"style":"Herb and Spice Beer"}},{"id":"2552","type":"beer","attributes":{"name":"Labatt
+        Blue","description":"Labatt Blue is the best-selling Canadian beer in the
+        world. Introduced in 1951 as Labatt Pilsener, it was named for the colour
+        of its label by fans of the Winnipeg Blue Bombers football team. Blue was
+        the first brand in Canada with a twist-off cap and won the silver medal in
+        the International Lager category at the 1998 Brewing Industry International
+        Awards. Labatt Blue, brewed using specially selected aromatic hops, is a well-balanced,
+        fully matured, full-flavoured beer with a fruity character and a slightly
+        sweet aftertaste.","abv":4.699999809265137,"style":"American-Style Lager"}},{"id":"3436","type":"beer","attributes":{"name":"Vienna
+        Red Lager","description":"This amber Austrian lager has a distinct bready
+        malt aroma and flavor, followed by a crisp, clean finish typical of lager
+        styles. The nose also shows plenty of the spicy hop aroma contributed by the
+        use of Saaz hops.","abv":5.0,"style":"American-Style Lager"}},{"id":"3426","type":"beer","attributes":{"name":"Hamtramck","description":"Brightly
+        filtered, highly carbonated, golden premium-style lager. It is lightly hopped
+        with Polish Lublin hops. The beer will appeal to those who prefer the lighter
+        American style beers.","abv":4.0,"style":"American-Style Lager"}},{"id":"3233","type":"beer","attributes":{"name":"Saranac
+        Season''s Best","description":"Brewed with a special blend of domestic and
+        Belgian malts for a delicate nut-like character, you''ll love this Lager''s
+        rich taste and signature hop aroma. The exceptional full-bodied taste reflects
+        our Brewery''s extraordinary commitment to brewing beers of the highest standard
+        of quality.","abv":5.300000190734863,"style":"American-Style Lager"}},{"id":"4008","type":"beer","attributes":{"name":"Sea
+        Dog Raspberry Wheat Ale","description":"Sea Dog Raspberry Wheat Ale is a dry,
+        crisp refreshing ale with the added essence of raspberries.","abv":4.5,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"154","type":"beer","attributes":{"name":"Chazz
+        Cat Rye","description":"","abv":4.5,"style":"American-Style Lager"}},{"id":"2637","type":"beer","attributes":{"name":"Natural
+        Ice","description":"","abv":5.900000095367432,"style":"American-Style Light
+        Lager"}},{"id":"1349","type":"beer","attributes":{"name":"Flat Belly American
+        Wheat","description":"","abv":3.5999999046325684,"style":"American-Style Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:14:40 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:15:23%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=507
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:15:23 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0535c1659ea699887adb2a1f96c24130"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 83760947-521d-4a56-b4e2-ab2c2bd336f3
+      X-Runtime:
+      - '0.588794'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"96","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":507,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:15:23 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=96
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:15:23 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"6d60ebc5a089eac659b68bdd634c18a0"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6b728a4d-a514-40b4-b36b-d66b7b7a5dc9
+      X-Runtime:
+      - '0.021798'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"3170","type":"beer","attributes":{"name":"Red Dog","description":"","abv":5.0,"style":"American-Style
+        Light Lager"}},{"id":"4049","type":"beer","attributes":{"name":"Double White","description":"What
+        do brewmasters do in their free time? If you''re Phil Markowski, the obsesseive
+        brewmaster of Southampton, you brew at home, of course! Phil turned his fascination
+        with Belgian-style white ales into a quest to master one of the most challenging
+        beers to brew. Using rustic ingredients like un-malted wheat, Phil experimented
+        over his stove until he felt it was perfect. Take one taste and you''ll agree,
+        Phil got it \"white.\"","abv":6.599999904632568,"style":"Light American Wheat
+        Ale or Lager"}},{"id":"4242","type":"beer","attributes":{"name":"Dogma","description":"Dogma
+        is an innovative, enigmatic ale brewed with guarana, poppy seeds and kola
+        nut all blended together with Scottish heather honey. A conspiracy of transcontinental
+        ingredients infused with some devastatingly BrewDog imaginative thinking.\n\nThe
+        flavours, intricacies and nuances of this beer are best enjoyed while musing
+        over some obscure 17th Century philosophical meanderings, such as:\n\n\"If
+        we disbelieve everything because we cannot certainly know all things we will
+        do much, what as wisely as he who would not use his wings but sit still and
+        perish because he had no wings to fly.\"\nJohn Locke.\n\nThis beer is not
+        cool. You may think it is, but that is just a beautiful lie fabricated by
+        clowns and gypsies.","abv":7.800000190734863,"style":"Herb and Spice Beer"}},{"id":"2521","type":"beer","attributes":{"name":"Victory
+        Lager","description":"Perfectly balanced, this authentic version of a German
+        helles-style lager satisfies gloriously. Lean, German malts and fine European
+        hops offer subtle harmony.","abv":4.800000190734863,"style":"American-Style
+        Lager"}},{"id":"442","type":"beer","attributes":{"name":"Blind Pig Dunkelweizen","description":"","abv":4.699999809265137,"style":"American-Style
+        Lager"}},{"id":"4233","type":"beer","attributes":{"name":"Scratch #25 2009
+        Magical Moustache Rye","description":"This mahogany ale packs a lingering,
+        earthy hoppiness. The addition of more than 20% rye to the grain bill gives
+        a creamy mouthfeel and hints of spice that compliment the bitterness of hops.
+        Subtle fruitiness come through from the Bravo hops added during the boil,
+        but the Cluster and Liberty varieties used in dry-hopping this beer are the
+        true flavor drivers in this spicy ale. Dark in color and intense is flavor,
+        Scratch 25-2009 finds true balance in a beer that could have easily gone way
+        over the top. Enjoy.","abv":6.5,"style":"American Rye Ale or Lager"}},{"id":"2484","type":"beer","attributes":{"name":"Icehouse","description":"America''s
+        first domestic ice beer, Icehouse is traditionally brewed, fermented and,
+        just before aging, its temperature is lowered to below freezing. This process
+        imparts the beer''s smoothness and an alcohol content that''s slightly higher
+        (5.5% by volume) than other regular premium beer brands. Icehouse was introduced
+        in 1993 and has reinforced its position as the ultimate beer for wind-up and
+        pre-game occasions. Blending humor and high-energy excitement, Icehouse marketing
+        encourages its target consumers to take occasions to the next level with a
+        great-tasting beer.","abv":5.5,"style":"American-Style Light Lager"}},{"id":"3767","type":"beer","attributes":{"name":"Scratch
+        #18 2009","description":"We started with the same grain bill as Scratch #12
+        (IPA) and substituted 25% rye for the base malt giving Scratch #18 a creamy
+        mouth feel and a full-bodied taste.\n\nMount Hood and Chinook hops are combined
+        here for flavoring and aroma, and Warrior hops are used for overall bitterness.\n\nThe
+        rye plays off the Mount Hood hops, with both ingredients releasing an herbal,
+        spicy flavor. Cheers.","abv":7.300000190734863,"style":"American Rye Ale or
+        Lager"}},{"id":"3274","type":"beer","attributes":{"name":"Hansa Imported Dortmunder","description":"Surviving
+        beer from the Dortmunder Hansa-Brauerei before being acquired by Actien.","abv":4.800000190734863,"style":"American-Style
+        Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:15:23 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:23:41%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=518
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:23:41 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"e264e6152346581232eadb1c27818450"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f02b9cff-22b5-47f4-9e39-a35554afcf3b
+      X-Runtime:
+      - '0.647129'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"102","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":518,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:23:42 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=102
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:23:42 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"246a765ca38924702afb126a02d41856"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0c06dccd-f04e-4e97-b735-432ee78612b1
+      X-Runtime:
+      - '0.042262'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"2639","type":"beer","attributes":{"name":"Harp Lager","description":"The
+        best selling premium irish import lager in the world today.  This rich, golden
+        pilsner style lager, with a smooth, refreshing hoppy taste, is brewed the
+        irish way, using only the finest barley and pure spring water from the Cooley
+        Mountains of Dundalk, Ireland.","abv":5.0,"style":"American-Style Lager"}},{"id":"3428","type":"beer","attributes":{"name":"Hite","description":"Hite
+        lager is golden in colour and is styled upon traditional European and American
+        lagers.","abv":4.5,"style":"American-Style Lager"}},{"id":"3544","type":"beer","attributes":{"name":"Mamma
+        Mia! Pizza Beer","description":"An ale flavored with fresh tomatoes, oregano,
+        basil and garlic.","abv":4.599999904632568,"style":"Herb and Spice Beer"}},{"id":"570","type":"beer","attributes":{"name":"Featherweight
+        Lager","description":"","abv":4.099999904632568,"style":"American-Style Lager"}},{"id":"2895","type":"beer","attributes":{"name":"Upland
+        Wheat Ale","description":"","abv":4.5,"style":"Light American Wheat Ale or
+        Lager"}},{"id":"3226","type":"beer","attributes":{"name":"Saranac Lager","description":"A
+        simple well-made Classic American Lager brewed with only choice ingredients.
+        It is extremely mellow refreshingly smooth, glass after glass.","abv":4.800000190734863,"style":"American-Style
+        Lager"}},{"id":"3172","type":"beer","attributes":{"name":"Amstel Light","description":"","abv":3.5,"style":"American-Style
+        Light Lager"}},{"id":"2485","type":"beer","attributes":{"name":"Milwaukees
+        Best","description":"","abv":4.5,"style":"American-Style Light Lager"}},{"id":"802","type":"beer","attributes":{"name":"Thunder
+        Storm","description":"","abv":5.0,"style":"American-Style Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 22:23:42 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:28:26%20-0500&location=80206&name=Going%20to%20Joeys%20house&user_id=529
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:28:26 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"acae191654f3848eb4f6095e1bf8bdcf"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d231218a-9c97-4490-a4ed-60d81229cad9
+      X-Runtime:
+      - '0.550746'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"110","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-10","elevation":5390.42012,"user_id":529,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:28:27 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=110
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:28:27 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7dd0c3d2af698ede5bd859e52d0a2106"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - edbaeff6-0dcc-49e3-afa3-edd6d2e6023f
+      X-Runtime:
+      - '0.031978'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjM1MzEiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkNvb3BlcnMgUHJlbWl1bSBMaWdodCIsImRlc2NyaXB0aW9uIjoiQ29vcGVycyBQcmVtaXVtIExpZ2h0IGlzIGJyZXdlZCB1c2luZyBtYWx0ZWQgYmFybGV5IGFuZCBubyBzdWdhci4gIENvb3BlcnMgaGFzIHVzZWQgdHJhZGl0aW9uYWwgbGFnZXIgYnJld2luZyB0ZWNobmlxdWVzIHRvIHByb2R1Y2UgYSBmdWxsLWZsYXZvdXJlZCBsaWdodCBiZWVyLiAgVGhlIGxpZ2h0IGhhcyBhIGZyZXNoIGFyb21hIHdpdGggY2xlYW4gZmxvcmFsIGhvcCBub3RlcywgZXhjZWxsZW50IGhlYWQgYW5kIGNvbG91ciBwcmVzZW50YXRpb24uIiwiYWJ2IjoyLjkwMDAwMDA5NTM2NzQzMTYsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGlnaHQgTGFnZXIifX0seyJpZCI6IjM4OTAiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkR1bmRlZSBXaGVhdCBCZWVyIiwiZGVzY3JpcHRpb24iOiJTZW5hdG9yIEpvc2VwaCBNY0NhcnRoeS4gVGhlIEhvbGxvdyBFYXJ0aCBTb2NpZXR5LiBNZW1iZXJzIG9mIHRoZSBTcGFuaXNoIElucXVpc2l0aW9uLiBBbGwgY29udmluY2VkIHRoZXkgd2VyZSBibGVzc2VkIHdpdGggdGhlIGdpZnQgb2YgY2xhcml0eS4gQW5kIHByb29mIHRoYXQgY2xhcml0eSBtaWdodCBiZSBvdmVycmF0ZWQuIFxuXG5Tb21ldGltZXMsIGJlaW5nIHVuY2xlYXLDouKCrOKAnWFuZCBhIGxpdHRsZSBmbGV4aWJsZcOi4oKs4oCdaXMgYSBnb29kIHRoaW5nLiBMaWtlIHdoZW4geW91IGFyZSBsb29raW5nIGZvciB0aGUgcGVyZmVjdCByZWZyZXNobWVudC4gRHVuZGVlIFdoZWF0IEJlZXIgY29tYmluZXMgd2hlYXQgYW5kIHllYXN0IGludG8gYSByZWZyZXNoaW5nIGhlZmV3ZWl6ZW4tc3R5bGUgYnJldy4gVW5maWx0ZXJlZCwgc28gaXQgaXMgc2xpZ2h0bHkgY2xvdWR5IGFuZCBwbGVhc2FudGx5IHVuY2xlYXIuIFxuXG5TbyB0aGUgbmV4dCB0aW1lIHlvdcOi4oKs4oSicmUgY29udmluY2VkIHlvdcOi4oKs4oSicmUgcmlnaHQgYWJvdXQgd2hhdCB5b3XDouKCrOKEonZlIGJlZW4gZHJpbmtpbmcsIGdpdmUgYSBsaXR0bGUgw6LigqzFk3VuY2xhcml0ecOi4oKswp0gYSB0cnkuXG5cbkFuIEFtZXJpY2FuLXN0eWxlLCB1bmZpbHRlcmVkIHdoZWF0IGJlZXIuIFBhbGUgc3RyYXcgaW4gY29sb3Igd2l0aCBhIGxpZ2h0IGNsb3VkaW5lc3MgZnJvbSBjYXJlZnVsbHkgc2VsZWN0ZWQgd2hlYXQgYW5kIHllYXN0LiBQbGVhc2FudCBzcGljeSBtYWx0IGFyb21hIGFuZCBhIGNyaXNwIGhvcCBmaW5pc2guIiwiYWJ2Ijo0LjE5OTk5OTgwOTI2NTEzNywic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjI1MTgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6Ill1ZW5nbGluZyBQcmVtaXVtIExpZ2h0IiwiZGVzY3JpcHRpb24iOiJZdWVuZ2xpbmcgTGlnaHQgQmVlciBpcyBza2lsbGZ1bGx5IGNyYWZ0ZWQgdG8gZGVsaXZlciBhIGNvbnNpc3RlbnRseSByZWZyZXNoaW5nIGJyZXcgd2l0aCBvbmx5IDk4IGNhbG9yaWVzLiBEcmF3aW5nIGZyb20gdHJhZGl0aW9uYWwgYnJld2luZyB0ZWNobmlxdWVzLCBvdXIgTGlnaHQgQmVlciBpcyBicmV3ZWQgbG9uZ2VyIHRvIHJlZHVjZSB0aGUgc3VnYXIgY29udGVudCBhbmQgcHJvZHVjZSBmZXdlciBjYWxvcmllcyBpbiBlYWNoIHRoaXJzdC1xdWVuY2hpbmcgZHJpbmsuIEl0cyBwYWxlIGdvbGRlbiBjb2xvciBpcyBjb21wbGVtZW50ZWQgYnkgYSBsaWdodC1ib2RpZWQgZmxhdm9yLiBZdWVuZ2xpbmcgTGlnaHQgbWFpbnRhaW5zIGEgd2VsbCBiYWxhbmNlZCBjaGFyYWN0ZXIgb2YgbWFsdCBhbmQgaG9wcywgd2l0aCBzbGlnaHQgY2FyYm9uYXRpb24gZm9yIGEgY3Jpc3Agc2F0aXNmeWluZyBmaW5pc2guIFdlIHNhY3JpZmljZSBub3RoaW5nIHRvIHByb2R1Y2UgYSBwcmVtaXVtIGxpZ2h0IGJlZXIgdGhhdCBpcyBsb3cgaW4gY2Fsb3JpZXMgYW5kIGZ1bGwgb2YgZmxhdm9yLiBUaGlzIGNvbWJpbmF0aW9uIGRlbGl2ZXJzIHRoZSB1bHRpbWF0ZSByZWZyZXNobWVudCBpbiBZdWVuZ2xpbmcgTGlnaHQgQmVlci4iLCJhYnYiOjMuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMaWdodCBMYWdlciJ9fSx7ImlkIjoiMjUxMyIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiWXVlbmdsaW5nIExhZ2VyIiwiZGVzY3JpcHRpb24iOiJZdWVuZ2xpbmcgVHJhZGl0aW9uYWwgTGFnZXIgaXMgYW4gaWNvbmljIEFtZXJpY2FuIGxhZ2VyIGZhbW91cyBmb3IgaXRzIHJpY2ggYW1iZXIgY29sb3IgYW5kIG1lZGl1bS1ib2RpZWQgZmxhdm9yLiBCcmV3ZWQgd2l0aCByb2FzdGVkIGNhcmFtZWwgbWFsdCBmb3IgYSBzdWJ0bGUgc3dlZXRuZXNzIGFuZCBhIGNvbWJpbmF0aW9uIG9mIGNsdXN0ZXIgYW5kIGNhc2NhZGUgaG9wcywgdGhpcyB0cnVlIG9yaWdpbmFsIHByb21pc2VzIGEgd2VsbCBiYWxhbmNlZCB0YXN0ZSB3aXRoIHZlcnkgZGlzdGluY3QgY2hhcmFjdGVyLiBJdHMgZXhjZXB0aW9uYWwgZmxhdm9yIGFuZCBzbW9vdGggZmluaXNoIGlzIHByZXZhbGVudGx5IGVuam95ZWQgYnkgY29uc3VtZXJzIHdpdGggZXZlbiB0aGUgbW9zdCBkaXNjZXJuaW5nIHRhc3Rlcy4gT3VyIGZsYWdzaGlwIGJyYW5kLCBZdWVuZ2xpbmcgVHJhZGl0aW9uYWwgTGFnZXIgaXMgYW4gQW1lcmljYW4gZmF2b3JpdGUgZGVsaXZlcmluZyBjb25zaXN0ZW50IHF1YWxpdHkgYW5kIHJlZnJlc2htZW50IHRoYXQgbmV2ZXIgZGlzYXBwb2ludHMuIEluIGZhY3QsIGl0J3Mgc28gd2lkZWx5IGtub3duIGFuZCB1bmlxdWUgaW4gaXRzIGNsYXNzLCBpbiBzb21lIGFyZWFzIHlvdSBjYW4gYXNrIGZvciBpdCBzaW1wbHkgYnkgdGhlIG5hbWUgXCJMYWdlci5cIiIsImFidiI6NC40MDAwMDAwOTUzNjc0MzIsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgTGFnZXIifX0seyJpZCI6IjM0NzgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IkhvcCBTdW4iLCJkZXNjcmlwdGlvbiI6IlBvdXIgSG9wIFN1biBTdW1tZXIgV2hlYXQgQmVlciBpbnRvIGEgcGludCBnbGFzcywgZ2l2ZSBpdCBhIGxvbmcgd2hpZmYgYW5kIHlvdcOi4oKs4oSibGwgcmVhbGl6ZSB0aGF0IHRoaXMgaXNuw6LigqzihKJ0IHlvdXIgYXZlcmFnZSB3aGVhdGJlZXIuIEZpbHRlcmVkIHRvIGEgZ29sZGVuIGNsYXJpdHkgYW5kIGRyeS1ob3BwZWQgdG8gcGVyZmVjdGlvbiwgSG9wIFN1biBpcyBhIGZhbnRhc3RpYyBzZXNzaW9uIGFsZSBpbiB3aGljaCBmbGF2b3JzIG9mIHdoZWF0LCBiYXJsZXkgYW5kIGhvcHMgY29tbWluZ2xlIHRvIGEgcmVmcmVzaGluZyBhbmQgemVzdHkgY29uY2x1c2lvbi4gSGludHMgb2YgbGVtb24gYW5kIHN3ZWV0IG1hbHRzIHdhZnQgdG8gdGhlIGZvcmUgYXMgYSB0b3VjaCBvZiBiaXR0ZXJuZXNzIGNvbnRyaWJ1dGVzIHRvIEhvcCBTdW7DouKCrOKEonMgYnJpZ2h0IGZpbmlzaC4gRW5qb3kgSG9wIFN1biBhbGwgc3VtbWVyIGxvbmcgYXMgYSBwZXJmZWN0IGJhbGFuY2UgdG8geW91ciBvdXRkb29yIHJlY3JlYXRpb24uIFN1bW1lciBuZXZlciB0YXN0ZWQgc28gZ29vZC4iLCJhYnYiOjQuNSwic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjQzMzgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlN0LiBQYXRyaWNrJ3MgR29sZCIsImRlc2NyaXB0aW9uIjoiT3VyIHNtb290aCB5ZXQgcG93ZXJmdWwgd2hlYXQgYmVlciBpcyB1bnVzdWFsbHkgcmVmcmVzaGluZyBvbiB0aGUgcGFsbGV0LiAgR29sZGVuIGluIGNvbG91ciwgU3QuIFBhdHJpY2sncyBHb2xkIGlzIGJyZXdlZCB3aXRoIGJhcmxleSBhbmQgd2hlYXQgbWFsdC4gQ2l0cnVzIHBlZWwgYW5kIGNvcmlhbmRlciBhcmUgYWRkZWQgdG8gdGhlIEdvbGRpbmdzIGFuZCBTYWF6IGhvcHMgZm9yIGEgc3ltcGhvbnkgb2YgYXV0aGVudGljIGZsYXZvdXIuIiwiYWJ2Ijo0LjgwMDAwMDE5MDczNDg2Mywic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjQwMDQiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IjQyMiBQYWxlIFdoZWF0IEFsZSIsImRlc2NyaXB0aW9uIjoiUG91ciA0MjIgUGFsZSBXaGVhdCBBbGUgaW50byBhIHBpbnQgZ2xhc3MsIGdpdmUgaXQgYSBsb25nIHdoaWZmIGFuZCB5b3XDouKCrOKEomxsIHJlYWxpemUgdGhhdCB0aGlzIGlzbsOi4oKs4oSidCB5b3VyIGF2ZXJhZ2UgcGFsZSBnb2xkZW4gd2hlYXQuIFByZXNlcnZlZCBpbiBpdHMgdW5maWx0ZXJlZCBzdGF0ZSwgNDIyIGlzIGEgZmFudGFzdGljIHNlc3Npb24gYWxlIGluIHdoaWNoIGZsYXZvcnMgb2Ygd2hlYXQsIGJhcmxleSBhbmQgaG9wcyBjb21taW5nbGUgdG8gYSByZWZyZXNoaW5nIGFuZCB6ZXN0eSBjb25jbHVzaW9uLiBIaW50cyBvZiBvcmFuZ2UgYW5kIHN3ZWV0IG1hbHRzIHdhZnQgdG8gdGhlIGZvcmUgYXMgYSB0b3VjaCBvZiBiaXR0ZXJuZXNzIGNvbnRyaWJ1dGVzIHRvIGEgc21vb3RoIGZpbmlzaC4gNDIyIGlzIGJyZXdlZCBhcyBhIHRyaWJ1dGUgdG8gcHJlc2VydmluZyBvdXIgcHJlY2lvdXMgcGxhbmV0IGFuZCBpdMOi4oKs4oSicyBlbnZpcm9ubWVudC4gSXQgaXMgcmVzcG9uc2libHkgcGFja2FnZWQgd2l0aCBvdmVyIDgwJSByZWN5Y2xlZCBjb25zdW1lciBwcm9kdWN0cyBhbmQgaXMgY29tcGxldGVseSByZWN5Y2xhYmxlLiBFbmpveSA0MjIgYWxsIHllYXIgYXMgdG8gdGFrZSBvbmUgc3RyaWRlIGNsb3NlciB0byBhIGVjby1mcmllbmRseSBsaWZlLiIsImFidiI6NS4wLCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMjU4NSIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiU3ByaW5nIEJvY2siLCJkZXNjcmlwdGlvbiI6IkEgdHJhZGl0aW9uYWwgR2VybWFuIHN0eWxlIGxhZ2VyLiBDaGFyYWN0ZXJpemVkIGJ5IGEgZGVlcCBjb3BwZXIgY29sb3IgYW5kIHJpY2ggbWFsdCBmbGF2b3IuIEJhbGFuY2VkIHdpdGggR2VybWFuIGhvcHMuXG5cbkF2YWlsYWJsZSBhdCB0aGUgQnJld2VyeSBhbmQgaW4gYm90dGxlcyBcdTAwMjYgY2FzZXMgZnJvbSBNYXJjaCAtIE1heS4iLCJhYnYiOjYuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiODExIiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJSb2dnZW5iaWVyIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjUuNSwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fV19
+  recorded_at: Thu, 10 Jun 2021 22:28:27 GMT
 recorded_with: VCR 6.0.0

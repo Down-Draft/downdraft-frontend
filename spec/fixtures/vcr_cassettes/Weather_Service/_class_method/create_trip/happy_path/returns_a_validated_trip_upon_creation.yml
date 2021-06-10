@@ -495,7 +495,6 @@ http_interactions:
       string: '{"data":{"id":"50","type":"trip","attributes":{"location":"80206","name":"Trip
         to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
   recorded_at: Thu, 10 Jun 2021 17:36:21 GMT
-
 - request:
     method: post
     uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09%2019:35:01%20-0600&location=80206&name=Trip%20to%20Cabo&user_id=1
@@ -586,4 +585,409 @@ http_interactions:
       string: '{"data":{"id":"34","type":"trip","attributes":{"location":"80206","name":"Trip
         to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
   recorded_at: Thu, 10 Jun 2021 17:18:25 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:10:02%20-0500&location=80206&name=Trip%20to%20Cabo&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:10:02 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"148fe087aedb12205959a59ea6a3add6"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f5fc47a0-4c83-4ba3-a651-06810562bc3f
+      X-Runtime:
+      - '0.658611'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"90","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:10:03 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:14:42%20-0500&location=80206&name=Trip%20to%20Cabo&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:14:42 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"59bbd0c3873a1e09d1dac19e56553a78"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4fe6bbf8-6326-403e-97a8-02848bb5dde5
+      X-Runtime:
+      - '0.577286'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"94","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:14:42 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:15:25%20-0500&location=80206&name=Trip%20to%20Cabo&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:15:25 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"10829d8c9690df25a8e4672573baf94c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 31411909-3726-4073-9faf-a7ead475177e
+      X-Runtime:
+      - '0.736373'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"98","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:15:26 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:23:44%20-0500&location=80206&name=Trip%20to%20Cabo&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:23:44 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"2ad3fc7bba1bc8e0b05c98bfa44449e2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4aa9127b-4ee0-4296-9c33-b2a88441095f
+      X-Runtime:
+      - '0.585152'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"104","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:23:45 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:26:33%20-0500&location=80206&name=Trip%20to%20Cabo&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:26:33 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"42dbe3c8d561e20f059639fe8f7b712b"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 22498e96-76cf-4eb0-b479-49efec4bbe92
+      X-Runtime:
+      - '0.747296'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"105","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:26:34 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:26:56%20-0500&location=80206&name=Trip%20to%20Cabo&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:26:56 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c1db46ccf14f70aa92e3d2a27bc07a39"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 820e112a-9da0-4201-856d-22cc62c58a10
+      X-Runtime:
+      - '0.654087'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"106","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:26:56 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:27:39%20-0500&location=80206&name=Trip%20to%20Cabo&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:27:39 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"14848c613be9ef84c8ce61694bfa93f1"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4fa95594-2460-4cd1-b1a6-18633818bac1
+      X-Runtime:
+      - '0.613106'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"107","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:27:40 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:28:14%20-0500&location=80206&name=Trip%20to%20Cabo&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:28:15 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"3608bb2b5335a3398ef4218b12fe83a5"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c146c124-d1fd-4fb0-92e3-c331f0add60a
+      X-Runtime:
+      - '0.572875'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"108","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:28:15 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2017:28:28%20-0500&location=80206&name=Trip%20to%20Cabo&user_id=1
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 22:28:29 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7baf435bfe42afbad744758d201af4f4"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 16adce38-49d2-4d49-9da4-f606d66898e9
+      X-Runtime:
+      - '0.632566'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"112","type":"trip","attributes":{"location":"80206","name":"Trip
+        to Cabo","date":"2021-06-10","elevation":5390.42012,"user_id":1,"max_temperature":93.7},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 22:28:29 GMT
 recorded_with: VCR 6.0.0
