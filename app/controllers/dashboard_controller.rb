@@ -5,7 +5,6 @@ class DashboardController < ApplicationController
       redirect_to edit_user_path(current_user)
       flash[:error] = @weather
     end
-    # @beer_of_the_day =
-    # @upcoming_trips = TripFacade.get_trips()
+    @beer_of_the_day = BeerFacade.search_beer('').sample
   end
 end
