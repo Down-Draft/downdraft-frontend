@@ -11,11 +11,13 @@ RSpec.describe 'Weather Service' do
         it 'returns a validated trip upon creation', :vcr do
           trip_params = { name: 'Trip to Cabo', date: Time.now, location: '80206', user_id: 1 }
           results = TripsService.create_trip(trip_params)
+          
           expect(results[:data][:attributes][:location]).to eq('80206')
           expect(results[:data][:attributes][:name]).to eq('Trip to Cabo')
-          expect(results[:data][:attributes][:date]).to eq('2021-06-08')
+          expect(results[:data][:attributes][:date]).to eq('2021-06-10')
           expect(results[:data][:attributes][:elevation]).to eq(5390.42012)
           expect(results[:data][:attributes][:user_id]).to eq(1)
+          expect(results[:data][:attributes][:max_temperature]).to eq(93.7)
         end
       end
       describe 'sad path' do

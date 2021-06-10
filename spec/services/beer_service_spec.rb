@@ -3,26 +3,13 @@ require 'rails_helper'
 RSpec.describe 'Beer Service' do
   describe '#instance method' do
     describe 'get_beers_data' do
-      xit 'returns data for beers given location' do
-        location = '80303'
-        results = BeerService.get_beers_data(location)
+      it 'returns data for beers given location', :vcr do
+        trip_id = 1
+        results = BeerService.get_beers_data(trip_id)
         expect(results[:data].class).to eq(Array)
         
-        # add additional test lines here
-
       end  
     end
-  
-    describe 'get_beer_data' do
-      xit 'returns data for beer given location' do
-        location = '80303'
-        results = BeerService.get_beer_data(location)
-        expect(results[:data].class).to eq(Array)
-        
-        # add additional test lines here
-        
-      end
-    end 
 
     describe 'search_beer_data' do
       it 'returns data for beer based on name search', :vcr do
