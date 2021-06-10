@@ -4,7 +4,12 @@ class TripsController < ApplicationController
   end
 
   def show
-    @trip = TripFacade.get_single_trip(params[:id])
+    if TripsService.get_trip_show(params[:id])[:id].nil?
+      redirect_to "/trips"
+      flash[:error] = "Trip not found"
+    else
+      @trip = TripFacade.get_single_trip(params[:id])
+    end
   end
 
   def new; end
