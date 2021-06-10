@@ -6,16 +6,16 @@ class Trip
               :elevation,
               :id,
               :max_temp
-  
+
   def initialize(data)
-    @name = data[:data][:attributes][:name]
-    @location = data[:data][:attributes][:location]
-    @date = data[:data][:attributes][:date]
-    @user_id = data[:data][:attributes][:user_id]
-    @elevation = data[:data][:attributes][:elevation].round(2)
-    @id = data[:data][:id]
-    @max_temp = data[:data][:attributes][:max_temperature]
-    @relationships = data[:data][:attributes][:relationships]
+    @name = data[:attributes][:name]
+    @location = data[:attributes][:location]
+    @date = data[:attributes][:date]
+    @user_id = data[:attributes][:user_id]
+    @elevation = data[:attributes][:elevation].round(2)
+    @id = data[:id]
+    @max_temp = data[:attributes][:max_temperature]
+    @relationships = data[:attributes][:relationships]
   end
 
   def beers
