@@ -4,6 +4,7 @@ class TripsController < ApplicationController
   end
 
   def show
+    require 'pry'; binding.pry
     if TripsService.get_trip_show(params[:id])[:id].nil?
       redirect_to "/trips"
       flash[:error] = "Trip not found"

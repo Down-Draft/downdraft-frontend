@@ -1,0 +1,741 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=467
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:34:10 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"539517d8bd6ebe2ea9030fb69627aa10"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 97170477-a148-4831-b66c-7f66f0b3e799
+      X-Runtime:
+      - '0.478292'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"75","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":467,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:34:11 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=75
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:34:11 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"86ed6cfc211b065537f3787a0a004e9a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 619abc55-a51c-487d-ab5f-1deb229c8303
+      X-Runtime:
+      - '0.030774'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"4062","type":"beer","attributes":{"name":"Tailgate
+        Light","description":"Why settle for a watered down version of delicious barley
+        and hops when the TailGate Beer Light will make you a convert to the world
+        of light ales. Eat hardy, and enjoy a light beer with serious flavor, lower
+        calories and the most serious attention to the powers that flavor beer.  A
+        nose of citrus and spice with a tongue of vanilla are just a few of the very
+        unique flavors to grace your senses in this Light Ale.  This is the light
+        beer lovers of beer have been waiting for.  This is not a watered down version
+        of a good idea.","abv":4.699999809265137,"style":"American-Style Light Lager"}},{"id":"3773","type":"beer","attributes":{"name":"Forty-Niner
+        Gold Lager","description":"","abv":4.5,"style":"American-Style Lager"}},{"id":"2849","type":"beer","attributes":{"name":"Honey
+        Cream Ale","description":"Honey Cream Ale is fermented warm like traditional
+        cream ales but features an added twist--wildflower honey from Oregon. Honey
+        imparts a dry, refreshing character to the beer because it ferments almost
+        completely. The honey comes from a beekeeper in Blodgett, a tiny town 20 miles
+        east of Newport.\n\nRogues Honey Cream Ale is a light, smooth, medium bodied
+        ale, with a creamy head, hints of honey and a crisp light finish. Brewed with
+        two-row Harrington, Klages and Munich malts and Crystal hops. Discontined
+        for distribution in late 2005, available on tap only at Rogue Ales Public
+        Houses.","abv":5.5,"style":"American-Style Cream Ale or Lager"}},{"id":"4238","type":"beer","attributes":{"name":"Hop
+        Rocker","description":"","abv":5.5,"style":"American-Style Lager"}},{"id":"1123","type":"beer","attributes":{"name":"Hathor
+        Red Lager","description":"","abv":5.400000095367432,"style":"American-Style
+        Lager"}},{"id":"3016","type":"beer","attributes":{"name":"Negra Modelo","description":"Negra
+        Modelo has long been the dark beer alternative for Mexican beer drinkers.
+        It has been identified as one of the few surviving examples of Vienna style
+        lager - a style that was largely replaced in European breweries with Oktoberfest,
+        a slightly lighter lager, in the early twentieth century. \nNegra Modelo pours
+        with an off-white, medium head. The body is clear with a rich amber/copper
+        color. The aroma is sweet with hints of apple. The impression at the first
+        sip is sweet. This gives way only a bit to some hops bitterness which gives
+        some balance but leaves the beer firmly in the sweet category. It has no real
+        lager snap at the end, just lingering hops. This actually makes the second
+        sip more balanced than the first.\n\nThere is some complexity and depth here
+        but the flavors are very delicate. They are obliterated by the aggressive
+        flavors of the Mexican food that Modelo is often served with making it a sweet
+        balance to the savory and sometimes hot cuisine.","abv":6.0,"style":"American-Style
+        Lager"}},{"id":"3928","type":"beer","attributes":{"name":"Ginger Tom","description":"An
+        old fashioned style ginger beer brewed naturally with honey, malt, lemon and
+        fresh root ginger, leaving you with a refreshing crisp zesty flavour.","abv":4.0,"style":"Herb
+        and Spice Beer"}},{"id":"370","type":"beer","attributes":{"name":"Old Seattle
+        Lager","description":"","abv":4.300000190734863,"style":"American-Style Lager"}},{"id":"623","type":"beer","attributes":{"name":"Lighthouse
+        Ale","description":"","abv":4.400000095367432,"style":"American-Style Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 20:34:11 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=469
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:41:06 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"fa3d232deaf3446da05c3dc95e4b832e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a40cb898-a9a8-4088-8af7-ea08539a892a
+      X-Runtime:
+      - '0.770186'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"77","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":469,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:41:06 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=77
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:41:05 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"6d9da43d3c3ab895849c1ef2fbf166e8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 05fa45e9-d9f3-4ed2-a8b0-9451b780902e
+      X-Runtime:
+      - '0.033752'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkYXRhIjpbeyJpZCI6IjI1ODAiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlBpZWxzIERyYWZ0IiwiZGVzY3JpcHRpb24iOiJJdCB0b29rIMOi4oKsxZNUaGUgQmVlciBEcmlua2Vyw6LigqzihKJzIEJlZXLDouKCrMKdIHRvIGludHJvZHVjZSBhIHJlYWwgZHJhZnQgaW4gYSBjYW7DouKCrOKAnWFuZCB5b3UgY2FuIHN0aWxsIHRhc3RlIHRoYXQgbWlsZXN0b25lIGluIGJyZXdpbmcgaGlzdG9yeSB0b2RheSB3aXRoIGV2ZXJ5IGNhbiBvZiBQaWVscy4gT3VyIERyYWZ0IFN0eWxlIGRlbGl2ZXJzIHVuc3VycGFzc2VkIGZsYXZvciBhbmQgY2hhcmFjdGVyIGxpa2UgaXQgd2FzIGRyYXduIHN0cmFpZ2h0IGZyb20gdGhlIHRhcCEiLCJhYnYiOjQuNTk5OTk5OTA0NjMyNTY4LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExpZ2h0IExhZ2VyIn19LHsiaWQiOiIzMzQ3IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJXaW50ZXIgV2hlYXQiLCJkZXNjcmlwdGlvbiI6IlN1YnRsZSBTZWFzb25hbCBzcGljZXMsIGluIHRoaXMgZGFyaywgcmljaCB3aGVhdCBiZWVyIGFyZSBzbW9vdGggYW5kIGVhc3kgZm9yIHRoZSBkaXNjZXJuaW5nIHBhbGF0ZS4iLCJhYnYiOjYuMzAwMDAwMTkwNzM0ODYzLCJzdHlsZSI6IkxpZ2h0IEFtZXJpY2FuIFdoZWF0IEFsZSBvciBMYWdlciJ9fSx7ImlkIjoiMzU3IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJDeXByZXNzIEhvbmV5IExhZ2VyIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjQuNjk5OTk5ODA5MjY1MTM3LCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI0MTQ3IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJQZXJvbmkiLCJkZXNjcmlwdGlvbiI6IlBlcm9uaSBOYXN0cm8gQXp6dXJybyBpcyBhbiBpbnRlbnNlbHkgY3Jpc3AgYW5kIHJlZnJlc2hpbmcgbGFnZXIgYmVlciwgd2l0aFxuYW4gdW5taXN0YWthYmxlIHRvdWNoIG9mIEl0YWxpYW4gc3R5bGVcbmh0dHA6Ly93d3cuc2FibWlsbGVyLmluL2JyYW5kc19wZXJvbmkuaHRtbFxuUGVyb25pIEJlZXIsIFBlcm9uaSBMYWdlciBCZWVyLCBQZXJvbmkgTmFzdHJvIEF6enVycm8gQmVlIiwiYWJ2Ijo1LjA5OTk5OTkwNDYzMjU2OCwic3R5bGUiOiJBbWVyaWNhbi1TdHlsZSBMYWdlciJ9fSx7ImlkIjoiMTM1NiIsInR5cGUiOiJiZWVyIiwiYXR0cmlidXRlcyI6eyJuYW1lIjoiUmVkIExhZ2VyIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjQuOTAwMDAwMDk1MzY3NDMyLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiI3OTgiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IlNpcml1cyIsImRlc2NyaXB0aW9uIjoiIiwiYWJ2Ijo3LjAsInN0eWxlIjoiQW1lcmljYW4tU3R5bGUgQ3JlYW0gQWxlIG9yIExhZ2VyIn19LHsiaWQiOiIyNDU2IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJCYXZhcmlhbiBMYWdlciIsImRlc2NyaXB0aW9uIjoiVHLDg8K2ZWdzIEJhdmFyaWFuIExhZ2VyIGlzIGFuIGF1dGhlbnRpYyBHZXJtYW4gc3R5bGUgbGFnZXIsIGJyZXdlZCB3aXRoIE11bmljaCBtYWx0cywgSGFsbGVydGF1IEhvcHMgYW5kIGZlcm1lbnRlZCBhdCBjb29sIHRlbXBlcmF0dXJlcyBmb2xsb3dlZCBieSBhIGZ1bGwgbW9udGggb2YgYWdpbmcsIG9yIFwibGFnZXJpbmdcIiwgdG8gaW1wYXJ0IGEgcmFuZ2Ugb2YgY29tcGxleCBtYWx0aW5lc3MgYW5kIHN1YnRsZSBhcm9tYXMgb25seSBmb3VuZCBpbiB0cmFkaXRpb25hbCBHZXJtYW4gbGFnZXJzLiIsImFidiI6NS4wLCJzdHlsZSI6IkFtZXJpY2FuLVN0eWxlIExhZ2VyIn19LHsiaWQiOiIyODk1IiwidHlwZSI6ImJlZXIiLCJhdHRyaWJ1dGVzIjp7Im5hbWUiOiJVcGxhbmQgV2hlYXQgQWxlIiwiZGVzY3JpcHRpb24iOiIiLCJhYnYiOjQuNSwic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX0seyJpZCI6IjM0ODkiLCJ0eXBlIjoiYmVlciIsImF0dHJpYnV0ZXMiOnsibmFtZSI6IldlaXplbiBCYW0gQmnDg8KocmUiLCJkZXNjcmlwdGlvbiI6IlJ1ZGR5IGdvbGRlbiwgd2l0aCB5ZWFzdCBkcml2ZW4gZXN0ZXJzIG9mIGJhbmFuYSwgc3BpY3kgY2xvdmUsIGFuZCBudXRtZWcgYWxsIHdyYXBwZWQgdXAgd2l0aCBhIGdlbmVyb3VzIGRvc2Ugb2YgcmFwc2NpbGxpb24gZGVsaWdodC4iLCJhYnYiOjQuNSwic3R5bGUiOiJMaWdodCBBbWVyaWNhbiBXaGVhdCBBbGUgb3IgTGFnZXIifX1dfQ==
+  recorded_at: Thu, 10 Jun 2021 20:41:06 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=471
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:42:14 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4df06d2cdcf73d9a58188ce91a8460ba"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 77be932d-b83d-413a-b291-9da31aabec84
+      X-Runtime:
+      - '0.748312'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"79","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":471,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:42:15 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=79
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:42:14 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4181cae49217ef90ea1a1388e237be5c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b73a3adc-e1ab-403c-9ace-7d3a0216094b
+      X-Runtime:
+      - '0.051501'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"682","type":"beer","attributes":{"name":"Pilsner","description":"","abv":4.989999771118164,"style":"American-Style
+        Lager"}},{"id":"2579","type":"beer","attributes":{"name":"Old Milwaukee","description":"Old
+        Milwaukee. A trusted, high quality beer that continually receives the highest
+        awards and accolades from Beer experts across America. Old Milwaukee has a
+        long history of celebrating \"Blue Collar\" sensibility. Simply said, good
+        beer at a fair price. Old Milwaukee has always represented America''s core
+        values: Honesty, integrity, hard work and love for your family.\n\nSpeaking
+        of family, the Old Milwaukee Family has a beer that is right for you. Old
+        Milwaukee when you want a full bodied, full flavor American Lager. OM Light
+        when you are in the mood for a lighter tasting beer with fewer calories. And
+        don''t forget OMNA, our flavorful non-alcoholic beer for those moments when
+        you want the taste of America'' best tasting beer without the alcohol content.","abv":4.599999904632568,"style":"American-Style
+        Lager"}},{"id":"2519","type":"beer","attributes":{"name":"Throwback Lager","description":"Our
+        Crisp, lighter in body, yet still full flavored brew.  Before Prohibition,
+        thirst quenching lagers were firm and substantial, and enjoyed in huge volumes.
+        This recipe incorporates yeast from the C. Schmidt Brewery of Philadelphia
+        and a small portion of brewer''s corn to recreate an \"industrial\" lager
+        of the turn of the century. \n\nReleased April 6 to celebrate Prohibition''s
+        repeal 73 yrs. ago, Throwback Lager is a draft only release that should flow
+        into June","abv":5.400000095367432,"style":"American-Style Lager"}},{"id":"4391","type":"beer","attributes":{"name":"Kingfisher
+        Premium","description":"","abv":4.800000190734863,"style":"American-Style
+        Light Lager"}},{"id":"3117","type":"beer","attributes":{"name":"Hell","description":"Atwater
+        Block beers are brewed using traditional German methods to create a distinctly
+        fresh and flavorful character. Our classic Helles (German for Pale) is a crisp
+        lager that is sure to please.","abv":5.0,"style":"American-Style Lager"}},{"id":"4238","type":"beer","attributes":{"name":"Hop
+        Rocker","description":"","abv":5.5,"style":"American-Style Lager"}},{"id":"3541","type":"beer","attributes":{"name":"Pyramid
+        Amber Weizen","description":"Brewed by the original Wheat Beer Pioneers, Amber
+        Weizen is left unfiltered for extra flavor and aroma. \n\nRich amber in color,
+        Pyramid Amber Weizen features three different kinds of caramel barley malts
+        and nugget hops resulting in an exceptionally smooth and well-balanced beer
+        that follows in the tradition of our flagship style, Pyramid Hefe Weizen.","abv":5.5,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"2638","type":"beer","attributes":{"name":"Natural
+        Light","description":"","abv":4.199999809265137,"style":"American-Style Light
+        Lager"}},{"id":"194","type":"beer","attributes":{"name":"Easy Street Wheat","description":"Light
+        and refreshing, Easy Street Wheat is an unfiltered American-style wheat beer.
+        Leaving in the yeast gives the beer a nice, smooth finish and a slightly citrusy
+        flavor. Easy Street Wheat gets its name by brewers \"taking it easy\" and
+        not filtering the beer. However, for ultimate enjoyment, we encourage you
+        to work just a little harder in pouring it: just pour 2/3 of the beer into
+        a glass, swirl what''s left to stir up the yeast, then pour the rest and enjoy.","abv":4.599999904632568,"style":"Light
+        American Wheat Ale or Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 20:42:15 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=473
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:44:11 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"9bd561c38e3f6ea0f291c4775d4b2768"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 59951fbe-8e6e-463d-8fd5-7b68e1ab3e5f
+      X-Runtime:
+      - '0.467783'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"81","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":473,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:44:12 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=81
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:44:11 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c0cc5a956cf8610e407e72139f8f8b48"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 61c4a4fa-3ead-44d7-8507-bcf0af128486
+      X-Runtime:
+      - '0.026787'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"2638","type":"beer","attributes":{"name":"Natural Light","description":"","abv":4.199999809265137,"style":"American-Style
+        Light Lager"}},{"id":"4388","type":"beer","attributes":{"name":"Corona Light","description":"","abv":4.099999904632568,"style":"American-Style
+        Light Lager"}},{"id":"2578","type":"beer","attributes":{"name":"Pabst Blue
+        Ribbon Light","description":"PBR is not just any beer- so you would expect
+        the history to be a bit unusual, and it is. Pabst was originally called \"Select,\"
+        but people started asking for that \"Blue Ribbon\" beer in 1882 when we started
+        tying silk ribbons to the bottles. We officially added the words \"Blue Ribbon\"
+        to the bottle in 1895.\n\nPabst was the first brewery to put beer in cans
+        back in 1935. This was Blue Ribbon beer but it was called \"Export\" when
+        sold in the can. Our first cans had a picture of a can opener on the side
+        with instructions on how to open the can of beer, with the can opener.\n\nToday,
+        this classic American brew has been adopted by a whole new generation of PBR
+        drinkers. Currently, PBR is one of the fastest growing domestic beer brands.
+        When you''re this good, quality always comes through-PBR ME ASAP!","abv":4.190000057220459,"style":"American-Style
+        Light Lager"}},{"id":"3009","type":"beer","attributes":{"name":"Lone Star
+        Light","description":"\"Lone Star Light mimics its full-bodied counterpart
+        with an award winning premium light taste. This beer retains the complimentary
+        ratio of barley, cereal grains, and hops of its parent brand.\"","abv":3.8499999046325684,"style":"American-Style
+        Light Lager"}},{"id":"3060","type":"beer","attributes":{"name":"Hoegaarden","description":"Hoegaarden
+        is the authentic Belgian wheat or white beer. It has a unique and extremely
+        complex brewing process whereby the brand is first top fermented and then
+        is refermented within the bottle - ending up in a unique cloudy-white appearance.
+        The brand''s unique appearance is mirrored by its one-of-a-kind taste - sweet
+        and sour beer with a little bitterness, slightly spicy, with a strong touch
+        of coriander and a hint of orange, perfect for warm summer days, instead of
+        other refreshing beverages. Refreshing, a little quirky, and decidedly different
+        - naturally.","abv":4.900000095367432,"style":"Light American Wheat Ale or
+        Lager"}},{"id":"2750","type":"beer","attributes":{"name":"Caulfield''s Rye","description":"Our
+        rye beer is made with 20% flaked rye and rye malt. The addition of rye creates
+        a dry, spicy flavor with a crisp, grainy aroma. We went with a lighter color
+        and lower bitterness to compliment these flavors. It has an alcohol content
+        of around 4.9%.","abv":4.900000095367432,"style":"American Rye Ale or Lager"}},{"id":"4062","type":"beer","attributes":{"name":"Tailgate
+        Light","description":"Why settle for a watered down version of delicious barley
+        and hops when the TailGate Beer Light will make you a convert to the world
+        of light ales. Eat hardy, and enjoy a light beer with serious flavor, lower
+        calories and the most serious attention to the powers that flavor beer.  A
+        nose of citrus and spice with a tongue of vanilla are just a few of the very
+        unique flavors to grace your senses in this Light Ale.  This is the light
+        beer lovers of beer have been waiting for.  This is not a watered down version
+        of a good idea.","abv":4.699999809265137,"style":"American-Style Light Lager"}},{"id":"1829","type":"beer","attributes":{"name":"Dunkel","description":"Our
+        malty, sweet dark lager is a hometown favorite. Our Dunkel is packed with
+        subtle roasted malt flavors without the excessive bitterness and heaviness
+        of many dark beers and has a balanced hop finish.\n\nGABF Gold Winner","abv":5.199999809265137,"style":"American-Style
+        Lager"}},{"id":"3028","type":"beer","attributes":{"name":"Michelob Amber Bock","description":"\"Michelob
+        AmerBock is American-style bock beer with a rich, malty and smooth taste that
+        is hearty and full-bodied, yet finishes cleanly. Anheuser-Busch introduced
+        this premium-plus beer nationally in 1995.","abv":5.199999809265137,"style":"American-Style
+        Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 20:44:12 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=475
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:46:13 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"787cd065423d68c3e409d0ad0f3e71b3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 26589d4d-0155-4887-a3fa-2bedeaea3c1d
+      X-Runtime:
+      - '0.895905'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"82","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":475,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:46:13 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=82
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:46:12 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"aba5f5b1fbf1e1352b62d0a3fcfa4f98"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5e3a326f-d968-477b-9c01-14794bb2ff7e
+      X-Runtime:
+      - '0.032186'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"3033","type":"beer","attributes":{"name":"Michelob
+        Light","description":"\"Michelob Light is a full-flavored and rich-tasting
+        light lager offering a malty sweetness and aromatic hop profile\"","abv":4.300000190734863,"style":"American-Style
+        Light Lager"}},{"id":"89","type":"beer","attributes":{"name":"Northern Light
+        Lager","description":"","abv":4.400000095367432,"style":"American-Style Lager"}},{"id":"4110","type":"beer","attributes":{"name":"Miller
+        Genuine Draft 64","description":"","abv":2.799999952316284,"style":"American-Style
+        Light Lager"}},{"id":"3274","type":"beer","attributes":{"name":"Hansa Imported
+        Dortmunder","description":"Surviving beer from the Dortmunder Hansa-Brauerei
+        before being acquired by Actien.","abv":4.800000190734863,"style":"American-Style
+        Lager"}},{"id":"3465","type":"beer","attributes":{"name":"Buck Naked","description":"An
+        American-style \"light beer\".  Formulated to appeal to those who prefer a
+        lighter tasting brew.","abv":3.200000047683716,"style":"American-Style Light
+        Lager"}},{"id":"2513","type":"beer","attributes":{"name":"Yuengling Lager","description":"Yuengling
+        Traditional Lager is an iconic American lager famous for its rich amber color
+        and medium-bodied flavor. Brewed with roasted caramel malt for a subtle sweetness
+        and a combination of cluster and cascade hops, this true original promises
+        a well balanced taste with very distinct character. Its exceptional flavor
+        and smooth finish is prevalently enjoyed by consumers with even the most discerning
+        tastes. Our flagship brand, Yuengling Traditional Lager is an American favorite
+        delivering consistent quality and refreshment that never disappoints. In fact,
+        it''s so widely known and unique in its class, in some areas you can ask for
+        it simply by the name \"Lager.\"","abv":4.400000095367432,"style":"American-Style
+        Lager"}},{"id":"2578","type":"beer","attributes":{"name":"Pabst Blue Ribbon
+        Light","description":"PBR is not just any beer- so you would expect the history
+        to be a bit unusual, and it is. Pabst was originally called \"Select,\" but
+        people started asking for that \"Blue Ribbon\" beer in 1882 when we started
+        tying silk ribbons to the bottles. We officially added the words \"Blue Ribbon\"
+        to the bottle in 1895.\n\nPabst was the first brewery to put beer in cans
+        back in 1935. This was Blue Ribbon beer but it was called \"Export\" when
+        sold in the can. Our first cans had a picture of a can opener on the side
+        with instructions on how to open the can of beer, with the can opener.\n\nToday,
+        this classic American brew has been adopted by a whole new generation of PBR
+        drinkers. Currently, PBR is one of the fastest growing domestic beer brands.
+        When you''re this good, quality always comes through-PBR ME ASAP!","abv":4.190000057220459,"style":"American-Style
+        Light Lager"}},{"id":"3203","type":"beer","attributes":{"name":"Cliffhanger
+        Light Ale","description":"Our lightest brew, this ale has a lower alcohol
+        content than other Barley Creek brews. The Munich malt and Saaz and Hallertau
+        hops give it a distinct German profile. Refreshing with a clean, dry finish.","abv":3.2200000286102295,"style":"American-Style
+        Light Lager"}},{"id":"4242","type":"beer","attributes":{"name":"Dogma","description":"Dogma
+        is an innovative, enigmatic ale brewed with guarana, poppy seeds and kola
+        nut all blended together with Scottish heather honey. A conspiracy of transcontinental
+        ingredients infused with some devastatingly BrewDog imaginative thinking.\n\nThe
+        flavours, intricacies and nuances of this beer are best enjoyed while musing
+        over some obscure 17th Century philosophical meanderings, such as:\n\n\"If
+        we disbelieve everything because we cannot certainly know all things we will
+        do much, what as wisely as he who would not use his wings but sit still and
+        perish because he had no wings to fly.\"\nJohn Locke.\n\nThis beer is not
+        cool. You may think it is, but that is just a beautiful lie fabricated by
+        clowns and gypsies.","abv":7.800000190734863,"style":"Herb and Spice Beer"}}]}'
+  recorded_at: Thu, 10 Jun 2021 20:46:13 GMT
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10&location=Denver&name=Mountains&user_id=476
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:50:32 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"29d5a787578751db330d43e468ef5ea1"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 424af7e9-56ff-4f34-a906-c6d85a22be85
+      X-Runtime:
+      - '2.838753'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"83","type":"trip","attributes":{"location":"Denver","name":"Mountains","date":"2021-06-10","elevation":5354.3308799999995,"user_id":476,"max_temperature":93.6},"relationships":{}}}'
+  recorded_at: Thu, 10 Jun 2021 20:50:33 GMT
+- request:
+    method: get
+    uri: https://downdraft-backend.herokuapp.com/api/v1/beers?trip_id=83
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 10 Jun 2021 20:50:33 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"3e257c6d03cdfccdcb486118c347f4a4"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e50082f5-3a06-4286-a757-b75530d27dcd
+      X-Runtime:
+      - '0.029781'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"4022","type":"beer","attributes":{"name":"River Horse
+        Lager","description":"We mill the choicest two row barley malt in our 100
+        year old mill room for this all natural, unfiltered Lager. Lightly hopped,
+        fermented slowly. River Horse Lager gets plenty of quality time with us before
+        we pass it on to you.","abv":5.0,"style":"American-Style Lager"}},{"id":"2487","type":"beer","attributes":{"name":"Bud
+        Light","description":"Introduced nationally in 1982, Bud Light is brewed using
+        a blend of domestic and imported hops as well as a combination of barley malts
+        and rice. It contains more malt and hops by ratio of ingredients than Budweiser,
+        which gives the brew a distinctively clean and crisp taste.","abv":4.199999809265137,"style":"American-Style
+        Light Lager"}},{"id":"3436","type":"beer","attributes":{"name":"Vienna Red
+        Lager","description":"This amber Austrian lager has a distinct bready malt
+        aroma and flavor, followed by a crisp, clean finish typical of lager styles.
+        The nose also shows plenty of the spicy hop aroma contributed by the use of
+        Saaz hops.","abv":5.0,"style":"American-Style Lager"}},{"id":"3903","type":"beer","attributes":{"name":"White
+        Magick of the Sun","description":"This Wheat ale is made with a little Voodoo
+        Twist. We use our house Belgian Ale yeast and add the average unmalted wheat,
+        wheat, barley,raw oats, malted rye and just add more of each. Hopped evenly
+        and spiced with coriander, bitter and sweet orange peel, juniper berries,
+        12 varieties of peppercorns,lemon grass and caraway. About 6.75% alc by vol.
+        \n\nBottle Conditioned and Refermented.  NOT A WIT BIER!!! Just stuff we like
+        in beer that goes great with food. \n\nThis beer is to be the answer to those
+        hot summer days. Blows away carbonated water!!!!!","abv":6.75,"style":"Light
+        American Wheat Ale or Lager"}},{"id":"3735","type":"beer","attributes":{"name":"Estrella
+        Damm","description":"Estrella means star in Spanish and as its name suggests
+        the brand has become a star to the people of Barcelona. It has evolved with
+        the city reflecting its character - sophisticated and passionate yet at the
+        same time relaxed and welcoming.","abv":4.599999904632568,"style":"American-Style
+        Lager"}},{"id":"384","type":"beer","attributes":{"name":"Foster Child Australian
+        Lager","description":"","abv":4.0,"style":"American-Style Lager"}},{"id":"356","type":"beer","attributes":{"name":"Kitsilano
+        Maple Cream Ale","description":"","abv":5.0,"style":"American-Style Lager"}},{"id":"3532","type":"beer","attributes":{"name":"Birell","description":"Birell
+        has all the hallmarks of a great premium beer, rich colour, full malty flavour
+        and the ability to quench a thirst, with one important difference - virtually
+        no alcohol. \n\nBrewed under license in Australia by Coopers, Birell is made
+        using only the finest Australian malted barley, hops and yeast, with no artificial
+        additives or preservatives.\n\nCoopers Birell may be found in most supermarkets
+        (375ml bottles or cans).","abv":0.5,"style":"American-Style Light Lager"}},{"id":"2579","type":"beer","attributes":{"name":"Old
+        Milwaukee","description":"Old Milwaukee. A trusted, high quality beer that
+        continually receives the highest awards and accolades from Beer experts across
+        America. Old Milwaukee has a long history of celebrating \"Blue Collar\" sensibility.
+        Simply said, good beer at a fair price. Old Milwaukee has always represented
+        America''s core values: Honesty, integrity, hard work and love for your family.\n\nSpeaking
+        of family, the Old Milwaukee Family has a beer that is right for you. Old
+        Milwaukee when you want a full bodied, full flavor American Lager. OM Light
+        when you are in the mood for a lighter tasting beer with fewer calories. And
+        don''t forget OMNA, our flavorful non-alcoholic beer for those moments when
+        you want the taste of America'' best tasting beer without the alcohol content.","abv":4.599999904632568,"style":"American-Style
+        Lager"}}]}'
+  recorded_at: Thu, 10 Jun 2021 20:50:33 GMT
+recorded_with: VCR 6.0.0
