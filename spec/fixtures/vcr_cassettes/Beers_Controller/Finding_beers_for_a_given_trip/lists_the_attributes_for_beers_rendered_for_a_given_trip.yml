@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:12:32%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id
     body:
       encoding: UTF-8
       string: ''
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:12:32 GMT
+      - Wed, 09 Jun 2021 22:31:45 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -31,20 +31,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 25fe6beb-d39e-4f2f-8df1-a89d5f04de15
+      - 53bc4259-ee9f-4f0b-a950-94130445df19
       X-Runtime:
-      - '0.475714'
+      - '0.659264'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:12:33 GMT
+      string: '{"errors":["User can''t be blank","User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:31:45 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:14:13%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007fdd24df6520%3E
     body:
       encoding: UTF-8
       string: ''
@@ -65,7 +65,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:14:13 GMT
+      - Wed, 09 Jun 2021 22:32:28 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -73,20 +73,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 98846d0e-acbe-43ee-a506-b02b074e3f4f
+      - a298371c-719e-4907-8fb7-0055d1405db3
       X-Runtime:
-      - '0.505229'
+      - '0.430241'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:14:14 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:32:29 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:18:23%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007fb89d6dfad0%3E
     body:
       encoding: UTF-8
       string: ''
@@ -107,7 +107,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:18:24 GMT
+      - Wed, 09 Jun 2021 22:32:38 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -115,20 +115,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 404825b2-69db-4f71-b8bc-00fbff765a42
+      - af13bf72-1ea3-4e18-a52c-3a0cc9ebbabc
       X-Runtime:
-      - '1.153235'
+      - '0.436322'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:18:24 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:32:38 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:19:28%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007fda3d855100%3E
     body:
       encoding: UTF-8
       string: ''
@@ -149,7 +149,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:19:28 GMT
+      - Wed, 09 Jun 2021 22:32:52 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -157,20 +157,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 42b2941d-e4a2-486b-b7a9-0b34810044cc
+      - 23da4c08-eabd-46b6-90dd-7f70a457c747
       X-Runtime:
-      - '0.654014'
+      - '0.446056'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:19:28 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:32:52 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:21:09%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007ff34485d268%3E
     body:
       encoding: UTF-8
       string: ''
@@ -191,7 +191,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:21:09 GMT
+      - Wed, 09 Jun 2021 22:33:31 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -199,20 +199,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 34cf45f8-6e0d-45a4-9ff3-c32c0dbfbaa6
+      - d90fcb9d-09b5-45cc-ba8c-193deddf53c9
       X-Runtime:
-      - '0.758841'
+      - '0.444653'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:21:10 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:33:32 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:21:16%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007ffa73501188%3E
     body:
       encoding: UTF-8
       string: ''
@@ -233,7 +233,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:21:16 GMT
+      - Wed, 09 Jun 2021 22:35:08 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -241,20 +241,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 89c24230-42a3-419b-b927-be9de1c5ff83
+      - eb3154c0-6647-4b0f-a183-d8fb6bc9b25e
       X-Runtime:
-      - '0.677463'
+      - '0.445406'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:21:17 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:35:08 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:21:30%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007fed9049e488%3E
     body:
       encoding: UTF-8
       string: ''
@@ -275,7 +275,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:21:30 GMT
+      - Wed, 09 Jun 2021 22:36:03 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -283,20 +283,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 4f7a8f30-5496-42ba-b7a0-1557a847b5a0
+      - 85d5e120-c34a-4894-b11d-40114b0ac974
       X-Runtime:
-      - '0.691442'
+      - '0.459834'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:21:30 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:36:03 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:25:29%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007fbc81d4d178%3E
     body:
       encoding: UTF-8
       string: ''
@@ -317,7 +317,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:25:29 GMT
+      - Wed, 09 Jun 2021 22:36:54 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -325,20 +325,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 6b38f7de-3683-42fe-97dc-9663cf965246
+      - 238653fd-2539-4994-970e-7a48570658c7
       X-Runtime:
-      - '0.794749'
+      - '0.454928'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:25:30 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:36:54 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:31:00%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007fbf3f86e948%3E
     body:
       encoding: UTF-8
       string: ''
@@ -359,7 +359,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:31:01 GMT
+      - Wed, 09 Jun 2021 22:37:35 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -367,20 +367,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 7d55124f-b95c-4751-a35a-8c16e03cb7e9
+      - 72ede965-d499-4fa6-a993-f42f146c85e7
       X-Runtime:
-      - '0.454823'
+      - '0.433177'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:31:01 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:37:36 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:33:59%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007fb9b210d948%3E
     body:
       encoding: UTF-8
       string: ''
@@ -401,7 +401,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:34:00 GMT
+      - Wed, 09 Jun 2021 22:38:17 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -409,20 +409,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 5cde1032-e62d-4c82-b15d-f28293640fca
+      - 48f4db08-e73b-4011-a7ed-12e6bd735e2d
       X-Runtime:
-      - '0.744713'
+      - '0.452029'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:34:00 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:38:17 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2012:36:21%20-0500&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007fc8a39a7c20%3E
     body:
       encoding: UTF-8
       string: ''
@@ -443,7 +443,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 10 Jun 2021 17:36:22 GMT
+      - Wed, 09 Jun 2021 22:38:47 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -451,20 +451,20 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 7131e4eb-e9df-459d-8164-f63202d0a23e
+      - d845d280-03a6-433c-ba6d-aa6081302503
       X-Runtime:
-      - '0.711635'
+      - '0.474209'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:36:22 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:38:48 GMT
 - request:
     method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-08%2020:01:33%20-0600&location=80206&user_id=1
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09&location=Denver&name=Mountains&user_id=%23%3CUser:0x00007f8a6fdeb948%3E
     body:
       encoding: UTF-8
       string: ''
@@ -485,7 +485,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Jun 2021 02:01:33 GMT
+      - Wed, 09 Jun 2021 22:39:16 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -493,99 +493,15 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 9f33fb80-49b4-4a6a-82b6-7cc46bef332e
+      - c37eaeda-3765-4222-94b8-4d3e19bb750e
       X-Runtime:
-      - '0.476335'
+      - '0.449956'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Wed, 09 Jun 2021 02:01:34 GMT
-- request:
-    method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09%2019:35:02%20-0600&location=80206&user_id=1
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.4.2
-      Content-Length:
-      - '0'
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 400
-      message: Bad Request
-    headers:
-      Server:
-      - Cowboy
-      Date:
-      - Thu, 10 Jun 2021 01:35:03 GMT
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-      X-Request-Id:
-      - 7589ca56-94ea-41ad-8bf9-8920d9224e5e
-      X-Runtime:
-      - '0.429272'
-      Transfer-Encoding:
-      - chunked
-      Via:
-      - 1.1 vegur
-    body:
-      encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 01:35:03 GMT
-- request:
-    method: post
-    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-10%2011:18:25%20-0600&location=80206&user_id=1
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v1.4.2
-      Content-Length:
-      - '0'
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 400
-      message: Bad Request
-    headers:
-      Server:
-      - Cowboy
-      Date:
-      - Thu, 10 Jun 2021 17:18:26 GMT
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json; charset=utf-8
-      Cache-Control:
-      - no-cache
-      X-Request-Id:
-      - d1c33a01-fdaa-4d4f-b989-50809789208e
-      X-Runtime:
-      - '0.691187'
-      Transfer-Encoding:
-      - chunked
-      Via:
-      - 1.1 vegur
-    body:
-      encoding: UTF-8
-      string: '{"errors":["Name can''t be blank"]}'
-  recorded_at: Thu, 10 Jun 2021 17:18:26 GMT
+      string: '{"errors":["User is not a number"]}'
+  recorded_at: Wed, 09 Jun 2021 22:39:17 GMT
 recorded_with: VCR 6.0.0

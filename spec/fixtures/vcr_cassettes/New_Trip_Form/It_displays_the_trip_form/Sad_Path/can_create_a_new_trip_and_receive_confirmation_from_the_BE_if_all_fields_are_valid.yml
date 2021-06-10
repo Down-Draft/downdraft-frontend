@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://downdraft-backend.herokuapp.com/api/v1/trips?date=2021-06-09%2016:43:35%20-0600&location=80206&name=Going%20to%20Joeys%20house&user_id=27
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Jun 2021 22:43:35 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"70f8ea6735ac48228b454401889064d0"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f75911c7-98e4-4683-bf79-df7ded0a9e72
+      X-Runtime:
+      - '0.528953'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"55","type":"trip","attributes":{"location":"80206","name":"Going
+        to Joeys house","date":"2021-06-09","elevation":5390.42012,"user_id":27},"relationships":{}}}'
+  recorded_at: Wed, 09 Jun 2021 22:43:36 GMT
+recorded_with: VCR 6.0.0
