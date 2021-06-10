@@ -1,6 +1,6 @@
 ![Title](lib/images/downdraft_title_helvetica_neue_condensedblack.jpg)
 
-[![Build Status](https://travis-ci.com/Down-Draft/downdraft-frontend.svg?branch=main)](https://travis-ci.com/Down-Draft/downdraft-frontend)
+<!-- [![Build Status](https://travis-ci.com/Down-Draft/downdraft-frontend.svg?branch=main)](https://travis-ci.com/Down-Draft/downdraft-frontend) -->
 [![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
