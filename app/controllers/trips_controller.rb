@@ -1,4 +1,12 @@
 class TripsController < ApplicationController
+  def index
+    @trips = TripFacade.see_trip_index(current_user.id)
+  end
+
+  def show
+    @trip = TripFacade.get_single_trip(params[:id])
+  end
+
   def new; end
 
   def create
