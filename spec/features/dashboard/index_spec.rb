@@ -57,7 +57,8 @@ RSpec.describe "Dashboard Page" do
       
         it "has a search bar to search for a beer by name", :vcr do
           # fill_in :search, with: 'cow'
-          find(".search").click_on
+          # find(".search").click_on
+          # click_on(class: 'searchbar')
           # click_link 'Search'
           save_and_open_page
           expect(current_path).to eq(beers_path)
