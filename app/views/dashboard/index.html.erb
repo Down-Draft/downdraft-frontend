@@ -1,9 +1,9 @@
 <div class="page-box">
   <br>
-  <h1>Welcome <%= tag.span current_user.full_name + '!', id: 'name' %></h1>
+  <h1>Welcome <%= tag.span current_user.full_name + '!', class: 'user-details' %></h1>
   <br>
   <% location = @weather.first %>
-  <h2>Three Day Forecast for <%= tag.span "#{location.location_name}, #{location.location_state}", id: 'name' %> </h2>
+  <h2>Three Day Forecast for <%= tag.span "#{location.location_name}, #{location.location_state}", class: 'user-details' %> </h2>
   <section class="weather-forecast">
     <% @weather.each do |day| %>
     <div class="oneforecast">

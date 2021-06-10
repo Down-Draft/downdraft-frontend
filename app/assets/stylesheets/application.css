@@ -103,6 +103,7 @@ h3 {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  color: black;
 }
 
 .form-submit{
@@ -146,7 +147,7 @@ h3 {
   color: rgb(255, 166, 0);
 }
 
-#name {
+.user-details {
   color: #FAED26;
 }
 
@@ -186,4 +187,7 @@ td {
   background-color: #39363d;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
+}
+.txt-fld {
+  color: black;
 }
