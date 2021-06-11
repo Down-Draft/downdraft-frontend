@@ -1,12 +1,12 @@
 <h1>Trips for <%= current_user.full_name %></h1>
-<ul>
+<ul id="trip-list">
   <% @trips.each do |trip| %>
-    <li id="trip-<%= trip.id %>">
-      Name: <%= link_to "#{trip.name}", "/trips/#{trip.id}" %>
-      Location: <%= trip.location %> |
-      Date: <%= trip.date %> |
-      Elevation: <%= trip.elevation %>|
-      Max Temperature: <%= trip.max_temp %><br>
-    </li>
-  <% end %>
+  <li id="trip-<%= trip.id %>" class="trip-details">
+    Name: <%= link_to "#{trip.name}", "/trips/#{trip.id}" %> |
+    Location: <%= trip.location %> |
+    Date: <%= trip.date %> |
+    Elevation: <%= trip.elevation %> ft. |
+    Max Temperature: <%= trip.max_temp %>˚F<br>
+    <% end %>
+  </li>
 </ul>
