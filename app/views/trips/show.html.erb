@@ -1,17 +1,22 @@
-<h1><%= @trip.name %></h1>
+<div id="one-trip-page">
+  <h1><%= @trip.name %></h1>
 
-Zip Code: <%= @trip.location %><br>
-Date: <%= @trip.date %><br>
-Elevation: <%= @trip.elevation %><br>
-Max Temperature: <%= @trip.max_temp %>
-<% if @beers.nil? %>
-<p>There are no beers for this trip</p>
-<% else %>
-<div class="trip-beers">
-  <%@beers.each do |beer| %>
-  <p>Beer name: <%=beer.name%></p>
-  <p>Style: <%=beer.style%></p>
-  <p>ABV: <%=beer.abv%>%</p>
-  <%end%>
+  <div class="one-trip">
+    Zip Code: <%= @trip.location %><br>
+    Date: <%= @trip.date %><br>
+    Elevation: <%= @trip.elevation %> ft.<br>
+    Max Temp: <%= @trip.max_temp %>˚F
+    <br><br>
+    <% if @beers.nil? %>
+    <p>There are no beers for this trip</p>
+    <% else %>
+    <div class="trip-beers">
+      <%@beers.each do |beer| %>
+      <p>Beer: <%=beer.name%></p>
+      <p>Style: <%=beer.style%></p>
+      <p>ABV: <%=beer.abv%>%</p>
+      <%end%>
+    </div>
+  </div>
+  <% end %>
 </div>
-<% end %>
