@@ -13,6 +13,7 @@ class TripsController < ApplicationController
       @beers = @trip.beers
     else
       @trip = TripFacade.get_single_trip(params[:id])
+      @beers = @trip.beers
     end
   end
 
