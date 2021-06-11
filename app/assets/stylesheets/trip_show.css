@@ -1,0 +1,25 @@
+#one-trip-page {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.one-trip {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ margin-top: 5%;
+}
+
+#trip-list {
+ margin-top: 5%;
+ margin-left: 5%;
+}
+
+.trip-details {
+ padding-bottom: 5px;
+ font-size: larger;
+}
