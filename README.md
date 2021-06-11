@@ -70,6 +70,13 @@ To run this program:
    3. Setup the database: `rails db:{create,migrate}`
    4. Add beer data to the database: `rails csv_load:all`
 
+   ## OAuth Setup for Local
+   
+   1. --
+   2. --
+   3. --
+   
+
 ## To-do list:
 * Complete views
 * Connect to additional Backend application endpoints
@@ -84,7 +91,7 @@ Project is: _in progress_
 Created by
 * Logan Anderson [GitHub](https://github.com/loganjacob76) • [LinkedIn](https://www.linkedin.com/in/logan-anderson-01b49920a/)
 * Gaelyn Cooper [GitHub](https://github.com/gaelyn) • [LinkedIn](https://www.linkedin.com/in/gaelyn-cooper/)
-* Joey Hass [GitHub](https://github.com/joeyh92989) • [LinkedIn](https://www.linkedin.com/in/haasjoseph/)
+* Joey Haas [GitHub](https://github.com/joeyh92989) • [LinkedIn](https://www.linkedin.com/in/haasjoseph/)
 * Joe Mecha [GitHub](https://github.com/joemecha) • [LinkedIn](https://www.linkedin.com/in/joemecha/)
 * Klaudia Stewart [GitHub](https://github.com/klaudiastewart) • [LinkedIn](https://www.linkedin.com/in/klaudia-stewart/)
 
